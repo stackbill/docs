@@ -1,0 +1,29 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 16
+    commands:
+    - nohup /usr/local/bin/dockerd --host=unix:///var/run/docker.sock --host=tcp://127.0.0.1:2375 --storage-driver=overlay2&
+    - timeout 15 sh -c "until docker info; do echo .; sleep 1; done"
+  pre_build:
+    commands:
+    - echo Logging in to Amazon ECR...
+    - aws --version
+    - aws configure set aws_access_key_id $AWSAccessKey
+    - aws configure set aws_secret_access_key $AWSSecretKey
+    - $(aws ecr get-login --region $AWSRegion --no-include-email)
+    - IMAGE_TAG=$(grep -w '"version":' package.json | awk -F: '{print $2}' | tr -d '"'',')
+  build:
+    commands:
+    - echo Building Docusaurus...
+    - npm install
+    - npm run build
+    - echo Building Docker image...
+    - docker build -t $AWSAccountId.dkr.ecr.$AWSRegion.amazonaws.com/$AWSRepo:$IMAGE_TAG .
+  post_build:
+    commands:
+    - echo Build completed on `date`
+    - echo Pushing the Docker images
+    - docker push $AWSAccountId.dkr.ecr.$AWSRegion.amazonaws.com/$AWSRepo:$IMAGE_TAG
