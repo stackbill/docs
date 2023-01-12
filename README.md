@@ -4,7 +4,7 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 
 # Version
 
-version = 3.0.0
+version =v3.0.0
 
 ### Installation
 
