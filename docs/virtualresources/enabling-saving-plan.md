@@ -21,16 +21,16 @@ Savings Plans in [**StackBill**](https://www.stackbill.com/) are a flexible pric
 ## **Enable the saving plan directly by clicking on the instance.**
 - **Step 1** 
 
-<img src="/img/virtualresources/Resizeinstance1-StackbillCloudManagementportal.png" width="100%" />
+<img src="/img/virtualresources/Resizeinstance1-StackbillCloudManagementPortal.png" width="100%" />
 
 - Click on the instance.
 - Select **Resize** from the option.
 
-<img src="/img/virtualresources/Resizeinstance2-StackbillCloudManagementportal.png" width="80%" />
+<img src="/img/virtualresources/Resizeinstance2-StackbillCloudManagementPortal.png" width="80%" />
 
 - When you scroll down on the panel, you will see an option called **Purchase Saving plan**.
 
-<img src="/img/virtualresources/Resizeinstance6-StackbillCloudManagementportal.png" width="80%" />
+<img src="/img/virtualresources/Resizeinstance6-StackbillCloudManagementPortal.png" width="80%" />
 
 - On clicking the **Purchase Saving Plan button**, the page for Purchase Saving Plan is appear on the screen.
 - Here you can **select the offering as per the requirement**.

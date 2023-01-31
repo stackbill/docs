@@ -1,6 +1,6 @@
 {
-  "name": "stackbill",
-  "version": "3.0.0",
+  "name": "stackbill-docs",
+  "version": "0.0.0",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",

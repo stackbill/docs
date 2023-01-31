@@ -25,6 +25,13 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          lastVersion: 'current',
+          versions: {
+            current: {
+              label: '3.0.0',
+              path: '3.0.0',
+            },
+          },
           sidebarPath: require.resolve("./sidebars.js"),
         },
         blog: {
@@ -73,6 +80,12 @@ const config = {
             docId: "index",
             position: "left",
             label: "User Guide",
+          },
+          {
+            type: 'docsVersionDropdown',
+            position: 'right',
+            dropdownItemsAfter: [{to: '/versions', label: 'All versions'}],
+            dropdownActiveClassDisabled: true,
           },
           // {
           //   type: "doc",
