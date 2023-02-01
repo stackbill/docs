@@ -25,11 +25,11 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          lastVersion: 'current',
+          lastVersion: "current",
           versions: {
             current: {
-              label: '3.0.0',
-              path: '3.0.0',
+              label: "3.0.0",
+              path: "3.0.0",
             },
           },
           sidebarPath: require.resolve("./sidebars.js"),
@@ -64,6 +64,7 @@ const config = {
   //   "@docusaurus/plugin-debug",
   //   "@docusaurus/plugin-sitemap",
   // ],
+  plugins: [require.resolve("docusaurus-lunr-search")],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -81,36 +82,129 @@ const config = {
             position: "left",
             label: "User Guide",
           },
+          { to: "/blog", label: "Blog", position: "left" },
+
           {
-            type: 'docsVersionDropdown',
-            position: 'right',
-            dropdownItemsAfter: [{to: '/versions', label: 'All versions'}],
+            type: "docsVersionDropdown",
+            position: "right",
+            dropdownItemsAfter: [{ to: "/versions", label: "All versions" }],
             dropdownActiveClassDisabled: true,
           },
-          // {
-          //   type: "doc",
-          //   docId: "Plugins",
-          //   position: "left",
-          //   label: "Plugins",
-          // },
-          // {
-          //   type: "doc",
-          //   docId: "MarketPlaceApps",
-          //   position: "left",
-          //   label: "MarketPlace Apps",
-          // },
-          // {
-          //   type: "doc",
-          //   docId: "api",
-          //   position: "left",
-          //   label: "APIs",
-          // },
-          { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
-            label: "GitHub",
+            type: "search",
             position: "right",
           },
+          {
+            label: "Community",
+            position: "right",
+            items: [
+              {
+                href: "https://ionicframework.com/community",
+                label: "Community Hub",
+                target: "_blank",
+                rel: null,
+              },
+              {
+                href: "https://forum.ionicframework.com/",
+                label: "Forum",
+                target: "_blank",
+                rel: null,
+              },
+              {
+                href: "https://www.meetup.com/topics/ionic-framework/",
+                label: "Meetups",
+                target: "_blank",
+                rel: null,
+              },
+              {
+                href: "https://blog.ionicframework.com/",
+                label: "Blog",
+                target: "_blank",
+                rel: null,
+              },
+              {
+                href: "https://twitter.com/ionicframework",
+                label: "Twitter",
+                target: "_blank",
+                rel: null,
+              },
+            ],
+            className: "navbar__link--community",
+          },
+          {
+            label: "Support",
+            position: "right",
+            items: [
+              {
+                href: "https://ionicframework.com/support",
+                label: "Help Center",
+                target: "_blank",
+                rel: null,
+              },
+              {
+                href: "https://ionic.zendesk.com/",
+                label: "Customer Support",
+                target: "_blank",
+                rel: null,
+              },
+              {
+                href: "https://ionicframework.com/advisory",
+                label: "Enterprise Advisory",
+                target: "_blank",
+                rel: null,
+              },
+            ],
+            className: "navbar__link--support",
+          },
+
+          // {
+          //   type: "separator",
+          //   position: "right",
+          // },
+          // {
+          //   type: "localeDropdown",
+          //   position: "right",
+          //   dropdownItemsBefore: [],
+          //   dropdownItemsAfter: [
+          //     {
+          //       href: "https://ionicframework.com/translate",
+          //       label: "Translate",
+          //       target: "_blank",
+          //       rel: null,
+          //     },
+          //   ],
+          //   className: "icon-link language navbar__item",
+          // },
+          // {
+          //   type: "iconLink",
+          //   position: "right",
+          //   icon: {
+          //     alt: "twitter logo",
+          //     src: `/logos/twitter.svg`,
+          //     href: "https://twitter.com/Ionicframework",
+          //     target: "_blank",
+          //   },
+          // },
+          // {
+          //   type: "iconLink",
+          //   position: "right",
+          //   icon: {
+          //     alt: "github logo",
+          //     src: `/logos/github.svg`,
+          //     href: "https://github.com/ionic-team/ionic-framework",
+          //     target: "_blank",
+          //   },
+          // },
+          // {
+          //   type: "iconLink",
+          //   position: "right",
+          //   icon: {
+          //     alt: "discord logo",
+          //     src: `/logos/discord.svg`,
+          //     href: "https://ionic.link/discord",
+          //     target: "_blank",
+          //   },
+          // },
         ],
       },
       footer: {
