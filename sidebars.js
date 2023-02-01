@@ -34,6 +34,15 @@ module.exports = {
         "virtualresources/Adding-Notes",
       ],
     },
+    {
+      type: "category",
+      label: "Storage & Snapshots",
+      collapsed: false,
+      items: [
+        "StorageAndSnapshot/adding-new-volumes",
+        "StorageAndSnapshot/resizing-root-volumes",
+      ],
+    },
   ],
 
   // api: [

@@ -38,43 +38,60 @@ const config = {
           showReadingTime: true,
         },
         theme: {
-          customCss: require.resolve("./src/css/custom.css"),
+          customCss: [
+            require.resolve(
+              "./node_modules/modern-normalize/modern-normalize.css"
+            ),
+            require.resolve(
+              "./node_modules/@ionic-internal/ionic-ds/dist/tokens/tokens.css"
+            ),
+            require.resolve("./src/css/custom.scss"),
+          ],
         },
       }),
     ],
   ],
-  // plugins: [
-  //   [
-  //     "@docusaurus/plugin-content-docs",
-  //     {
-  //       routeBasePath: "/",
-  //       sidebarPath: require.resolve("./sidebars.js"),
 
-  //       exclude: ["README.md"],
-  //       // lastVersion: "current",
-  //       // versions: {
-  //       //   current: {
-  //       //     label: "v6",
-  //       //     banner: "none",
-  //       //   },
-  //       // },
-  //     },
-  //   ],
-  //   "@docusaurus/plugin-content-pages",
-  //   "@docusaurus/plugin-debug",
-  //   "@docusaurus/plugin-sitemap",
-  // ],
-  plugins: [require.resolve("docusaurus-lunr-search")],
+  plugins: [
+    require.resolve("docusaurus-lunr-search"),
+    "docusaurus-plugin-sass",
+    [
+      "docusaurus-plugin-module-alias",
+      {
+        alias: {
+          "styled-components": path.resolve(
+            __dirname,
+            "./node_modules/styled-components"
+          ),
+          react: path.resolve(__dirname, "./node_modules/react"),
+          "react-dom": path.resolve(__dirname, "./node_modules/react-dom"),
+          "@components": path.resolve(__dirname, "./src/components"),
+        },
+      },
+    ],
+  ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: "light",
+      },
       navbar: {
-        title: "Stackbill",
+        // title: "Stackbill",
         logo: {
-          alt: "Stackbill Logo",
-          src: "img/logo.svg",
+          alt: "Site Logo",
+          src: "/logo.png",
+          srcDark: `/logo.png`,
+          href: "/",
+          target: "_self",
+          width: 139,
+          height: 28,
         },
+        // logo: {
+        //   alt: "Stackbill Logo",
+        //   src: "/logo.png",
+        // },
         items: [
           {
             type: "doc",
