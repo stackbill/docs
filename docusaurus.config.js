@@ -16,7 +16,7 @@ const config = {
   projectName: "docusaurus", // Usually your repo name.
   i18n: {
     defaultLocale: "en",
-    locales: ["en"],
+    locales: ["en", "fr"],
   },
 
   presets: [
@@ -99,7 +99,24 @@ const config = {
             position: "left",
             label: "User Guide",
           },
-          { to: "/blog", label: "Blog", position: "left" },
+          {
+            type: "doc",
+            docId: "plugins",
+            label: "Plugins",
+            position: "left",
+          },
+          {
+            type: "doc",
+            docId: "marketplace",
+            label: "MarketPlace Apps",
+            position: "left",
+          },
+          {
+            type: "doc",
+            docId: "apis",
+            label: "APIs",
+            position: "left",
+          },
 
           {
             type: "docsVersionDropdown",
@@ -110,43 +127,6 @@ const config = {
           {
             type: "search",
             position: "right",
-          },
-          {
-            label: "Community",
-            position: "right",
-            items: [
-              {
-                href: "https://ionicframework.com/community",
-                label: "Community Hub",
-                target: "_blank",
-                rel: null,
-              },
-              {
-                href: "https://forum.ionicframework.com/",
-                label: "Forum",
-                target: "_blank",
-                rel: null,
-              },
-              {
-                href: "https://www.meetup.com/topics/ionic-framework/",
-                label: "Meetups",
-                target: "_blank",
-                rel: null,
-              },
-              {
-                href: "https://blog.ionicframework.com/",
-                label: "Blog",
-                target: "_blank",
-                rel: null,
-              },
-              {
-                href: "https://twitter.com/ionicframework",
-                label: "Twitter",
-                target: "_blank",
-                rel: null,
-              },
-            ],
-            className: "navbar__link--community",
           },
           {
             label: "Support",
@@ -178,20 +158,11 @@ const config = {
           //   type: "separator",
           //   position: "right",
           // },
-          // {
-          //   type: "localeDropdown",
-          //   position: "right",
-          //   dropdownItemsBefore: [],
-          //   dropdownItemsAfter: [
-          //     {
-          //       href: "https://ionicframework.com/translate",
-          //       label: "Translate",
-          //       target: "_blank",
-          //       rel: null,
-          //     },
-          //   ],
-          //   className: "icon-link language navbar__item",
-          // },
+          {
+            type: "localeDropdown",
+            position: "right",
+            className: "icon-link navbar__item",
+          },
           // {
           //   type: "iconLink",
           //   position: "right",

@@ -45,19 +45,28 @@ module.exports = {
     },
   ],
 
-  // api: [
-  //   {
-  //     type: "category",
-  //     label: "Getting Started",
-  //     collapsed: false,
-  //     items: [
-  //       "index",
-  //       "getstarted/account-signup",
-  //       "getstarted/setup-profile",
-  //       "getstarted/release-notes",
-  //       "getstarted/known-bugs",
-  //       "getstarted/whats-next",
-  //     ],
-  //   },
-  // ],
+  plugins: [
+    {
+      type: "category",
+      label: "Plugins Documentation",
+      collapsed: false,
+      items: ["plugins"],
+    },
+  ],
+  Marketplace: [
+    {
+      type: "category",
+      label: "Get started",
+      collapsed: false,
+      items: ["marketplace"],
+    },
+  ],
+  APIs: [
+    {
+      type: "category",
+      label: "API Docs",
+      collapsed: false,
+      items: ["apis"],
+    },
+  ],
 };
