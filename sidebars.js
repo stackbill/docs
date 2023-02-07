@@ -56,9 +56,56 @@ module.exports = {
   Marketplace: [
     {
       type: "category",
-      label: "Get started",
+      label: "Introduction to Marketplace",
       collapsed: false,
       items: ["marketplace"],
+    },
+    {
+      type: "category",
+      label: "Database Apps",
+      collapsed: false,
+      items: [
+        "marketplace-docs/database/MONGODB",
+        "marketplace-docs/database/MYSQL",
+        "marketplace-docs/database/PHPMYADMIN",
+      ],
+    },
+    {
+      type: "category",
+      label: "Developer Apps",
+      collapsed: false,
+      items: [
+        "marketplace-docs/developer-apps/DJANGO",
+        "marketplace-docs/developer-apps/NODEJS",
+      ],
+    },
+    {
+      type: "category",
+      label: "Hosting Apps",
+      collapsed: false,
+      items: [
+        "marketplace-docs/hosting-apps/LAMP",
+        "marketplace-docs/hosting-apps/LEMP",
+        "marketplace-docs/hosting-apps/JOOMLA-LAMP",
+        "marketplace-docs/hosting-apps/JOOMLA-LOMP",
+        "marketplace-docs/hosting-apps/WORDPRESS",
+      ],
+    },
+    {
+      type: "category",
+      label: "Hosting Panels",
+      collapsed: false,
+      items: [
+        "marketplace-docs/hosting-panels/WEBMIN",
+      ],
+    },
+    {
+      type: "category",
+      label: "Web Apps",
+      collapsed: false,
+      items: [
+        "marketplace-docs/web-apps/NGINX",
+      ],
     },
   ],
   APIs: [
