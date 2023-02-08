@@ -56,7 +56,7 @@ module.exports = {
   Marketplace: [
     {
       type: "category",
-      label: "Introduction to StackBill Marketplace",
+      label: "Introduction to Marketplace",
       collapsed: false,
       items: ["marketplace"],
     },
