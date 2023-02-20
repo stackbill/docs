@@ -41,7 +41,90 @@ module.exports = {
       items: [
         "StorageAndSnapshot/adding-new-volumes",
         "StorageAndSnapshot/resizing-root-volumes",
+        "StorageAndSnapshot/resizing-data-volumes",
+        "StorageAndSnapshot/creating-templates-from-volumes",
+        "StorageAndSnapshot/deleting-volumes",
       ],
+    },
+    {
+      type: "doc",
+      id: "Loadbalancer",
+      label: "Loadbalancer",
+    },
+    {
+      type: "doc",
+      id: "Autoscaling",
+      label: "Autoscaling",
+    },
+    {
+      type: "doc",
+      id: "SSH-Keymanager",
+      label: "SSH-Keymanager",
+    },
+    {
+      type: "category",
+      label: "Network",
+      collapsed: false,
+      items: [
+        "Network/Creating-New-Network",
+        "Network/Adding-network-to-Instance",
+        "Network/Network-Egress-Firewall",
+        "Network/VPC",
+        "Network/VPN-Gateway",
+        "Network/Security-Group-Firewall",
+        "Network/IP-Manager",
+      ],
+    },
+    {
+      type: "category",
+      label: "Marketplace",
+      collapsed: false,
+      items: [
+        "Marketplace/Overview",
+        "Marketplace/Launching-Apps",
+        "Marketplace/Uploading-Apps",
+      ],
+    },
+    {
+      type: "category",
+      label: "Monitoring",
+      collapsed: false,
+      items: [
+        "Monitoring/Dashboard-Overview",
+        "Monitoring/Adding-Instance",
+        "Monitoring/Setting-Up-Alerts",
+        "Monitoring/Notification-Manager",
+      ],
+    },
+    {
+      type: "category",
+      label: "Billing",
+      collapsed: false,
+      items: [
+        "Billing/Overview",
+        "Billing/Cost-Explorer",
+        "Billing/Saving-Plans",
+        "Billing/Invoices",
+        "Billing/Reporting",
+      ],
+    },
+    {
+      type: "category",
+      label: "Organization",
+      collapsed: false,
+      items: [
+        "Organization/User-Profile",
+        "Organization/User-Manage",
+        "Organization/RBAC",
+        "Organization/Quota-Limits",
+        "Organization/Maintanance-Events",
+        "Organization/My-Activity",
+      ],
+    },
+    {
+      type: "doc",
+      id: "HelpCenter",
+      label: "HelpCenter",
     },
   ],
 
@@ -56,7 +139,7 @@ module.exports = {
   Marketplace: [
     {
       type: "category",
-      label: "Introduction to Marketplace",
+      label: "Get started",
       collapsed: false,
       items: ["marketplace"],
     },
