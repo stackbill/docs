@@ -62,6 +62,10 @@ PID=$(systemctl show --value -p MainPID gunicorn.service) && kill -HUP $PID
 
  The standard Django admin area is accessible at **/admin**. The login and password are stored in the **DJANGO_ADMIN_LOGIN_USER*** values you see when you call cat **/root/.adminpanel_passwords** while logged in over SSH.
 
+ [Click here to view connecting PostgreSQL through remote](http://docs2.stackbill.com/docs/3.0.0/marketplace-docs/database/POSTGRESQL)
+
+ Refer to the Section "**Once the PostgreSQL is deployed:**" and follow the instuction from "**By default, this database server...**"
+
 **Setting up Postfix:**
 
  Set a Valid Hostname using the command **"hostnamectl set-hostname test.example.com".** Make sure the hostname "test.example.com" have a proper A record.

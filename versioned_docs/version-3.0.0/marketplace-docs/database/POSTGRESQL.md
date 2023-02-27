@@ -22,7 +22,7 @@ You will be logged out of the instance and displayed with the below message unti
 Please wait until the installation is completed....Connection to $IPADDRESS closed.
 ```
 
-**Once the PostgreSQLis deployed:**
+**Once the PostgreSQL is deployed:**
 
 You can log into the instance as ubuntu using either the password you set when you created the instance or with an SSH key if you added one during creation.
 
