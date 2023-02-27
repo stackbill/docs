@@ -57,8 +57,12 @@ Domain/Subdomain name:
 
  The MariaDB root password is stored under **/root/.mariadb_root_password**
 
- Login to MariaDB using the command **< mysql -u root -p <$password stored in the above file> >**
+ Login to MariaDB using the command command  **mysql**  and Click Enter
 
+ The user **dbadmin** has the same capabilities as the root account but is configured for password authentication
+
+ The **root** MariaDB user is set to authenticate using the **unix_socket** plugin by default rather than with a password. So setting up password for **root** user is not recommended.
+ 
  You can access phpMyAdmin immediately by visiting the Instance’s IP address in your browser followed by **/phpmyadmin**
 
  Joomla Database Informations are stored under **/root/.joomla_database_details**
