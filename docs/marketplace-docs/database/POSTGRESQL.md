@@ -71,6 +71,11 @@ Save the file by pressing  **Ctrl+X, Y**, and hitting the  **Enter**  key.
 
 Allow the port **5432** in the firewall for PostgreSQL remote access.
 
+Restart the PostgreSQL service to apply the changes:
+~~~
+systemctl restart postgresql
+~~~
+
 Try to access DB from remote client.
 ~~~
 psql -h $IPADDRESS -U postgres
