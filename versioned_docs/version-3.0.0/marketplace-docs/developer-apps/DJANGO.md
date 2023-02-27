@@ -39,9 +39,11 @@ Connection to $IPADDRESS closed.
 
  You can view the Django instance immediately by visiting the instance’s IP address in your browser.
 
- The postgres root password is stored under **/root/.postgresql_passwords**
+ The postgres user password is stored under  **/root/.postgresql_user_passwords**
 
  Login to postgres using the command **< sudo -u postgres psql >**
+
+ The Django database Informations are stored under **/root/.postgresql_passwords**
 
  Django Admin login credentials are stored under **/root/.adminpanel_passwords**
 
