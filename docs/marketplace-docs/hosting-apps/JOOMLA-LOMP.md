@@ -27,7 +27,7 @@ Phpmyadmin - 5.2.0
 
  Allow the ports in the firewall only SSH (port 22, rate limited), HTTP (port 80), HTTPS (port 443) access, and Litespeed Admin Panel (port 7080).
 
- Sets the MariaDB root password, runs mysql_secure_installation, and creates a Joomla user with the necessary permissions.
+ Runs mysql_secure_installation, and creates a Joomla user with the necessary permissions.
 
  Creates the initial Joomla configuration file and allows the Joomla instance to connect to the database.
 
