@@ -151,6 +151,7 @@ module.exports = {
         "marketplace-docs/database/MONGODB",
         "marketplace-docs/database/MYSQL",
         "marketplace-docs/database/PHPMYADMIN",
+        "marketplace-docs/database/POSTGRESQL",
       ],
     },
     {
