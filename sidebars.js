@@ -148,6 +148,7 @@ module.exports = {
       label: "Database Apps",
       collapsed: false,
       items: [
+        "marketplace-docs/database/MARIADB",
         "marketplace-docs/database/MONGODB",
         "marketplace-docs/database/MYSQL",
         "marketplace-docs/database/MYSQL-STANDALONE",

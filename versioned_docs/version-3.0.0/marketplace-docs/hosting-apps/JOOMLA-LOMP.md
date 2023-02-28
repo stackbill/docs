@@ -57,7 +57,7 @@ Domain/Subdomain name:
 
  The MariaDB root password is stored under **/root/.mariadb_root_password**
 
- Login to MariaDB using the command command  **mysql**  and Click Enter
+ Login to MariaDB using the command  **mysql**  and Click Enter
 
  The user **dbadmin** has the same capabilities as the root account but is configured for password authentication
 
