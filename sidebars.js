@@ -145,6 +145,14 @@ module.exports = {
     },
     {
       type: "category",
+      label: "Container Apps",
+      collapsed: false,
+      items: [
+        "marketplace-docs/container-service/DOCKER",
+      ],
+    },
+    {
+      type: "category",
       label: "Database Apps",
       collapsed: false,
       items: [
