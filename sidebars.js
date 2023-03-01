@@ -195,6 +195,14 @@ module.exports = {
     },
     {
       type: "category",
+      label: "Monitoring Apps",
+      collapsed: false,
+      items: [
+        "marketplace-docs/monitoring/PROMETHEUS",
+      ],
+    },
+    {
+      type: "category",
       label: "Web Apps",
       collapsed: false,
       items: [
