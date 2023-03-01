@@ -27,7 +27,7 @@ Phpmyadmin - 5.2.0
 
  Allow the ports in the firewall only SSH (port 22, rate limited), HTTP (port 80), HTTPS (port 443) access, and Litespeed Admin Panel (port 7080).
 
- Sets the MariaDB root password, runs mysql_secure_installation, and creates a Joomla user with the necessary permissions.
+ Runs mysql_secure_installation, and creates a Joomla user with the necessary permissions.
 
  Creates the initial Joomla configuration file and allows the Joomla instance to connect to the database.
 
@@ -57,8 +57,12 @@ Domain/Subdomain name:
 
  The MariaDB root password is stored under **/root/.mariadb_root_password**
 
- Login to MariaDB using the command **< mysql -u root -p <$password stored in the above file> >**
+ Login to MariaDB using the command  **mysql**  and Click Enter
 
+ The user **dbadmin** has the same capabilities as the root account but is configured for password authentication
+
+ The **root** MariaDB user is set to authenticate using the **unix_socket** plugin by default rather than with a password. So setting up password for **root** user is not recommended.
+ 
  You can access phpMyAdmin immediately by visiting the Instance’s IP address in your browser followed by **/phpmyadmin**
 
  Joomla Database Informations are stored under **/root/.joomla_database_details**

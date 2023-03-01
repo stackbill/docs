@@ -22,7 +22,7 @@ You will be logged out of the instance and displayed with the below message unti
 Please wait until the installation is completed....Connection to $IPADDRESS closed.
 ```
 
-**Once the PostgreSQLis deployed:**
+**Once the PostgreSQL is deployed:**
 
 You can log into the instance as ubuntu using either the password you set when you created the instance or with an SSH key if you added one during creation.
 
@@ -70,6 +70,11 @@ host    all             all              0.0.0.0/0            scram-sha-256
 Save the file by pressing  **Ctrl+X, Y**, and hitting the  **Enter**  key.
 
 Allow the port **5432** in the firewall for PostgreSQL remote access.
+
+Restart the PostgreSQL service to apply the changes:
+~~~
+systemctl restart postgresql
+~~~
 
 Try to access DB from remote client.
 ~~~

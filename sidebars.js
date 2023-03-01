@@ -145,11 +145,21 @@ module.exports = {
     },
     {
       type: "category",
+      label: "Container Apps",
+      collapsed: false,
+      items: [
+        "marketplace-docs/container-service/DOCKER",
+      ],
+    },
+    {
+      type: "category",
       label: "Database Apps",
       collapsed: false,
       items: [
+        "marketplace-docs/database/MARIADB",
         "marketplace-docs/database/MONGODB",
         "marketplace-docs/database/MYSQL",
+        "marketplace-docs/database/MYSQL-STANDALONE",
         "marketplace-docs/database/PHPMYADMIN",
         "marketplace-docs/database/POSTGRESQL",
       ],
