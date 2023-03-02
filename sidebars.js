@@ -199,6 +199,7 @@ module.exports = {
       collapsed: false,
       items: [
         "marketplace-docs/monitoring/PROMETHEUS",
+        "marketplace-docs/monitoring/ZABBIX",
       ],
     },
     {
