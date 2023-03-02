@@ -171,6 +171,7 @@ module.exports = {
       items: [
         "marketplace-docs/developer-apps/DJANGO",
         "marketplace-docs/developer-apps/NODEJS",
+        "marketplace-docs/developer-apps/RABBITMQ",
       ],
     },
     {
