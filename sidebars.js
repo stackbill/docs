@@ -169,6 +169,7 @@ module.exports = {
       label: "Developer Apps",
       collapsed: false,
       items: [
+        "marketplace-docs/developer-apps/ACTIVEMQ",
         "marketplace-docs/developer-apps/DJANGO",
         "marketplace-docs/developer-apps/NODEJS",
         "marketplace-docs/developer-apps/RABBITMQ",
