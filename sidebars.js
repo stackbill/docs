@@ -169,8 +169,10 @@ module.exports = {
       label: "Developer Apps",
       collapsed: false,
       items: [
+        "marketplace-docs/developer-apps/ACTIVEMQ",
         "marketplace-docs/developer-apps/DJANGO",
         "marketplace-docs/developer-apps/NODEJS",
+        "marketplace-docs/developer-apps/RABBITMQ",
       ],
     },
     {
@@ -191,6 +193,15 @@ module.exports = {
       collapsed: false,
       items: [
         "marketplace-docs/hosting-panels/WEBMIN",
+      ],
+    },
+    {
+      type: "category",
+      label: "Monitoring Apps",
+      collapsed: false,
+      items: [
+        "marketplace-docs/monitoring/PROMETHEUS",
+        "marketplace-docs/monitoring/ZABBIX",
       ],
     },
     {
