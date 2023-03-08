@@ -171,6 +171,7 @@ module.exports = {
       items: [
         "marketplace-docs/developer-apps/ACTIVEMQ",
         "marketplace-docs/developer-apps/DJANGO",
+        "marketplace-docs/developer-apps/GITLAB",
         "marketplace-docs/developer-apps/NODEJS",
         "marketplace-docs/developer-apps/RABBITMQ",
       ],
@@ -181,6 +182,7 @@ module.exports = {
       collapsed: false,
       items: [
         "marketplace-docs/hosting-apps/LAMP",
+        "marketplace-docs/hosting-apps/LARAVEL",
         "marketplace-docs/hosting-apps/LEMP",
         "marketplace-docs/hosting-apps/JOOMLA-LAMP",
         "marketplace-docs/hosting-apps/JOOMLA-LOMP",
