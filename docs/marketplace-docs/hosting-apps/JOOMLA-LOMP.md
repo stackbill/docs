@@ -67,6 +67,10 @@ Domain/Subdomain name:
 
  Joomla Database Informations are stored under **/root/.joomla_database_details**
 
+ The OpenLitespeed Admin Dashboard Login Credential is stored under  **/root/.Litespeed_Admin_Password**
+
+ Access OpenLitespeed Admin Dashboard through the web using http://IPADDRESS:7080
+
  The web root is /var/www/html and the Joomla configuration file is **/var/www/html/configuration.php.**
 
 Setting up an SSL certificate enables HTTPS on the web server, which secures the traffic between the server and the clients connecting to it. Certbot is a free and automated way to set up SSL certificates on a server. It’s included as part of the Joomla deployment to make securing the domain easier.
