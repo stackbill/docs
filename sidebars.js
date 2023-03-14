@@ -156,6 +156,7 @@ module.exports = {
       label: "Database Apps",
       collapsed: false,
       items: [
+        "marketplace-docs/database/INFLUXDB",
         "marketplace-docs/database/MARIADB",
         "marketplace-docs/database/MONGODB",
         "marketplace-docs/database/MYSQL",
