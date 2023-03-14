@@ -1,6 +1,6 @@
 ---
-title: Cost-Explorer
-sidebar_label: Cost-Explorer
+title: Cost Explorer
+sidebar_label: Cost Explorer
 ---
 
 ## Cost & Usage Reports in StackBill Cloud Management Portal

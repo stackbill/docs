@@ -1,4 +1,4 @@
 ---
-title: VPN-Gateway
-sidebar_label: VPN-Gateway
+title: VPN Gateway
+sidebar_label: VPN Gateway
 ---

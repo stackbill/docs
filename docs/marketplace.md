@@ -1,6 +1,6 @@
 ---
 title: Marketplace
-sidebar_label: Marketplace
+sidebar_label: Introduction
 ---
 
 # Get started With Marketplace Apps

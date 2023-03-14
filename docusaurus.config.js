@@ -25,13 +25,6 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          lastVersion: "current",
-          versions: {
-            current: {
-              label: "3.0.0",
-              path: "3.0.0",
-            },
-          },
           sidebarPath: require.resolve("./sidebars.js"),
         },
         blog: {
@@ -95,7 +88,7 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "index",
+            docId: "Index",
             position: "left",
             label: "User Guide",
           },
