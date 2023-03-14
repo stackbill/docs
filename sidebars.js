@@ -156,6 +156,7 @@ module.exports = {
       label: "Database Apps",
       collapsed: false,
       items: [
+        "marketplace-docs/database/INFLUXDB",
         "marketplace-docs/database/MARIADB",
         "marketplace-docs/database/MONGODB",
         "marketplace-docs/database/MYSQL",
@@ -212,6 +213,7 @@ module.exports = {
       collapsed: false,
       items: [
         "marketplace-docs/web-apps/NGINX",
+        "marketplace-docs/web-apps/OPENLITESPEED",
       ],
     },
   ],

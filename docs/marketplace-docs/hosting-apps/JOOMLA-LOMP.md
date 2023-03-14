@@ -27,7 +27,7 @@ Phpmyadmin - 5.2.0
 
  Allow the ports in the firewall only SSH (port 22, rate limited), HTTP (port 80), HTTPS (port 443) access, and Litespeed Admin Panel (port 7080).
 
- Runs mysql_secure_installation, and creates a Joomla user with the necessary permissions.
+ Runs mysql_secure_installation, and creates a Joomla user with the necessary permissions, sets the OpenLitespeed Admin Dashboard Password.
 
  Creates the initial Joomla configuration file and allows the Joomla instance to connect to the database.
 
@@ -65,7 +65,13 @@ Domain/Subdomain name:
 
  You can access phpMyAdmin immediately by visiting the Instance’s IP address in your browser followed by **/phpmyadmin**
 
+ You can view the php information immediately by visiting the Instance’s IP address in your browser followed by  **/phpinfo.php**
+
  Joomla Database Informations are stored under **/root/.joomla_database_details**
+
+ The OpenLitespeed Admin Dashboard Login Credential is stored under  **/root/.Litespeed_Admin_Password**
+
+ Access OpenLitespeed Admin Dashboard through the web using http://IPADDRESS:7080
 
  The web root is /var/www/html and the Joomla configuration file is **/var/www/html/configuration.php.**
 

@@ -27,8 +27,8 @@ Phpmyadmin - 5.2.0
 
  Allow the ports in the firewall only SSH (port 22, rate limited), HTTP (port 80), HTTPS (port 443) access, and Litespeed Admin Panel (port 7080).
 
- Runs mysql_secure_installation, and creates a Joomla user with the necessary permissions.
-
+ Runs mysql_secure_installation, and creates a Joomla user with the necessary permissions, sets the OpenLitespeed Admin Dashboard Password.
+ 
  Creates the initial Joomla configuration file and allows the Joomla instance to connect to the database.
 
  You will be logged out of the instance and displayed with the below message until the instance is deployed. **DO NOT LOG IN TO THE INSTANCE FOR 2 MINUTES AFTER THE CREATION.**
@@ -65,8 +65,14 @@ Domain/Subdomain name:
  
  You can access phpMyAdmin immediately by visiting the Instance’s IP address in your browser followed by **/phpmyadmin**
 
+ You can view the php information immediately by visiting the Instance’s IP address in your browser followed by  **/phpinfo.php**
+
  Joomla Database Informations are stored under **/root/.joomla_database_details**
 
+ The OpenLitespeed Admin Dashboard Login Credential is stored under  **/root/.Litespeed_Admin_Password**
+
+ Access OpenLitespeed Admin Dashboard through the web using http://IPADDRESS:7080
+ 
  The web root is /var/www/html and the Joomla configuration file is **/var/www/html/configuration.php.**
 
 Setting up an SSL certificate enables HTTPS on the web server, which secures the traffic between the server and the clients connecting to it. Certbot is a free and automated way to set up SSL certificates on a server. It’s included as part of the Joomla deployment to make securing the domain easier.
