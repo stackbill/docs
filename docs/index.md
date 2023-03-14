@@ -1,48 +1,37 @@
 ---
 title: Introduction
-sidebar_label: Overview
+sidebar_label: Introduction
 ---
+## Welcome to Stackbill documentation!
 
-# Tutorial Intro
+[**StackBill**](https://www.stackbill.com/) is a complete self-service intuitive [**Cloud Management Portal**](https://www.stackbill.com/) with extensive features leveraging **Apache CloudStack®** with state of art years of expertise.
 
-Let's discover **Docusaurus in less than 5 minutes**.
+**StackBill Sign-up**
+   - [Getting Started with StackBill CMP](./getstarted/StackBill-Signup#cmp)
+   - [How to Login into StackBill CMP](./getstarted/StackBill-Signup#how-to-login-into-stackbill-cmp)
+   - [How to Recover StackBill Account Password](./getstarted/StackBill-Signup#how-to-recover-stackbill-account-password)
 
-## Getting Started
+**Setup profile in StackBill CMP**
+  - [Setting up user profile in StackBill CMP](./getstarted/Setup-Profile#setting-up-user-profile-in-stackbill-cmp)
+  - [Change password for User Account in StackBill Portal](./getstarted/Setup-Profile#change-password-for-user-account-in-stackbill-portal)
+  - [Choose your Payment Method in User Account](./getstarted/Setup-Profile#choose--your-payment-method-in-user-account)
+  - [Credits & Promocode for User in StackBill CMP](./getstarted/Setup-Profile#credits--promocode-for-user-in-stackbill-cmp)
+  - [API Access Settings in StackBill CMP](./getstarted/Setup-Profile#api-access-settings-in-stackbill-cmp)
+  - [Notification Settings in StackBill CMP](./getstarted/Setup-Profile#notification-settings-in-stackbill-cmp)
+  - [The process of removing an account from the StackBill CMP](./getstarted/Setup-Profile#the-process-of-removing-an-account-from-the-stackbill-cmp)
+  
+  
+**Release Note**
+  - [StackBill Cloud Management Portal 3.02 Version Overview](./getstarted/Release-Notes#stackbill-cloud-management-portal-302-version-overview)
+  - [StackBill 3.01 Version Overview](./getstarted/Release-Notes#stackbill-301-version-overview)
+  - [StackBill 3.00 Version Overview](./getstarted/Release-Notes#stackbill-300-version-overview)
+  - [StackBill 2.04 Version Overview](./getstarted/Release-Notes#stackbill-204-version-overview)
+  - [StackBill 2.03 Version Overview](./getstarted/Release-Notes#stackbill-203-version-overview)
 
-Get started by **creating a new site**.
+**Know Bugs**
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
 
-### What you'll need
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
 
-## Generate a new site
 
-Generate a new Docusaurus site using the **classic template**.
 
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.

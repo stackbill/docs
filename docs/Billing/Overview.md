@@ -8,7 +8,7 @@ sidebar_label: Overview
 **[StackBill](https://www.stackbill.com/)** instances are running on virtualized hardware. You can use them standalone or as part of larger, cloud-based infrastructures.
 
 
-<img src="/img/Billing/Billing-stackBillcloudmanagementportal.png" width="50%" />
+<img src="/img/Billing/Billing-stackBillcloudmanagementportal.png" width="70%" />
 
 
 **StackBill** is a **usage-based billing** and chargeback solution that supports both **postpaid and prepaid billing**. It is also possible to **generate the bill amount** in your **regional currency**.

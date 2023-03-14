@@ -1,10 +1,13 @@
+---
+title: Release Notes
+sidebar_label: Release Notes
+---
+
 # Release notes
 
 [**StackBill**](https://www.stackbill.com/) is a complete self-service intuitive Cloud Management Portal with extensive features leveraging **Apache CloudStack®** with state of art years of expertise.
 
 **CMP** For **Datacenters** | **Enterprises** | **Telecom and Cloud Service** Providers.
-
-**YOUTUBEVIDEO**
 
 The **StackBill** cloud platform release notes track incremental improvements and major releases.
 ## StackBill Cloud Management Portal 3.02 Version Overview

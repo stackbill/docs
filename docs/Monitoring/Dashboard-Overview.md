@@ -1,7 +1,9 @@
 ---
-title: Dashboard-Overview
-sidebar_label: Dashboard-Overview
+title: Dashboard Overview
+sidebar_label: Dashboard Overview
 ---
+
+## Dashboard Overview in StackBill CMP
 
 **Cloud and container** usage can be **monitored** with a single click using 25+ metrics provided by **[StackBill CMP](https://www.stackbill.com/stackbill-features.html)**.
 

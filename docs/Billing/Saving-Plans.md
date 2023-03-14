@@ -1,6 +1,6 @@
 ---
-title: Saving-Plans
-sidebar_label: Saving-Plans
+title: Saving Plans
+sidebar_label: Saving Plans
 ---
 
 ## Savings Plan in StackBill Cloud Management Portal
