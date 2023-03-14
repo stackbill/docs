@@ -212,6 +212,7 @@ module.exports = {
       collapsed: false,
       items: [
         "marketplace-docs/web-apps/NGINX",
+        "marketplace-docs/web-apps/OPENLITESPEED",
       ],
     },
   ],
