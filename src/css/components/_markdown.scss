@@ -1,11 +1,11 @@
-html[data-theme='light'] {
+html[data-theme="light"] {
   --markdown-toc-title-c: var(--c-indigo-60);
   --markdown-toc-list-item-c: var(--c-indigo-70);
   --markdown-text-intro-c: var(--c-carbon-80);
   --markdown-bold-c: var(--c-carbon-100);
 }
 
-html[data-theme='dark'] {
+html[data-theme="dark"] {
   --markdown-toc-title-c: #fff;
   --markdown-toc-list-item-c: #fff;
   --markdown-text-intro-c: var(--c-indigo-40);
@@ -58,7 +58,7 @@ html[data-theme='dark'] {
   p,
   li,
   .tabs-container {
-    line-height: 200%;
+    line-height: 150%;
   }
 
   // have to override style coming from .h1Heading_node_modules-\@docusaurus-theme-classic-lib-next-theme-Heading-styles-module
