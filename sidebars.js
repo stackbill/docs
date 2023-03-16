@@ -194,6 +194,7 @@ module.exports = {
       collapsed: false,
       items: [
         "marketplace-docs/developer-apps/ACTIVEMQ",
+        "marketplace-docs/developer-apps/ANACONDA",
         "marketplace-docs/developer-apps/DJANGO",
         "marketplace-docs/developer-apps/GITLAB",
         "marketplace-docs/developer-apps/NODEJS",
