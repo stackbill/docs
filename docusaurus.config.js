@@ -11,7 +11,8 @@ const config = {
   baseUrl: "/",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
+  // favicon: "img/favicon.ico",
+  favicon: "/logo_icon.png",
   organizationName: "facebook", // Usually your GitHub org/user name.
   projectName: "docusaurus", // Usually your repo name.
   i18n: {
@@ -74,8 +75,8 @@ const config = {
         // title: "Stackbill",
         logo: {
           alt: "Site Logo",
-          src: "/logo.png",
-          srcDark: `/logo.png`,
+          src: "/logo_light.png",
+          srcDark: `/logo_dark.png`,
           href: "/",
           target: "_self",
           width: 139,
@@ -111,12 +112,12 @@ const config = {
             position: "left",
           },
 
-          {
-            type: "docsVersionDropdown",
-            position: "right",
-            dropdownItemsAfter: [{ to: "/versions", label: "All versions" }],
-            dropdownActiveClassDisabled: true,
-          },
+          // {
+          //   type: "docsVersionDropdown",
+          //   position: "right",
+          //   dropdownItemsAfter: [{ to: "/versions", label: "All versions" }],
+          //   dropdownActiveClassDisabled: true,
+          // },
           {
             type: "search",
             position: "right",
@@ -188,51 +189,51 @@ const config = {
           // },
         ],
       },
-      footer: {
-        style: "dark",
-        links: [
-          {
-            title: "Docs",
-            items: [
-              {
-                label: "Tutorial",
-                to: "/docs/intro",
-              },
-            ],
-          },
-          {
-            title: "Community",
-            items: [
-              {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
-              },
-            ],
-          },
-          {
-            title: "More",
-            items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-      },
+      // footer: {
+      //   style: "dark",
+      //   links: [
+      //     {
+      //       title: "Docs",
+      //       items: [
+      //         {
+      //           label: "Tutorial",
+      //           to: "/docs/intro",
+      //         },
+      //       ],
+      //     },
+      //     {
+      //       title: "Community",
+      //       items: [
+      //         {
+      //           label: "Stack Overflow",
+      //           href: "https://stackoverflow.com/questions/tagged/docusaurus",
+      //         },
+      //         {
+      //           label: "Discord",
+      //           href: "https://discordapp.com/invite/docusaurus",
+      //         },
+      //         {
+      //           label: "Twitter",
+      //           href: "https://twitter.com/docusaurus",
+      //         },
+      //       ],
+      //     },
+      //     {
+      //       title: "More",
+      //       items: [
+      //         {
+      //           label: "Blog",
+      //           to: "/blog",
+      //         },
+      //         {
+      //           label: "GitHub",
+      //           href: "https://github.com/facebook/docusaurus",
+      //         },
+      //       ],
+      //     },
+      //   ],
+      //   copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      // },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
