@@ -198,6 +198,7 @@ module.exports = {
         "marketplace-docs/developer-apps/GITLAB",
         "marketplace-docs/developer-apps/NODEJS",
         "marketplace-docs/developer-apps/RABBITMQ",
+        "marketplace-docs/developer-apps/YARN",
       ],
     },
     {
