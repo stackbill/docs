@@ -10,7 +10,7 @@ Continuous Integration and Delivery, Security with Monitoring, as well as rich p
 GitLab helps teams reduce product lifecycles and increase productivity, 
 which in turn creates value for customers. 
 
-**Note: 4GB of RAM is the required minimum memory size to run this app. It supports up to 500 users. You can read more about system requirements  [here](https://docs.gitlab.com/ee/install/requirements.html#hardware-requirements).**
+**Note: 4GB of RAM is the required minimum memory size to run this app. It supports up to 500 users. 30 GB storage is required for successfull installation. You can read more about system requirements  [here](https://docs.gitlab.com/ee/install/requirements.html#hardware-requirements).**
 
 **Software Included:**
 
