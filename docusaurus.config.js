@@ -7,14 +7,14 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Stackbill Documentation",
   tagline: "Stackbill Documentation",
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://docs2.stackbill.com",
   baseUrl: "/",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   // favicon: "img/favicon.ico",
   favicon: "/logo_icon.png",
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "Assistanz Networks Pvt Ltd",
+  projectName: "docusaurus",
   i18n: {
     defaultLocale: "en",
     locales: ["en", "fr"],
