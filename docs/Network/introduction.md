@@ -18,6 +18,6 @@ a virtual network can be Isolated or L2 Network.
  - [IP Manager](/basic-network#ip-manager-overview-on-stackbill-cmp)
  - [Network Address Translation](/basic-network#what-is-mean-by-network-address-translation)
  - [Configure Egress Rule](./basic-network#creating-egress-rule-on-stackbill-cmp)
- - [Configure Port forwarding]
+ - [Configure Port forwarding](./basic-network#configure-port-forwarding)
  - [Overview of Load Balancer](./basic-network#overview-of-load-balancer-in-stackbill-cloud-management-portal)
  - [Creating Load Balancer](./basic-network#add-a-load-balancer-to-an-instance-in-stackbill-cloud-management-portal)

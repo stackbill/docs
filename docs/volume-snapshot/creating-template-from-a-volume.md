@@ -1,9 +1,9 @@
 ---
-title: Creating Template From a Volume
-sidebar_label: Creating Template From a Volume
+title: Creating Template
+sidebar_label: Creating Template 
 ---
 
-## Creating Template From a Volume in StackBill CMP
+### Creating Template From a Volume in StackBill CMP
 
 - click on the **Virtual Resources** dropdown below the DashBoard icon, which is available in the top left corner. From the dropdown, click on **Snapshot** option.
 

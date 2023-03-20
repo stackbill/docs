@@ -58,7 +58,34 @@ https://www.puttygen.com/download-putty#Download_PuTTY_073_for_Windows
 
 ### How to generate SSH key from Linux Laptop
 
-<< Need to get the info from IMS team >>
+- Go to the terminal and enter.
+
+~~~
+ssh-keygen
+~~~
+
+- After entering the command, you should see the following output:
+
+~~~
+Output
+Generating public/private rsa key pair.
+Enter file in which to save the key (/your_home/.ssh/id_rsa):
+~~~
+
+- If you choose to overwrite the key on disk, you will not be able to authenticate using the previous key anymore. Be very careful when selecting yes, as this is a destructive process that cannot be reversed.
+
+
+- You should then see the following prompt:
+
+~~~
+Output
+Enter passphrase (empty for no passphrase):
+~~~
+
+- Now the SHH key has been generated successfully.
+
+<img src="/img/windowssshkey/linu1xSShKeypair-StackBillCloudManagementportal.png" width="100%" />
+
 
 ## Download SSH in StackBill Cloud Management Portal
 
