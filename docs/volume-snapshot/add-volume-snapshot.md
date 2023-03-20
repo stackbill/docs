@@ -10,7 +10,7 @@ sidebar_label: Add Volume Snapshot
 <img src="/img/createvolume/1createvolume-stackbillcloudmanagementportal.png" width="80%" />
 
 - Volume Snapshot screen appears.
-- - Under the **action** option on the right side of the panel, users can see a **Create Volume button**.
+- Under the **action** option on the right side of the panel, users can see a **Create Volume button**.
 - Click on it.
 
 <img src="/img/createvolume/2createvolume-stackbillcloudmanagementportal.png" width="80%" />

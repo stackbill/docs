@@ -10,13 +10,8 @@ const FeatureList = [
     title: "User Guide",
     Img: "/img/user_guide.svg",
     description: (
-      <div style={{ textAlign: "justify" }}>
-        The StackBill user guide is a highly comprehensive and informative
-        document that offers detailed instructions and guidance to users on how
-        to effectively use and manage StackBill CMP (Cloud Management Platform).
-        It provides essential guidelines for performing key tasks such as
-        creating an instance, adding networks, configuring a firewall, and much
-        more.
+      <div style={{ textAlign: "justify",paddingLeft:"10px" }}>
+        The StackBill user guide is a very comprehensive and instructive guide that gives users full instructions and advice on how to use and manage StackBill CMP (Cloud Management Platform).
       </div>
     ),
   },
@@ -26,12 +21,7 @@ const FeatureList = [
     description: (
       <div style={{ textAlign: "justify" }}>
         The StackBill CMP platform offers comprehensive documentation for all
-        plugins, conveniently accessible through the Plugin section. In addition
-        to its current live version featuring Kubernetes as a service, StackBill
-        continues to introduce new plugins in upcoming releases, providing a
-        constantly evolving and expanding set of capabilities. As a result,
-        users can expect frequent updates and enhancements across various
-        categories
+        plugins, conveniently accessible through the Plugin section.
       </div>
     ),
   },
@@ -40,9 +30,7 @@ const FeatureList = [
     Img: "/img/marketplace.svg",
     description: (
       <div style={{ textAlign: "justify" }}>
-        StackBill apps marketplace is a one-stop-shop for businesses looking to
-        enhance their operations with powerful, industry-specific software. With
-        a diverse range of apps, StackBill marketplace offers a seamless
+        StackBill marketplace offers a seamless
         experience, with user-friendly search and filtering options, simple
         installation and integration processes, and robust support services to
         ensure users get the most out of their apps.

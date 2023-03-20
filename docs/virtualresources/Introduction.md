@@ -35,8 +35,8 @@ Additionally, you can also use the [Stackbill API](https://www.stackbill/api). T
         - [Usage Estimation](./Instance#instance-cost-estimation-1)
 
         - [Remote Desktop to Your Instance From a Local Windows Computer](./Instance#remote-desktop-to-your-instance-from-a-linux-computer-with-rdesktop)
-        - 
-        Remote Desktop to Your Instance From a Linux Computer with Rdesktop
+
+        - [Remote Desktop to Your Instance From a Linux Computer with Rdesktop](./Instance#remote-desktop-to-your-instance-from-a-linux-computer-using-rdesktop)
 
         - [Accessing Linux instance from a Local windows computer](./Instance#accessing-your-linux-virtual-instance-from-your-windows-laptop-or-desktop)
         - [Accessing Linux instance using SSH Key from a Local windows computer](./Instance#accessing-your-linux-virtual-instance-using-ssh-key-from-your-windows-laptopdesktop)
