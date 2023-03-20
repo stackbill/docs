@@ -197,6 +197,7 @@ module.exports = {
         "marketplace-docs/developer-apps/ANACONDA",
         "marketplace-docs/developer-apps/DJANGO",
         "marketplace-docs/developer-apps/GITLAB",
+        "marketplace-docs/developer-apps/MINICONDA",
         "marketplace-docs/developer-apps/NODEJS",
         "marketplace-docs/developer-apps/RABBITMQ",
         "marketplace-docs/developer-apps/YARN",

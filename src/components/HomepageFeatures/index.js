@@ -1,45 +1,61 @@
-import React from 'react';
-import clsx from 'clsx';
-import styles from './styles.module.css';
+import React from "react";
+import clsx from "clsx";
+import styles from "./styles.module.css";
+import UserGuideSvg from "@site/static/img/user_guide.svg";
+import PluginsSvg from "@site/static/img/plugins.svg";
+import MarketPlaceSvg from "@site/static/img/marketplace.svg";
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: "User Guide",
+    Img: "/img/user_guide.svg",
     description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
+      <div style={{ textAlign: "justify" }}>
+        The StackBill user guide is a highly comprehensive and informative
+        document that offers detailed instructions and guidance to users on how
+        to effectively use and manage StackBill CMP (Cloud Management Platform).
+        It provides essential guidelines for performing key tasks such as
+        creating an instance, adding networks, configuring a firewall, and much
+        more.
+      </div>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: "Plugins",
+    Img: "/img/plugins.svg",
     description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
+      <div style={{ textAlign: "justify" }}>
+        The StackBill CMP platform offers comprehensive documentation for all
+        plugins, conveniently accessible through the Plugin section. In addition
+        to its current live version featuring Kubernetes as a service, StackBill
+        continues to introduce new plugins in upcoming releases, providing a
+        constantly evolving and expanding set of capabilities. As a result,
+        users can expect frequent updates and enhancements across various
+        categories
+      </div>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: "Market place",
+    Img: "/img/marketplace.svg",
     description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
+      <div style={{ textAlign: "justify" }}>
+        StackBill apps marketplace is a one-stop-shop for businesses looking to
+        enhance their operations with powerful, industry-specific software. With
+        a diverse range of apps, StackBill marketplace offers a seamless
+        experience, with user-friendly search and filtering options, simple
+        installation and integration processes, and robust support services to
+        ensure users get the most out of their apps.
+      </div>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Img, title, description }) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx("col col--4")}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img src={Img} width="200px" height="auto" style={{ margin: "auto" }} />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
