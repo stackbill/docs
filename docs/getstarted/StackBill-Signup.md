@@ -27,7 +27,7 @@ The StackBill CMP **account sign-up page** allows you to create **a new StackBil
 - Click on the option **create an account.**
 - The Account creation page that appears on the screen.
 
-<img src="/img/gettingstarted/Accountsignup2-StackBillCloudManagementPortal.png" width="60%" />
+<img src="/img/gettingstarted/Accountsignup2-StackBillCloudManagementportal.png" width="60%" />
 
 
 - Fill out the form with the following information: **Email, Country & Code, Mobile Number, and Password.**
@@ -50,7 +50,7 @@ The StackBill CMP **account sign-up page** allows you to create **a new StackBil
 - Enter your Address details here.
 - And click the **Register** button.
 
-<img src="/img/gettingstarted/Accountsignup6-StackBillCloudManagementPortal.png" width="60%" />
+<img src="/img/gettingstarted/Accountsignup6-StackBillCloudManagementportal.png" width="60%" />
 
 - Now the account is created successfully.
 - Enter your **email address** and **password** and click Login to explore **StackBill CMP**.

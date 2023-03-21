@@ -309,7 +309,7 @@ Note: By default, CentOS username will be **root** and Ubuntu OS username will b
 
 - By default, you will not able to access the linux instance using SSH key with **PEM** extension key pair. 
 
-<img src="/img/AccessingLinux/5AccessingLinux-StackBillCloudManagementPortal.png" width="100%" />
+<img src="/img/AccessingLinux/5AccessingLinux-StackBillCLoudManagementPortal1.jpg" width="100%" />
 
 - You need to convert your SSH key pair to **PPK** extension using PuttyGen tool. You can download this tool from the URL https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html 
 
