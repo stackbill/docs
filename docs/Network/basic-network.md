@@ -142,6 +142,48 @@ sidebar_label: Basic Network
 
 - **Static NAT** - It will be the dedicated NAT. In other words, this NAT IP will be attached to only a single virtual machine. It's like one-to-one communication.
 
+## Configure Port forwarding
+
+- **Port forwarding** allows computer over the internet to connect a specific computer (or) service within a private network.
+
+- A port number will have an IP address and based on the port number to determine what the purpose is.
+
+-   click on the **Network** dropdown below the virtual Resources icon, which is available in the top left corner. From the dropdown, click on **Basic Network**, **to Configure Port Forwarding**
+
+<img src="/img/securitygroups/PortForwarding1- StackBillCloudManagementPortal.png" width="60%" />
+
+- **Basic Network**Screen appears.
+- Click on the **network** in which you wish to configure port forwarding.
+
+<img src="/img/securitygroups/PortForwarding2- StackBillCloudManagementPortal.png" width="100%" />
+
+- Network details screen appears, Select the **public IP** section from the details screen.
+
+<img src="/img/securitygroups/PortForwarding3- StackBillCloudManagementPortal (1).png" width="100%" />
+
+- Click on the **Source NAT** option 
+
+<img src="/img/securitygroups/PortForwarding4- StackBillCloudManagementPortal.png" width="100%" />
+
+- IP address screen open.
+- Before configuring Port Forwarding user need to Configure Firewall
+- To Configure the Firewall, click on **Firewall** option and configure it.
+
+<img src="/img/securitygroups/PortForwarding5- StackBillCloudManagementPortal.png" width="100%" />
+
+- Once the firewall has been configured go to the **Port Forwarding** option.
+- Click on **Add VM**.
+
+<img src="/img/securitygroups/PortForwarding6- StackBillCloudManagementPortal.png" width="100%" />
+
+- Configure the required port and select the protocol
+- Finally Click on **Add VM & Configure**.
+
+<img src="/img/securitygroups/PortForwarding7- StackBillCloudManagementPortal.png" width="100%" />
+
+- Now the Port Forwarding has been configured successfully.
+
+
 ## Creating Egress rule on StackBill CMP
 
 - **Egress rule** will be used to allow your virtual instance to access outside network i.e. **Internet**.
@@ -285,7 +327,6 @@ A **load balancer** can be deployed as **software or hardware** to a device that
 
 
 - On the right side of the panel you can see a option called **Create Load Balancer** option, Click on it.
-
 
 <img src="/img/loadbalancer/2Loadbalancer-StackBillCloudManagementPortal.png" width="90%" />
 

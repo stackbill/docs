@@ -7,7 +7,7 @@ Authentication with SSH keys is more secure and easier to manage than with passw
 
 ###  Create a new SSH Key using stackbill
   - [How to generate SSH key from windows laptop](./create-new-ssh-using-stackbill#how-to-generate-ssh-key-from-windows-laptop)
-  - [How to generate SSH key from Linux Laptop]
+  - [How to generate SSH key from Linux Laptop](./create-new-ssh-using-stackbill#how-to-generate-ssh-key-from-linux-laptop)
 - [Uploading the existing Key](./uploading-the-existing-key#uploading-the-ssh-existing-key-in-stackbill-cloud-management-portal)
 - [Download a SSH Key](./download-ssh-key#download-ssh-in-stackbill-cloud-management-portal)
 - [Delete a SSH key](./download-ssh-key#download-ssh-in-stackbill-cloud-management-portal)

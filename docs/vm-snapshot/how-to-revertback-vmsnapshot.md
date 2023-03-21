@@ -1,6 +1,6 @@
 ---
-title: How to Revertback VM Snapshot
-sidebar_label: How to Revertback VM Snapshot
+title: Revertback VM Snapshot
+sidebar_label: Revertback VM Snapshot
 ---
 
 ## How to Revertback VM Snapshot in StackBill CMP

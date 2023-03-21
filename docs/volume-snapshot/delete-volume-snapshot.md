@@ -7,7 +7,7 @@ sidebar_label: Delete Volume Snapshot
 
 - click on the **Virtual Resources** dropdown below the DashBoard icon, which is available in the top left corner. From the dropdown, click on **Snapshot** option.
 
-<img src="/img/templatefromvolume/templatefromvolume1-StackBillCMP.png" width="60%" />
+<img src="/img/templatefromvolume/templatefromvolume1-StackBillCMP.png" width="80%" />
 
 - Volume Snapshot screen appears
 

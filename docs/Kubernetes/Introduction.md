@@ -11,6 +11,8 @@ sidebar_label: Introduction
 
 Kubernetes is an open-source container orchestration system for automating software deployment, scaling, and management.
 
+<img src="/img/Kubernetes/Kubernetes- StackBillCMP.png" width="60%" />
+
 - [Creating Cluster](./Creatingcluster#creating-cluster-in-stackbill-cmp)
 - [Creating Identification](./Creatingcluster#cluster-identification)
 - [Cluster Image Selection](./Creatingcluster#cluster-image-selection)
@@ -19,4 +21,4 @@ Kubernetes is an open-source container orchestration system for automating softw
 - [Configuring High Availability](./Creatingcluster#configuring-high-availability)
 - [SSH Key pair](./Creatingcluster#ssh-key-pair)
 - [Image Repository](./Creatingcluster#image-repository)
-- [Cluster Creation]
+

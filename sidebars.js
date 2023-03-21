@@ -54,15 +54,6 @@ module.exports = {
     },
     {
       type: "category",
-      label: "Kubernetes",
-      collapsed: false,
-      items: [
-        "Kubernetes/Introduction",
-        "Kubernetes/Creatingcluster",
-      ],
-    },
-    {
-      type: "category",
       label: "Auto Scaling",
       collapsed: false,
       items: [
@@ -157,6 +148,15 @@ module.exports = {
       label: "Plugins Documentation",
       collapsed: false,
       items: ["plugins"],
+    },
+    {
+      type: "category",
+      label: "Kubernetes",
+      collapsed: false,
+      items: [
+        "Kubernetes/Introduction",
+        "Kubernetes/Creatingcluster",
+      ],
     },
   ],
   Marketplace: [

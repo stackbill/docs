@@ -232,7 +232,29 @@ Note: SSH Key pair configuration will be available only for Linux templates.
 
 ##  Remote Desktop to Your Instance From a Linux Computer using Rdesktop
 
->> Need to get content from Loges
+- Once the user open linux screen at the top left corner there is a option called **Application**
+- Click on it to view the drop down. 
+
+<img src="/img/AccessingLinux/Linux-StackBillCMP.png" width="90%" />
+
+- From the drop down, Click on **Utilities**.
+- From the utilities, Click on **Remote Desk Viewer**
+
+
+<img src="/img/AccessingLinux/2Accessingwindowsvminlinux-StackBIllCMP.png" width="80%" />
+
+- Remote desk viewer screen appears.
+- At the top left corner there is a option called **Connect**, Click on it.
+
+<img src="/img/AccessingLinux/3Accessingwindowsvminlinux-StackBIllCMP.png" width="80%" />
+
+- Change the Protocol into **RDP** to access the Windows VM in linux machine.
+
+<img src="/img/AccessingLinux/4Accessingwindowsvminlinux-StackBIllCMP.png" width="90%" />
+
+- Enter the Public Ip in the Host option.
+- Enter the username and password.
+- Finally click on the Connect button.
 
 ## Accessing your Linux virtual instance from your windows Laptop or Desktop
 
@@ -442,7 +464,7 @@ Also, **stackbill CMP** provide you the **basic virtual instance monitoring info
 - **Enter the VM name** - Here the user needs to enter the name of the instance to install.
 - Finally **click OK** button.
 
-<img src="/img/virtualresources/Reinstall-StackbillCloudManagement.png" width="80%" />
+<img src="/img/virtualresources/Reinstall-StackbillCloudManagement.png" width="100%" />
 
 - **Now the instance has been reinstalled successfully.**
 
