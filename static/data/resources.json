@@ -1,0 +1,55 @@
+[
+    {
+        "title": "Getting Started",
+        "img": "img/icons/getting-started-46x46.png",
+        "link": "docs/virtualresources/Instance",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum"
+      },
+      {
+        "title": "Virtual Resources",
+        "img": "img/icons/virtual-resource-46x46.png",
+        "link": "",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum"
+      },
+      {
+        "title": "Storage",
+        "img": "img/icons/storage-snapshot-46x46.png",
+        "link": "",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum"
+      },
+      {
+        "title": "Volume Snapshot",
+        "img": "img/icons/volume-snapshot-46x46.png",
+        "link": "",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum"
+      },
+      {
+        "title": "Vm Snapshot",
+        "img": "/img/icons/vm-snapshot-46x46.png",
+        "link": "",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum"
+      },
+      {
+        "title": "Auto Scaling",
+        "img": "img/icons/storage-snapshot-46x46.png",
+        "link": "",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum"
+      },
+      {
+        "title": "Marketplace",
+        "img": "/img/icons/market-place-46x46.png",
+        "link": "",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum"
+      },
+      {
+        "title": "Networks",
+        "img": "img/icons/network-46x46.png",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum"
+      },
+      {
+        "title": "Billing",
+        "img": "img/icons/billing-46x46.png",
+        "link": "",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum"
+      }
+]
