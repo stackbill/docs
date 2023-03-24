@@ -8,6 +8,17 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  background: url("/img/stackbill-bg.jpg");
+  background-position: center;
+}
+
+.sbTitle {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.sbSubTitle {
+  padding-bottom: 10px;
 }
 
 @media screen and (max-width: 996px) {

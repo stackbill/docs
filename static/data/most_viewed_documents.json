@@ -1,0 +1,42 @@
+[
+    {
+        "text": "How to create Instance",
+        "link": "/docs/virtualresources/Instance"
+    },
+    {
+        "text": "APPS - Marketplace",
+        "link": "/docs/Marketplace/Overview"
+    },
+    {
+        "text": "How to create kubernetes cluster",
+        "link": "docs/Kubernetes/Introduction"
+    },
+    {
+        "text": "How to enable monitoring",
+        "link": "/docs/Monitoring/introduction"
+    },
+    {
+        "text": "Configuring VM scheduler",
+        "link": "google.com"
+    },
+    {
+        "text": "User Guide",
+        "link": "google.com"
+    },
+    {
+        "text": "User Guide",
+        "link": "google.com"
+    },
+    {
+        "text": "User Guide",
+        "link": "google.com"
+    },
+    {
+        "text": "User Guide",
+        "link": "google.com"
+    },
+    {
+        "text": "User Guide",
+        "link": "google.com"
+    }
+]

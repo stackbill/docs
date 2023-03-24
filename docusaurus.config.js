@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Stackbill Documentation",
   tagline: "Stackbill Documentation",
-  url: "https://docs2.stackbill.com",
+  url: "https://docs.stackbill.com",
   baseUrl: "/",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
@@ -82,10 +82,6 @@ const config = {
           width: 139,
           height: 28,
         },
-        // logo: {
-        //   alt: "Stackbill Logo",
-        //   src: "/logo.png",
-        // },
         items: [
           {
             type: "doc",
@@ -111,7 +107,13 @@ const config = {
             label: "APIs",
             position: "left",
           },
-
+          {
+            href: 'https://www.stackbill.com/blog/',
+            label: 'Blog',
+            position: 'left',
+            target: "_blank",
+            className: "top-bar-blog-link"
+          },
           // {
           //   type: "docsVersionDropdown",
           //   position: "right",
@@ -127,113 +129,78 @@ const config = {
             position: "right",
             items: [
               {
-                href: "https://ionicframework.com/support",
+                href: "https://clients.assistanz.com",
                 label: "Help Center",
                 target: "_blank",
                 rel: null,
               },
               {
-                href: "https://ionic.zendesk.com/",
+                href: "https://www.stackbill.com/",
                 label: "Customer Support",
                 target: "_blank",
                 rel: null,
-              },
-              {
-                href: "https://ionicframework.com/advisory",
-                label: "Enterprise Advisory",
-                target: "_blank",
-                rel: null,
-              },
+              }
             ],
             className: "navbar__link--support",
           },
-
-          // {
-          //   type: "separator",
-          //   position: "right",
-          // },
           {
             type: "localeDropdown",
             position: "right",
             className: "icon-link navbar__item",
           },
-          // {
-          //   type: "iconLink",
-          //   position: "right",
-          //   icon: {
-          //     alt: "twitter logo",
-          //     src: `/logos/twitter.svg`,
-          //     href: "https://twitter.com/Ionicframework",
-          //     target: "_blank",
-          //   },
-          // },
-          // {
-          //   type: "iconLink",
-          //   position: "right",
-          //   icon: {
-          //     alt: "github logo",
-          //     src: `/logos/github.svg`,
-          //     href: "https://github.com/ionic-team/ionic-framework",
-          //     target: "_blank",
-          //   },
-          // },
-          // {
-          //   type: "iconLink",
-          //   position: "right",
-          //   icon: {
-          //     alt: "discord logo",
-          //     src: `/logos/discord.svg`,
-          //     href: "https://ionic.link/discord",
-          //     target: "_blank",
-          //   },
-          // },
+          {
+            href: 'https://github.com/stackbill/docs',
+            label: 'GitHub',
+            position: 'right',
+            className: "top-bar-github-link"
+          },
         ],
       },
-      // footer: {
-      //   style: "dark",
-      //   links: [
-      //     {
-      //       title: "Docs",
-      //       items: [
-      //         {
-      //           label: "Tutorial",
-      //           to: "/docs/intro",
-      //         },
-      //       ],
-      //     },
-      //     {
-      //       title: "Community",
-      //       items: [
-      //         {
-      //           label: "Stack Overflow",
-      //           href: "https://stackoverflow.com/questions/tagged/docusaurus",
-      //         },
-      //         {
-      //           label: "Discord",
-      //           href: "https://discordapp.com/invite/docusaurus",
-      //         },
-      //         {
-      //           label: "Twitter",
-      //           href: "https://twitter.com/docusaurus",
-      //         },
-      //       ],
-      //     },
-      //     {
-      //       title: "More",
-      //       items: [
-      //         {
-      //           label: "Blog",
-      //           to: "/blog",
-      //         },
-      //         {
-      //           label: "GitHub",
-      //           href: "https://github.com/facebook/docusaurus",
-      //         },
-      //       ],
-      //     },
-      //   ],
-      //   copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-      // },
+      footer: {
+        style: "dark",
+        // links: [
+        //   {
+        //     title: "Docs",
+        //     items: [
+        //       {
+        //         label: "Tutorial",
+        //         to: "/docs/intro",
+        //       },
+        //     ],
+        //   },
+        //   {
+        //     title: "Community",
+        //     items: [
+        //       {
+        //         label: "Stack Overflow",
+        //         href: "https://stackoverflow.com/questions/tagged/docusaurus",
+        //       },
+        //       {
+        //         label: "Discord",
+        //         href: "https://discordapp.com/invite/docusaurus",
+        //       },
+        //       {
+        //         label: "Twitter",
+        //         href: "https://twitter.com/docusaurus",
+        //       },
+        //     ],
+        //   },
+        //   {
+        //     title: "More",
+        //     items: [
+        //       {
+        //         label: "Blog",
+        //         to: "/blog",
+        //       },
+        //       {
+        //         label: "GitHub",
+        //         href: "https://github.com/facebook/docusaurus",
+        //       },
+        //     ],
+        //   },
+        // ],
+        copyright: `Copyright © ${new Date().getFullYear()} StackBill. All rights reserved`,
+      },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
