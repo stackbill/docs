@@ -198,3 +198,11 @@ iframe {
 .navbar__items {
   flex: none !important;
 }
+
+.top-bar-github-link {
+  order: 4 !important;
+}
+
+.top-bar-blog-link > svg {
+  display: none !important;
+}
