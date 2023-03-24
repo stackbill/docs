@@ -4,7 +4,7 @@ sidebar_label: Security Group Firewall
 ---
 
 
-- The purpose of security groups in StackBill CMP is to isolate traffic to virtual machines.
+- The purpose of **Security groups in StackBill CMP** is to isolate traffic to virtual machines.
 
 - Security groups are groups of virtual machines that filter their traffic based on ingress and egress rules.
 
@@ -40,6 +40,14 @@ sidebar_label: Security Group Firewall
 <img src="/img/securitygroup/securitygroups5-stackbillCloudManagementPortal.png" width="100%" />
 
 - In the **Action** section we can **edit,manage,and delete** the **security group.**
+
+-----------------------------------------------------
+
+
+**About StackBill**
+
+**[StackBill](https://www.youtube.com/watch?v=nyV8oE3dfXs) is a complete self-service intuitive [Cloud Management Portal](https://www.stackbill.com/) with extensive features leveraging Apache CloudStack® with state of art years of expertise.**
+
 
 
 

@@ -5,9 +5,11 @@ sidebar_label: Setup Profile
 
 ## Setting up user profile in StackBill CMP
 
+**StackBill CMP**'s Profile feature allows users to change their password and set up payment settings for their convenience. In addition, users can view their credits, promocodes. The Profile feature in [**StackBill CMP**](https://www.stackbill.com/)  provides a comprehensive view of a user's account.
+
 <img src="/img/gettingstarted/Userprofile1-StackBillCloudManagementportal.png" width="80%" />
 
-- Once you enter the portal, you will see the **My Profile option**, where you can update your information and upload images.
+- Once you enter into the **StackBill** portal, you will see the **My Profile option**, where you can update your information and upload images.
 
 <img src="/img/gettingstarted/Userprofile2-StackBillCloudManagementportal.png" width="80%" />
 
@@ -81,7 +83,7 @@ sidebar_label: Setup Profile
 
 <img src="/img/gettingstarted/Deleteaccount-StackBillCMP.png" width="80%" />
 
-- Kindly follow the procedure to **delete your account** from StackBill.
+- Kindly follow the procedure to **delete your account** from **StackBill.**
 
 ---
 

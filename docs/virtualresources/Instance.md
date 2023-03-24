@@ -8,17 +8,17 @@ sidebar_label: Instance
 
 **[StackBill](https://www.stackbill.com/)** Instances are running on virtualized hardware. You can use them standalone or as part of larger, cloud-based infrastructures.
 
-Users can **start, stop, reboot, and destroy** their own created virtual machines in **[Stackbill CMP](https://www.stackbill.com/)**, by giving them complete control over their cloud-based virtual machines.
+Users can **start, stop, reboot, and destroy** their own created virtual machines in **[Stackbill CMP](https://youtu.be/wwOL091GyFM)**, by giving them complete control over their cloud-based virtual machines.
 
-- There are **two types of instance deployment types available in the stackbill Cloud Management** Portal.  
+- There are two types of instance deployment types available in the **StackBill Cloud Management Portal.**  
 
-**Quick Deploy** 
+   [Quick Deploy](./Instance#quick-deploy-in-stackbill-cmp)  |   [Advanced Deploy](./Instance#advanced-deploy-in-stackbill-cmp)
 
-**Advanced Deploy**
+
 
 - The main difference between these two deployments is that **quick deployment** is mainly for novice users **who have very limited knowledge of cloud computing.**
 
-- A user with **good knowledge of cloud technology can use advance deploy.**
+- A user with **good knowledge of cloud technology can use advance deploy in StackBill CMP.**
 
 
 ## Quick Deploy in StackBill CMP
@@ -31,26 +31,26 @@ Users can **start, stop, reboot, and destroy** their own created virtual machine
 
 <img src="/img/instance/Instancecreation1-StackBillCloudManagementPortal.png" width="70%" />
 
-- Stackbill CMP offers you two types platforms. They are: **Linux** and **Windows**.
+- **StackBill CMP**s offers you two types platforms. They are: **Linux** and **Windows**.
 
 ### Distribution Types
 
 <img src="/img/instance/Instancecreation3-StackBillCloudManagementPortal.png" width="100%" />
 
-- Stackbill offers you various types of operating system flavors like Windows Server Editions, Linux, Debian, etc..,
+- **StackBill** offers you various types of operating system flavors like Windows Server Editions, Linux, Debian, etc..,
 
 - There are 4 types of segregation available in the distribution selection. They are: **All**, **OS only, MarketPlace** & **My Images + ISO** 
 
-- **All** - It will display all the OS flavours which are available in the Stackbill Cloud Management Portal.
+- **All** - It will display all the OS flavours which are available in the **StackBill Cloud Management Portal.**
 - **OS Only** - It will display only the OS related templates.
-- **Marketplace** - Stackbill marketplace will offers you launch instances using various type of open source applications in less time.
-- **My Images + ISO** - It will display user created OS templates and also it will contains the default ISO images which Stackbill will provide automatically.
+- **Marketplace** - **StackBill** marketplace will offers you launch instances using various type of open source applications in less time.
+- **My Images + ISO** - It will display user created OS templates and also it will contains the default ISO images which **StackBill** will provide automatically.
 
 ### Compute Plans
 
 <img src="/img/instance/Instancecreationplan-StackBillCloudManagementportal.png" width="100%" />
 
-- You need to select from the list of plans which are available in the StackBill CMP. These plans will be configured by your stackbill administrator.
+- You need to select from the list of plans which are available in the **StackBill CMP.** These plans will be configured by your **StackBill** administrator.
 
 - Select the appropriate plan for your instance.
 
@@ -70,7 +70,7 @@ Users can **start, stop, reboot, and destroy** their own created virtual machine
 
 <img src="/img/instance/1firewall-StackBillCloudManagementPortal.png" width="100%" />
 
-- We can either ON or OFF the cloud firewall using the toggle button for your virtual instance.
+- We can either **ON or OFF** the cloud firewall using the toggle button for your virtual instance.
 
 - Once the cloud firewall is in the **ON** state, we need to provide the list of required ports that need to be opened in the attached network for your instance.
 - Once the cloud firewall is in an **OFF** state, there will not be any restrictions, (i.e.) all the incoming & outgoing ports will be open for this instance.
@@ -87,7 +87,7 @@ Note: SSH Key pair configuration will be available only for Linux templates.
 - You can select your existing SSH key pair from the drop-down list. 
 
 - Also, you can able to create a new SSH key pair using Add SSH Key pair button.
-- You can also upload your existing SSH key pair to your Stackbill CMP.
+- You can also upload your existing SSH key pair to your **StackBill CMP.**
 
 
 ### Instance Information
@@ -113,7 +113,7 @@ Note: SSH Key pair configuration will be available only for Linux templates.
 
  ### Overview
 
-- **Advance Deploy** will be useful for the experienced users who have prior knowledge about cloud platform. Also, users who needs to customize virtual instance can use this option.
+- **Advance Deploy in StackBill CMP** will be useful for the experienced users who have prior knowledge about cloud platform. Also, users who needs to customize virtual instance can use this option.
 
 <img src="/img/instance/1AdvanceDeploy-StackBillCloudManagementPortal.png" width="60%" />
 
@@ -125,27 +125,27 @@ Note: SSH Key pair configuration will be available only for Linux templates.
 
 <img src="/img/instance/Instancecreation1-StackBillCloudManagementPortal.png" width="70%" />
 
-- Stackbill CMP offers you two types platforms. They are: **Linux** and **Windows**.
+- **Stackbill CMP** offers you two types platforms. They are: **Linux** and **Windows**.
 
 ### Distribution Types
 
 <img src="/img/instance/Instancecreation3-StackBillCloudManagementPortal.png" width="100%" />
 
 
-- Stackbill offers you various types of operating system flavors like Windows Server Editions, Linux, Debian, etc..,
+- **StackBill Cloud Management Portal** offers you various types of operating system flavors like Windows Server Editions, Linux, Debian, etc..,
 
 - There are 4 types of segregation available in the distribution selection. They are: **All**, **OS only & **My Images + ISO** 
 
 
-- **All**  It will display all the OS flavours which are available in           the Stackbill Cloud Management Portal.
+- **All**  It will display all the OS flavours which are available in the **StackBill Cloud Management Portal.**
 - **OS Only** - It will display only the OS related templates.
-- **My Images + ISO** - It will display user created OS templates and also it will contains the default ISO images which Stackbill will provide automatically.
+- **My Images + ISO** - It will display user created OS templates and also it will contains the default ISO images which **StackBill** will provide automatically.
 
 ### Compute Plans
 
 <img src="/img/instance/Instancecreationplan-StackBillCloudManagementportal.png"/>
 
-- You need to select the list of plans which are available in the stackbill CMP. These plans will be configured by your stackbill administrator. 
+- You need to select the list of plans which are available in the stackbill CMP. These plans will be configured by your **StackBill** administrator. 
 
 - Select the appropriate plan for your instance.
 
@@ -171,7 +171,7 @@ Note: SSH Key pair configuration will be available only for Linux templates.
 
 <img src="/img/instance/blockstorage-StackBillCloudManagementPortal.png" width="100%" />
 
-- Stackbill CMP will provide you with various types of plans to add additional storage for your virtual instance. Select the required size based on your requirement.
+- **Stackbill CMP** will provide you with various types of plans to add additional storage for your virtual instance. Select the required size based on your requirement.
 
 ### SSH Key Configuration
 
@@ -184,13 +184,13 @@ Note: SSH Key pair configuration will be available only for Linux templates.
 - You can select your existing SSH key pair from the drop-down list. 
 
 - Also, you can able to create a new SSH key pair using Add SSH Key pair button.
-- You can also upload your existing SSH key pair to your Stackbill CMP.
+- You can also upload your existing SSH key pair to your **Stackbill CMP.**
 
 ### Instance Information
 
 <img src="/img/instance/Instancecreationidentify-StackBillCloudManagementPortal.png" width="80%" />
 
-- Finally, you need to provide a name for your instance. By default, the Stackbill portal will assign a name to your instance and you can be modified based on your requirements.
+- Finally, you need to provide a name for your instance. By default, the **Stackbill Cloud Management Portal** will assign a name to your instance and you can be modified based on your requirements.
 - Also, you need to specify the number of instances that need to create.
 
 ### Instance Cost Estimation
@@ -378,21 +378,21 @@ Note: By default, CentOS username will be **root** and Ubuntu OS username will b
 
 ### Summary Overview in StackBill CMP
 
-**Stackbill Cloud Management Portal** has designed an exclusive user friendly instance dashboard especially for novice users. **This dashboard will provide you various information about instance such as Instance Zone, Instance status, Instance IP's, SSH keypair, and many more.**
+- **Stackbill Cloud Management Portal** has designed an exclusive user friendly instance dashboard especially for novice users. **This dashboard will provide you various information about instance such as Instance Zone, Instance status, Instance IP's, SSH keypair, and many more.**
 
-Also, **stackbill CMP** provide you the **basic virtual instance monitoring information such as CPU, Memory, Disk & Network**. If you need detailed information about the services, then user need to enable Advanced monitoring for your virutal instance.
+- Also, **stackbill CMP** provide you the **basic virtual instance monitoring information such as CPU, Memory, Disk & Network**. If you need detailed information about the services, then user need to enable Advanced monitoring for your virutal instance.
 
-**Stackbill** will continue to enhance the UI/UX experience so that the user can access the functionalities with greater clarity and ease.
+- **Stackbill** will continue to enhance the UI/UX experience so that the user can access the functionalities with greater clarity and ease.
 
 ### Start, Stop & Restart Virtual Instance
 
-- Stackbill Portal has provide you handy functionality to **start, stop and restart** your virtual instance without any hassles.
+- **Stackbill  Cloud Management Portal** has provide you handy functionality to **start, stop and restart** your virtual instance without any hassles.
 
 <img src="/img/Instancedetails/1Instancedetails-StackBillCloudManagementPortal.png" width="100%" />
 
 ### VM snapshots
 
-- We can able to take **VM snapshots from the instance details page**. Detailed information about VM snapshots are under [snapshots](../vm-snapshot/creating-a-vm-snapshot#creating-vm-snapshot-in-stackbill-cmp) section.
+- We can able to take **VM snapshots from the instance details page**. Detailed information about **VM snapshots** are under [snapshots](../vm-snapshot/creating-a-vm-snapshot#creating-vm-snapshot-in-stackbill-cmp) section.
  
  <img src="/img/Instancedetails/2Instancedetails-StackBillCloudManagementPortal.png" width="100%" />
 
@@ -530,11 +530,7 @@ Below is the following steps for Accessing console for the instance.
 
 ### Instance Resize 
 
-Stackbill CMP offers you flexible way to migrate your instance plan from one plan to another using simple GUI Interface.
-
-:::info
-**Note: To resize an instance, make sure that your instance is in stopped state.**
-:::
+**Stackbill Cloud Management Portal** offers you flexible way to migrate your instance plan from one plan to another using simple GUI Interface.
 
 - **Resizing an instance in StackBill CMP is simple as following these steps**
 
@@ -565,7 +561,7 @@ Before resizing the instance, **ensure** that the **instance has been stopped**.
 
 ## Savings Plans in StackBill CMP
 
-Savings Plans in [**StackBill**](https://www.stackbill.com/) are a flexible pricing model that offer low prices on resource usage, in exchange for a commitment to a consistent amount of usage (measured in ₹ /hour) for long term.
+Savings Plans in [**StackBill Cloud Management Portal**](https://www.stackbill.com/) are a flexible pricing model that offer low prices on resource usage, in exchange for a commitment to a consistent amount of usage (measured in ₹ /hour) for long term.
 
 :::info
 - **Before enabling a saving plan ensure the instance is on stopped stage.**
@@ -686,17 +682,17 @@ Savings Plans in [**StackBill**](https://www.stackbill.com/) are a flexible pric
 
 ### Monitoring agent in StackBill CMP
 
-- Stackbill Portal will provide you the detailed monitoring feature to monitor your virtual resources like CPU Usage, Memory Consumption, I/O, Network, Disk Usage, Process etc.
+- **Stackbill** Portal will provide you the detailed monitoring feature to monitor your virtual resources like CPU Usage, Memory Consumption, I/O, Network, Disk Usage, Process etc.
 
 - Please refer [monitoring](../Monitoring/Dashboard-Overview#dashboard-overview-in-stackbill-cmp) section for more information.
 
 ### Access & Security
 
-- Stackbill CMP will provide additional security features to your virtual machines such as SSH key pair. You can able to add or upload existing SSH key pair under this section.
+- **Stackbill CMP** will provide additional security features to your virtual machines such as SSH key pair. You can able to add or upload existing SSH key pair under this section.
 
 ### VM Scheduler in StackBill CMP
 
-- VM Scheduling is process of start or stop your virtual machines automatically at certain date and time.  Using Stackbill CMP you can achieve this.
+- VM Scheduling is process of start or stop your virtual machines automatically at certain date and time.  Using **Stackbill CMP** you can achieve this.
 
 With **StackBill's VM scheduler**, **you can start and stop instances automatically**. You can **manage instances more efficiently** by automating the process with a VM scheduler. You can set up instance schedules for both on-off workloads.
 
@@ -739,3 +735,8 @@ With **StackBill's VM scheduler**, **you can start and stop instances automatica
 <img src="/img/Accessing/Notes-StackBillCloudManagementPortal.png" width="100%" />
 
 - **Notes** - In this option the user can take notes.
+
+
+**About StackBill**
+
+**[StackBill](https://www.youtube.com/watch?v=nyV8oE3dfXs) is a complete self-service intuitive [Cloud Management Portal](https://www.stackbill.com/) with extensive features leveraging Apache CloudStack® with state of art years of expertise.**

@@ -9,3 +9,7 @@ When a VM snapshot is taken, a copy of the virtual machine's disk file and memor
 
 - [Creating VM Snapshot](./creating-a-vm-snapshot#creating-vm-snapshot-in-stackbill-cmp) 
 - [How to Revertback VM Snapshot](./how-to-revertback-vmsnapshot#how-to-revertback-vm-snapshot-in-stackbill-cmp)
+
+**About StackBill**
+
+**[StackBill](https://www.youtube.com/watch?v=nyV8oE3dfXs) is a complete self-service intuitive [Cloud Management Portal](https://www.stackbill.com/) with extensive features leveraging Apache CloudStack® with state of art years of expertise.**

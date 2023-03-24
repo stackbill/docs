@@ -107,3 +107,6 @@ Savings Plans in [**StackBill**](https://www.stackbill.com/) are a flexible pric
 
 - Now the **Reserved offering is successfully configured.**
 
+**About StackBill**
+
+[**StackBill**](https://www.stackbill.com/stackbill-overview.html#compute) is a complete self-service intuitive Cloud Management Portal with extensive features leveraging **Apache CloudStack®** with state of art years of expertise.

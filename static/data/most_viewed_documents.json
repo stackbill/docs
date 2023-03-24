@@ -16,27 +16,27 @@
         "link": "/docs/Monitoring/introduction"
     },
     {
-        "text": "Configuring VM scheduler",
-        "link": "google.com"
+        "text": "Cloud Billing Solution",
+        "link": "/docs/Billing/Overview#billing-system-in-stackbill-cloud-management-portal"
     },
     {
-        "text": "User Guide",
-        "link": "google.com"
+        "text": "SSH key from windows",
+        "link": "/docs/ssh-keymanager/create-new-ssh-using-stackbill#how-to-generate-ssh-key-from-windows-laptop"
     },
     {
-        "text": "User Guide",
-        "link": "google.com"
+        "text": "Savings plan",
+        "link": "/docs/virtualresources/Instance#savings-plans-in-stackbill-cmp"
     },
     {
-        "text": "User Guide",
-        "link": "google.com"
+        "text": "Adding Firewall",
+        "link": "docs/Network/Security-Group-Firewall#add-security-group-in-stackbill-cmp"
     },
     {
-        "text": "User Guide",
-        "link": "google.com"
+        "text": "Autoscaling",
+        "link": "/docs/autoscalling/autoscaling-deployment#add-autoscaling-feature-to-the-instance-in-stackbill-cmp"
     },
     {
-        "text": "User Guide",
-        "link": "google.com"
+        "text": "Networking",
+        "link": "/docs/Network/basic-network#network-manager-in-stackbill-cmp"
     }
 ]

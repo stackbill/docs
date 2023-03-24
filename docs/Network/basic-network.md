@@ -12,7 +12,7 @@ sidebar_label: Basic Network
 
 [**StackBill**](https://www.stackbill.com/) provides private networking, traffic filtering, and load balancing so you can secure and control your application traffic.
 
-- There are two types of network available in StackBill CMP they are **L2 network**, and **Isolated network**.
+- There are two types of network available in **StackBill CMP** they are **L2 network**, and **Isolated network**.
 
 ### L2 Network on Stackbill Cloud Management portal.
 
@@ -136,7 +136,7 @@ sidebar_label: Basic Network
 
 - In other words, As per wikipedia, it expains " **Network address translation is a method of mapping an IP address space into another by modifying network address information in the IP header of packets while they are in transit across a traffic routing device**"
 
--  In stackbill CMP, there are two types of NAT is available. They are: **Source NAT** & **Static NAT**
+-  In **StackBill CMP**, there are two types of NAT is available. They are: **Source NAT** & **Static NAT**
 
 - **Source NAT** - It will be used as shared NAT, in other words, using this source NAT IP, we can able to access multiple virtual machines.
 
@@ -367,3 +367,10 @@ A **load balancer** can be deployed as **software or hardware** to a device that
 
 - The **load balancer has been successfully configured on the instance.**
 - It is now possible to view the created policy on the Loadbalancer dashboard.
+
+
+-----------------------------------------------------
+
+**About StackBill**
+
+**[StackBill](https://www.youtube.com/watch?v=nyV8oE3dfXs) is a complete self-service intuitive [Cloud Management Portal](https://www.stackbill.com/) with extensive features leveraging Apache CloudStack® with state of art years of expertise.**

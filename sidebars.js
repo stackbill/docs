@@ -29,6 +29,9 @@ module.exports = {
       items: [
         "StorageAndSnapshot/introduction",
         "StorageAndSnapshot/volume",
+        "StorageAndSnapshot/Extend-root-volume",
+        "StorageAndSnapshot/attach-data-volume",
+        "StorageAndSnapshot/extend-data-volume",
       ],
     },
     {

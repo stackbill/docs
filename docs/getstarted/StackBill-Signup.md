@@ -5,7 +5,7 @@ sidebar_label: StackBill Signup
 
 # Welcome to Stackbill Documentation
 
-[**StackBill**](https://www.youtube.com/watch?v=nyV8oE3dfXs&t=1s) portal offers a simple and intuitive web-based user interface, **StackBill CMP** allows you to
+[**StackBill**](https://www.youtube.com/watch?v=nyV8oE3dfXs&t=1s) portal offers a simple and intuitive web-based user interface, [**StackBill CMP**](https://www.stackbill.com/stackbill-overview.html#compute) allows you to
 
 - **Manage to compute resources** - Easily access and manage your virtual instances, Load Balancer, and Kubernetes.
 - You can **create an isolated network, VPC, VPN Gateway, Security groups, IP Manager, and many more.**
@@ -17,7 +17,7 @@ sidebar_label: StackBill Signup
 
 ## Getting Started with StackBill CMP {#cmp}
 
-The StackBill CMP **account sign-up page** allows you to create **a new StackBill account** if you don't already have one. **StackBill Cloud Management portal** allows you to access and manages your Cloud resources through a simple and intuitive web-based user interface.
+The **StackBill CMP** **account sign-up page** allows you to create **a new StackBill account** if you don't already have one. **StackBill Cloud Management portal** allows you to access and manages your Cloud resources through a simple and intuitive web-based user interface.
 
 - **You can create an account on Stackbill CMP by following the instructions below.**
 
@@ -59,7 +59,7 @@ The StackBill CMP **account sign-up page** allows you to create **a new StackBil
 
 ## How to Login into StackBill CMP
 
-- To Access the stackbill cloud management portal, type the URL in your browser and press Enter.
+- To Access the **stackbill cloud management portal,** type the URL in your browser and press Enter.
 
 
 - Usually, the default URL type will be **https://yourdomainname/login**
@@ -78,7 +78,7 @@ The StackBill CMP **account sign-up page** allows you to create **a new StackBil
 
 You can retrieve your account if you forget your password with Stackbill CMP.
 
- - Access your stackbill CMP URL and click on the **forgotten password.**
+ - Access your **stackbill CMP** URL and click on the **forgotten password.**
 
 <img src="/img/gettingstarted/Forgotpassword1-StackBillCloudManagementPortal.png" width="60%" />
 
@@ -96,3 +96,12 @@ You can retrieve your account if you forget your password with Stackbill CMP.
 <img src="/img/gettingstarted/Forgotpassword4-StackBillCloudManagementPortal.png" width="80%" />
 
 - The password for the account has been successfully reset.
+
+----------------------------------------
+
+
+**About StackBill**
+
+**[StackBill](https://www.youtube.com/watch?v=nyV8oE3dfXs) is a complete self-service intuitive [Cloud Management Portal](https://www.stackbill.com/) with extensive features leveraging Apache CloudStack® with state of art years of expertise.**
+
+

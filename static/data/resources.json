@@ -3,53 +3,53 @@
         "title": "Getting Started",
         "img": "img/icons/getting-started-46x46.png",
         "link": "docs/virtualresources/Instance",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum"
+        "description": "Start your cloud journey with StackBill CMP"
       },
       {
         "title": "Virtual Resources",
         "img": "img/icons/virtual-resource-46x46.png",
         "link": "",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum"
+        "description": "StackBill Virtual resources are flexible, scalable, and accessible on-demand, typically hosted in Apache CloudStack environments."
       },
       {
         "title": "Storage",
         "img": "img/icons/storage-snapshot-46x46.png",
         "link": "",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum"
+        "description": "StackBill Storage refers to the capacity to store and retain data, either temporarily or permanently."
       },
       {
         "title": "Volume Snapshot",
         "img": "img/icons/volume-snapshot-46x46.png",
         "link": "",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum"
+        "description": "StackBill Volume Snapshot, also known as a point-in-time snapshot, is a backup copy of a storage volume taken at a specific moment in time."
       },
       {
         "title": "Vm Snapshot",
         "img": "/img/icons/vm-snapshot-46x46.png",
         "link": "",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum"
+        "description": "StackBill VM Snapshot is a backup of a virtual machine's current state, including its memory, settings, and disk contents."
       },
       {
         "title": "Auto Scaling",
         "img": "img/icons/storage-snapshot-46x46.png",
         "link": "",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum"
+        "description": "StackBill's Autoscaling allows resources to automatically increase or decrease based on the demand. "
       },
       {
         "title": "Marketplace",
         "img": "/img/icons/market-place-46x46.png",
         "link": "",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum"
+        "description": "StackBill Marketplace provides access to a range of pre-built software applications and services."
       },
       {
         "title": "Networks",
         "img": "img/icons/network-46x46.png",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum"
+        "description": "StackBill network enables data transfer and communication between computers, servers, and other devices."
       },
       {
         "title": "Billing",
         "img": "img/icons/billing-46x46.png",
         "link": "",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum"
+        "description": "StackBill is a cloud billing platform that enables to offer their customers the convenience of paying in their preferred currency"
       }
 ]

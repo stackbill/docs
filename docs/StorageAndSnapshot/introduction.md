@@ -18,3 +18,10 @@ sidebar_label: Introduction
 - [Configuring Recurring snapshot](./volume#configuring-recurring-snapshot)
 - [Resize your volume](http://localhost:3000/docs/StorageAndSnapshot/volume#resize-your-volume)
 - [creating template for a volume](./volume#creating-template-for-a-volume)
+- [Extend the root volume](./Extend-root-volume#in-this-tutorial-well-show-you-how-to-extend-windows-vms-root-volume)
+- [Attach a data volume](./attach-data-volume#steps-to-attach-a-data-volume-in-windows-vm)
+- [Extend the data volume](./extend-data-volume#in-this-tutorial-well-show-you-how-to-extend-windows-vms-data-volume)
+
+**About StackBill**
+
+**[StackBill](https://www.youtube.com/watch?v=nyV8oE3dfXs) is a complete self-service intuitive [Cloud Management Portal](https://www.stackbill.com/) with extensive features leveraging Apache CloudStack® with state of art years of expertise.**

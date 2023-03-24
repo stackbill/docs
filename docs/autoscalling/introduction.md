@@ -7,3 +7,7 @@ sidebar_label: Introduction
 
 - [Auto Scaling Overview](./autoscaling-overview#overview-of-autoscaling-feature-in-stackbill-cloud-management-portal)
 - [Auto Scaling Deployment](./autoscaling-deployment#add-autoscaling-feature-to-the-instance-in-stackbill-cmp)
+
+**About StackBill**
+
+**[StackBill](https://www.youtube.com/watch?v=nyV8oE3dfXs) is a complete self-service intuitive [Cloud Management Portal](https://www.stackbill.com/) with extensive features leveraging Apache CloudStack® with state of art years of expertise.**

@@ -45,7 +45,7 @@ September 15th, 2022
 August 6th, 2022
 
 **What’s New**
-- ACS 4.16 upgrade and compatibility verification in StackBill
+- ACS 4.16 upgrade and compatibility verification in **StackBill**
 - VM settings integration
 - Vault HashiCorp integration for user key complaints
 - Advanced monitoring auto upgrade
@@ -120,3 +120,7 @@ February 27th, 2022
 **Improvements** 
 - API changes to Regenerate Tax Pending Status. 
 - Custom field with search filter.
+
+**About StackBill**
+
+**[StackBill](https://www.youtube.com/watch?v=nyV8oE3dfXs) is a complete self-service intuitive [Cloud Management Portal](https://www.stackbill.com/) with extensive features leveraging Apache CloudStack® with state of art years of expertise.**
