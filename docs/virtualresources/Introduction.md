@@ -4,16 +4,16 @@ sidebar_label: Introduction
 ---
 
 
-To create a virtual instance, you will need a StackBill account. If you don’t have one, you can create one from the StackBill account [sign-up page](https://stackbill.com/accounts/login/). StackBill CMP lets you access and manage your virtual instance through a simple and intuitive web-based user interface.
+To create a virtual instance, you will need a [**StackBill account.**](https://youtu.be/wwOL091GyFM) If you don’t have one, you can create one from the **StackBill** account [sign-up page](https://youtu.be/9-cFL7hu0-g). **StackBill CMP** lets you access and manage your virtual instance through a simple and intuitive web-based user interface.
 
-Additionally, you can also use the [Stackbill API](https://www.stackbill/api). This will enable you to programmatically perform various actions on your instances. Before you begin, make sure that you have created your API token using the stackbill portal.
+Additionally, you can also use the [Stackbill API](https://www.stackbill/api). This will enable you to programmatically perform various actions on your instances. Before you begin, make sure that you have created your API token using the **StackBill Cloud Management Portal.**
 
 
 
 **Getting Started with StackBill CMP** 
 
 - **Instance**
-    - Quick Deploy in StackBill CMP
+    - Quick Deploy in StackBill Cloud Management Portal
         - [Platform Selection](./Instance#platform-selection)
         - [Distribution Types](./Instance#distribution-types)
         - [Compute plans](./Instance#compute-plans)
@@ -23,7 +23,7 @@ Additionally, you can also use the [Stackbill API](https://www.stackbill/api). T
         - [Instance configuration](./Instance#instance-information)
         - [Usage Estimation](./Instance#instance-cost-estimation)
 
-    - Advanced Deploy in StackBill CMP
+    - Advanced Deploy in StackBill Cloud Management Portal
         - [Platform Selection](./Instance#platform-selection-1)
         - [Distribution Types](./Instance#distribution-types-1)
         - [Compute plans](./Instance#compute-plans-1)
@@ -55,4 +55,8 @@ Additionally, you can also use the [Stackbill API](https://www.stackbill/api). T
         - [Access & Security](./Instance#access--security)
         - [VM schdeuler](./Instance#vm-scheduler-in-stackbill-cmp)
         - [Notes](./Instance#notes)
+
+**About StackBill**
+
+**[StackBill](https://www.youtube.com/watch?v=nyV8oE3dfXs) is a complete self-service intuitive [Cloud Management Portal](https://www.stackbill.com/) with extensive features leveraging Apache CloudStack® with state of art years of expertise.**
 

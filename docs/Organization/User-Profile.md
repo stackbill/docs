@@ -78,7 +78,7 @@ sidebar_label: User Profile
 - On the left side of the pop-up menu, Click on the **Delete Account** button to **Delete Account in StackBill Cmp.**
 - We recommend that you to follow these steps before deleting your account.
 
-<img src="/img/my-organization/myorganization8-stackbillcloudmanagementportal" width="80%" />
+<img src="/img/my-organization/myorganization8-stackbillcloudmanagementportal.png" width="80%" />
 
 - Account delete screen appears on the screen.
 - Click on the **Request for account delete**.
@@ -175,3 +175,10 @@ sidebar_label: User Profile
 -   Here the user can be able to see the Alerts.
 
 <img src="/img/QuotaLimit/3MyActivity-StackBillCloudManagementPortal.png" width="80%" />
+
+-----------------------------------------------------
+
+
+**About StackBill**
+
+**[StackBill](https://www.youtube.com/watch?v=nyV8oE3dfXs) is a complete self-service intuitive [Cloud Management Portal](https://www.stackbill.com/) with extensive features leveraging Apache CloudStack® with state of art years of expertise.**

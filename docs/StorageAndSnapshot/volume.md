@@ -9,7 +9,7 @@ A storage volume is a virtual disk that provides persistent block storage space 
 
 ### Adding a Volume in StackBill CMP
 
-- click on the **Virtual Resources** dropdown below the DashBoard icon, which is available in the top left corner. From the dropdown, click on **Volume** option, **to create a new Volume**
+- click on the **Virtual Resources** dropdown below the DashBoard icon, which is available in the top left corner. From the dropdown, click on **Volume** option, **to create a new Volume**.
 
 <img src="/img/Addvolume/1Addvolume-StackBillCloudManagementPortal.png" width="90%" />
 
@@ -31,53 +31,7 @@ A storage volume is a virtual disk that provides persistent block storage space 
 ::: 
 
 
-
-#### How to format and make available a  volume in Windows Machine
-
-- Lets assume that you have already created an VM and volume has been attached to your windows instance.
-
-<img src="/img/volume/1Volume-StackBillCloudManagementPortal.png" width="90%" />
-
-
-- Login into your windows instance and right click on the windows button and select **disk management.**
-
-<img src="/img/volume/2Volume-StackBillCloudManagementPortal.png" width="40%" />
-
-- While access the disk management snap-in, it automatically detects your attached disk and prompt to initialize the disk. Click **OK** to continue.
-
-<img src="/img/volume/3Volume-StackBillCloudManagementPortal.png" width="90%" />
-
-- Currently, your attached disk will be in **unallocated** state. 
-- Right click on the disk and select **New Simple Volume**.
-
-<img src="/img/volume/4Volume-StackBillCloudManagementPortal.png" width="90%" />
-
-- New wizard will popup, click **Next** to continue.
-
-<img src="/img/volume/5Volume-StackBillCloudManagementPortal.png" width="70%" />
-
-- Specify the volume size, by default it takes **total disk space.** Then click **Next.**
-
-<img src="/img/volume/6Volume-StackBillCloudManagementPortal.png" width="80%" />
-
-- Assign a **drive to your disk** and click **Next.**
-
-<img src="/img/volume/7Volume-StackBillCloudManagementPortal.png" width="80%" />
-
-- Specify a filesystem for your disk. By default, **NTFS will be selected and Next.**
-
-<img src="/img/volume/8Volume-StackBillCloudManagementPortal.png" width="80%" />
-
-- Click **Finish** to complete the wizard.
-
-<img src="/img/volume/9Volume-StackBillCloudManagementPortal.png" width="80%" />
-
-- After few seconds, your drive will be available to use.
-
-<img src="/img/volume/10Volume-StackBillCloudManagementPortal.png" width="80%" />
-
-
-#### How to format and make available a  volume in Linux Machine
+#### How to Format and make Available a volume in Linux Machine
 
 << Need to check with IMS team >>
 
@@ -92,14 +46,14 @@ A storage volume is a virtual disk that provides persistent block storage space 
 <img src="/img/volume/11Volume-StackBillCloudManagementPortal.png" width="90%" />
 
 - First provide your name of your volume.
-- Stackbill supports only the below list of volume formats.
+- **Stackbill** supports only the below list of volume formats.
   **OVA, QCOW2, RAW, VHD, VHDX**. Select the appropriate disk format which you are tying to upload.
  - Then provide the path of the volume either **HTTP** or **HTTPS** format. 
  EX: https://somewherestored.com/mydisk.vhd
  - Then click on upload button.
 
 
-### Attach a volume
+### Attach a Volume in StackBill CMP
 
 - You can attach a volume to your virtual instance to provide extra storage facility. 
 
@@ -119,7 +73,7 @@ A storage volume is a virtual disk that provides persistent block storage space 
 
 <img src="/img/volume/14Volume-StackBillCloudManagementPortal.png" width="90%" />
 
-### How to take volume snapshot
+### How to take Volume Snapshot
 
 - **Stackbill** supports snapshot of volumes. 
 
@@ -138,11 +92,11 @@ A storage volume is a virtual disk that provides persistent block storage space 
 <img src="/img/volume/16Volume-StackBillCloudManagementPortal.png" width="80%" />
 
 
-### Configuring Recurring snapshot
+### Configuring Recurring Snapshot in StackBill CMP
 
 - Users can create snapshots manually or by setting up automatic recurring snapshot policies
 
-#### Setting up Recurring snapshots on StackBill CMP
+#### Setting up Recurring Snapshots on StackBill CMP
 
 - The **Compute** option can be found on the left side of the portal.
 - The screen displays a pop-up menu. For Recurring, a snapshot from a volume, select the **Volume** option from the menu.
@@ -158,7 +112,7 @@ A storage volume is a virtual disk that provides persistent block storage space 
 
 <img src="/img/recurringsnapshot/3recurringsnapshot-StackBillCloudManagementPortal.png" width="100%" />
 
-- In StackBill, User can retrieve snapshots hourly, daily, weekly, and monthly.
+- In **StackBill CMP**, User can retrieve snapshots hourly, daily, weekly, and monthly.
 
 :::info
 - **The screen in above shows the Hourly option**
@@ -172,7 +126,8 @@ A storage volume is a virtual disk that provides persistent block storage space 
 <img src="/img/recurringsnapshot/4recurringsnapshot-StackBillCloudManagementPortal.png" width="100%" />
 
 - Now the Recurring Volume Snapshot has been created succesfully. 
-### Resize your volume 
+
+### Resize your Volume in StackBill CMP 
 
 In **StackBill CMP**, there are two types of volumes that can be resized they are **Root volume and Data volume.**
 
@@ -236,8 +191,8 @@ In **StackBill CMP**, there are two types of volumes that can be resized they ar
 - Now the the Root volume has been resized successfully.
 :::
 
-### creating template for a volume
-
+### Creating Template for a Volume in StackBill CMP
+ 
 - **A template is a reusable configuration for virtual instances. When users launch VMs, they can choose from a list of templates in stackbill.**
 
 - **Stackbill will provide different flavors of operating system for all user by default.  There are a variety of ways to add more templates.**
@@ -312,3 +267,7 @@ In **StackBill CMP**, there are two types of volumes that can be resized they ar
 :::success
 - Now the Volume has been deleted successfully.
 :::
+
+**About StackBill**
+
+**[StackBill](https://www.youtube.com/watch?v=nyV8oE3dfXs) is a complete self-service intuitive [Cloud Management Portal](https://www.stackbill.com/) with extensive features leveraging Apache CloudStack® with state of art years of expertise.**

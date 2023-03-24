@@ -24,3 +24,7 @@ sidebar_label: Revertback VM Snapshot
 <img src="/img/vmsnapshot/4VmSnapshot-stackbillcloudmanagementportal.png" width="100%" />
 
 - Now the VM backup has been reverted successfully.
+
+**About StackBill**
+
+**[StackBill](https://www.youtube.com/watch?v=nyV8oE3dfXs) is a complete self-service intuitive [Cloud Management Portal](https://www.stackbill.com/) with extensive features leveraging Apache CloudStack® with state of art years of expertise.**

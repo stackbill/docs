@@ -5,7 +5,7 @@ sidebar_label: Creating Cluster
 
 ### Creating Cluster in StackBill CMP
 
-- Log in into stackbill portal using your account.
+- Log in into **StackBill** portal using your account.
 - click on Compute and select Kubernetes from the dropup.
 
 <img src="/img/Kubernetes/1kubernetes-StackBillCloudManagementPortal.png" width="30%" />
@@ -24,7 +24,7 @@ sidebar_label: Creating Cluster
 
 <img src="/img/Kubernetes/4kubernetes-StackBillCloudManagementPortal.png" width="100%" />
 
-- Stackbill will support last three version of Kubernetes images for user deployment.
+- **Stackbill** will support last three version of Kubernetes images for user deployment.
 - Select the corresponding image for your requirement.
 
 ### Plan selection 
@@ -37,7 +37,7 @@ sidebar_label: Creating Cluster
 
 <img src="/img/Kubernetes/6kubernetes-StackBillCloudManagementPortal.png" width="100%" />
 
-- By default, Kubernetes networking will be created automatically by stackbill and there is no user intervention is required for network creation.
+- By default, Kubernetes networking will be created automatically by **stackbill** and there is no user intervention is required for network creation.
 
 ### Configuring High Availability
 

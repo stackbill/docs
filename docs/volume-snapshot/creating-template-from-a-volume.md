@@ -28,3 +28,8 @@ sidebar_label: Creating Template
 <img src="/img/templatefromvolume/templatefromvolume5-StackBillCMP.png" width="100%" />
 
 - Now the template has been created successfully from the volume.
+
+**About StackBill**
+
+**[StackBill](https://www.youtube.com/watch?v=nyV8oE3dfXs) is a complete self-service intuitive [Cloud Management Portal](https://www.stackbill.com/) with extensive features leveraging Apache CloudStack® with state of art years of expertise.**
+

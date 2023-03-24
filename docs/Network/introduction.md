@@ -5,7 +5,7 @@ sidebar_label: Introduction
 
 People using cloud infrastructure have a variety of needs and preferences when it comes to the networking services provided by the cloud. 
 
-A virtual network is a logical construct that enables multi-tenancy on a single physical network. In stackbill
+A virtual network is a logical construct that enables multi-tenancy on a single physical network. In **StackBill**
 a virtual network can be Isolated or L2 Network.
 
  - [Network Manager in StackBill CMP](./basic-network#network-manager-in-stackbill-cmp)
@@ -21,3 +21,10 @@ a virtual network can be Isolated or L2 Network.
  - [Configure Port forwarding](./basic-network#configure-port-forwarding)
  - [Overview of Load Balancer](./basic-network#overview-of-load-balancer-in-stackbill-cloud-management-portal)
  - [Creating Load Balancer](./basic-network#add-a-load-balancer-to-an-instance-in-stackbill-cloud-management-portal)
+
+ -----------------------------------------------------
+
+
+**About StackBill**
+
+**[StackBill](https://www.youtube.com/watch?v=nyV8oE3dfXs) is a complete self-service intuitive [Cloud Management Portal](https://www.stackbill.com/) with extensive features leveraging Apache CloudStack® with state of art years of expertise.**
