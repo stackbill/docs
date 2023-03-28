@@ -1,9 +1,11 @@
-﻿
-# CLOUDPANEL(UBUNTU-22.04 TLS)
+﻿---
+title: CLOUDPANEL(UBUNTU-22.04 TLS)
+sidebar_label: CLOUDPANEL
+---
 
 **Description:**
 
-**CloudPanel**  is a free and modern server control panel to configure and manage a server with an obsessive focus on simplicity. Run  **PHP**,  **Node.js**,  **Static Websites**,  **Reverse Proxies**, and  **Python**  **Applications**  in no time on a  **High-Performance Technology Stack**.
+CloudPanel is a free and modern server control panel to configure and manage a server with an obsessive focus on simplicity. Run PHP, Node.js, Static Websites, Reverse Proxies, and Python Applications in no time on a High-Performance Technology Stack.
 
 **Please note**: It can take up to 5 - 10 mins to complete the Installation.
 
@@ -31,4 +33,4 @@ You can then switch the user to root without a password by entering the followin
 
 You can access the CloudPanel Web interface at http://IPADDRESS:8443
 
-You can then set up the CloudPanel.
+You can then set up the CloudPanel through Web interface.
