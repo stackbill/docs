@@ -224,6 +224,7 @@ module.exports = {
       label: "Hosting Panels",
       collapsed: false,
       items: [
+        "marketplace-docs/hosting-panels/CLOUDPANEL",
         "marketplace-docs/hosting-panels/WEBMIN",
       ],
     },
