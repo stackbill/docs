@@ -217,6 +217,7 @@ module.exports = {
         "marketplace-docs/hosting-apps/JOOMLA-LAMP",
         "marketplace-docs/hosting-apps/JOOMLA-LOMP",
         "marketplace-docs/hosting-apps/WORDPRESS",
+        "marketplace-docs/hosting-apps/WORDPRESS-WOOCOMMERCE",
       ],
     },
     {
