@@ -211,12 +211,14 @@ module.exports = {
       label: "Hosting Apps",
       collapsed: false,
       items: [
+        "marketplace-docs/hosting-apps/FILECLOUD",
         "marketplace-docs/hosting-apps/LAMP",
         "marketplace-docs/hosting-apps/LARAVEL",
         "marketplace-docs/hosting-apps/LEMP",
         "marketplace-docs/hosting-apps/JOOMLA-LAMP",
         "marketplace-docs/hosting-apps/JOOMLA-LOMP",
         "marketplace-docs/hosting-apps/WORDPRESS",
+        "marketplace-docs/hosting-apps/WORDPRESS-WOOCOMMERCE",
       ],
     },
     {

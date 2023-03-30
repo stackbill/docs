@@ -49,7 +49,7 @@ Connection to $IPADDRESS closed.
 
  You can then switch the user to root without a password by entering the following command. **< sudo su ->**
 
- When you connect to your WordPress Instance via SSH for the 1st time, you’ll be displayed with the passwords and prompted to enter a domain name to complete the setup and secure your connection, you will need a registered domain configured for your Instance.
+ When you connect to your WordPress Instance via SSH for the 1st time, you’ll be displayed with the passwords and prompted to enter a domain name to continue the setup and secure your connection, you will need a registered domain configured for your Instance.
 ~~~
 To cancel setup, press Ctrl+C.  This script will run again on your next login:
 Enter the domain name for your new WordPress site:
@@ -57,9 +57,27 @@ Enter the domain name for your new WordPress site:
 Domain/Subdomain name: 
 ~~~
 
- Domain's A record must be pointed to the Instance's IPADDRESS.
+Domain's A record must be pointed to the Instance's IPADDRESS.
 
- Once the setup is completed without any issues, you will be able to access the domain name or Server's IPADDRESS in your browser to finish the WordPress installation through the web interface.
+You will be prompted to enter your user-related data for site and admin setup.
+~~~
+Please take some time to complete the WordPress Admin Setup.
+Your Email Address: 
+
+Username: 
+
+Password:
+
+Blog Title: 
+
+Is the information correct? [Y/n] 
+~~~
+
+After you acknowledge data is correct, wait for a few seconds to complete the wordpress setup and you will be displayed with the message **Completing the configuration of WordPress**.
+
+Once the setup is completed without any issues, a message **Installation completed. Access your new WordPress site in a browser to continue** will be displayed.
+
+You will be able to access the domain name or Server's IPADDRESS in your browser to view the site.
 
  The MySQL root password is stored under **/root/.mysql_root_password**
 
@@ -114,7 +132,7 @@ In the section below section, replace the $hostname with the valid hostname
 myhostname = $hostname
 ~~~
 
- Restart postfix using the command
+ Restart the postfix using the command
 ~~~
 systemctl restart postfix
 ~~~

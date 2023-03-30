@@ -29,7 +29,8 @@ Sets the MySQL root password, runs mysql_secure_installation and creates initial
 You will be logged out of the instance and displayed with the below message until the instance is deployed.  **DO NOT LOG IN TO THE INSTANCE FOR 2 MINUTES AFTER THE CREATION.**
 
 ```
-Please wait until the installation is completed....Connection to $IPADDRESS closed.
+Please wait until the installation is completed....
+Connection to $IPADDRESS closed.
 ```
 
 **Once the ZABBIX is deployed:**
