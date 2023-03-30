@@ -20,7 +20,8 @@ Sets the MariaDB root password and runs mysql_secure_installation.
 You will be logged out of the instance and displayed with the below message until the instance is deployed.  **DO NOT LOG IN TO THE INSTANCE FOR 2 MINUTES AFTER THE CREATION.**
 
 ```
-Please wait until the installation is completed....Connection to $IPADDRESS closed.
+Please wait until the installation is completed....
+Connection to $IPADDRESS closed.
 ```
 
 **Once the MariaDB is deployed:**

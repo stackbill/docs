@@ -44,7 +44,8 @@ Enables the Apache rewrite module so the WordPress permalink feature will work.
 You will be logged out of the instance and displayed with the below message until the instance is deployed.  **DO NOT LOG IN TO THE INSTANCE FOR 2 MINUTES AFTER THE CREATION.**
 
 ```
-Please wait until the installation is completed....Connection to $IPADDRESS closed.
+Please wait until the installation is completed....
+Connection to $IPADDRESS closed.
 ```
 
 **Once the WordPress-WooCommerce is deployed:**
@@ -56,7 +57,10 @@ You can then switch the user to root without a password by entering the followin
 When you connect to your WordPress-WooCommerce Instance via SSH for the 1st time, you’ll be displayed with the passwords and prompted to enter a domain name to continue the setup and secure your connection, you will need a registered domain configured for your Instance.
 
 ```
-To cancel setup, press Ctrl+C.  This script will run again on your next login:Enter the domain name for your new WordPress site:(ex. example.org or test.example.org) do not include www or http/s:Domain/Subdomain name: 
+To cancel setup, press Ctrl+C.  This script will run again on your next login:
+Enter the domain name for your new WordPress site:
+(ex. example.org or test.example.org) do not include www or http/s:
+Domain/Subdomain name: 
 ```
 
 Domain's A record must be pointed to the Instance's IPADDRESS.

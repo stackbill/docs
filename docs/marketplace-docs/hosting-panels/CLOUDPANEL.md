@@ -22,7 +22,8 @@ Allow the ports in the firewall only SSH (port 22, rate limited), and CloudPanel
 You will be logged out of the instance and displayed with the below message until the instance is deployed.  **DO NOT LOG IN TO THE INSTANCE FOR 2 MINUTES AFTER THE CREATION.**
 
 ```
-Please wait until the installation is completed....Connection to $IPADDRESS closed.
+Please wait until the installation is completed....
+Connection to $IPADDRESS closed.
 ```
 
 **Once the CloudPanel is deployed:**
