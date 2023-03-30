@@ -1,41 +1,50 @@
 ﻿---
-title: POSTGRESQL(UBUNTU-22.04 TLS)
-sidebar_label: POSTGRESQL
+title: POSTGRESQL
+sidebar_label: PostgreSQL
 ---
 
-**Description:**
+|**`Version 15.2` `OS Ubuntu 22.04`**|  |
+|------------------------------------|--|
+
+### Description
 
 PostgreSQL is a powerful, open-source object-relational database system that is known for reliability, feature robustness, and performance.
 
-**Software Included:**
-
+### Software Included
 
 PostgreSQL - 15.2
 
-**Getting started after deploying PostgreSQL:**
+### Getting started after deploying POSTGRESQL
 
 Allow the ports in the firewall only SSH (port 22, rate limited) access.
 
 You will be logged out of the instance and displayed with the below message until the instance is deployed.  **DO NOT LOG IN TO THE INSTANCE FOR 2 MINUTES AFTER THE CREATION.**
+> Please wait until the installation is completed.... 
+>
+> Connection to $IPADDRESS closed.
 
-```
-Please wait until the installation is completed....
-Connection to $IPADDRESS closed.
-```
-
-**Once the PostgreSQL is deployed:**
+### Once the POSTGRESQL is deployed
 
 You can log into the instance as ubuntu using either the password you set when you created the instance or with an SSH key if you added one during creation.
 
-You can then switch the user to root without a password by entering the following command.  **< sudo su - >**
+You can then switch the user to root without a password by entering the following command,
+~~~
+sudo su -
+~~~
 
 The postgres user password is stored under  **/root/.postgresql_passwords**
 
-Login to postgres using the command  **< sudo -u postgres psql >**
+Login to postgres using the command,
+~~~
+sudo -u postgres psql
+~~~
 
 By default, this database server will listen only to the localhost, to access it remotely, we need to perform some changes in its configuration file. We can limit it to some particular IP address or open it for all.
 
+Edit the PostgreSQL configuration file **postgresql.conf** using the command
+~~~
 nano /etc/postgresql/15/main/postgresql.conf
+~~~
 
 In the Configuration file, Under section **"CONNECTIONS AND AUTHENTICATION"** find **#listen_addresses**  –  and first, remove the **#** given in front of it. 
 
@@ -56,9 +65,11 @@ listen_addresses = '$IPADDRESS, $IPADDRESS'         # what IP address(es) to lis
 ~~~
 Save the file by pressing  **Ctrl+X, Y**, and hitting the  **Enter**  key.
 
-Next, edit the **IPv4 local connections** section of the pg_hba.conf file to allow IPv4 connections from all clients
-
+Next, edit the **IPv4 local connections** section of the **pg_hba.conf** file to allow IPv4 connections from all clients using the command,
+~~~
 nano /etc/postgresql/15/main/pg_hba.conf file.
+~~~
+
 ~~~
 From:
 # IPv4 local connections:
