@@ -1,21 +1,25 @@
 ﻿---
-title: WORDPRESS-WOOCOMMERCE(UBUNTU-20.04 TLS)
-sidebar_label: WORDPRESS-WOOCOMMERCE
+title: WORDPRESS-WOOCOMMERCE
+sidebar_label: WordPress-WooCommerce
 ---
 
-**Description:**
+|**`Version 7.5.1` `OS Ubuntu 20.04`**|  |
+|-------------------------------------|--|
+
+
+### Description
 
 WooCommerce is a customizable, open-source eCommerce platform built on WordPress and one of the most popular eCommerce platforms in the world. This instance includes WordPress and WooCommerce plugin to make it easier for your to start your online store.
 
-**Software Included:**
+### Software Included
 
 WordPress - 6.0
 
 WooCommerce - 7.5.1
 
-APACHE - 2.4.41
+Apache - 2.4.41
 
-MYSQL - 8.0.32
+MySQL - 8.0.32
 
 PHP - 8.1
 
@@ -25,13 +29,13 @@ Postfix - 3.4.13
 
 Certbot - 0.40.0
 
-**Getting started after deploying WordPress-WooCommerce:**
+### Getting started after deploying WORDPRESS-WOOCOMMERCE
 
 Allow the ports in the firewall only SSH (port 22, rate limited), HTTP (port 80), and HTTPS (port 443) access.
 
 Sets the MySQL root password, runs mysql_secure_installation, and creates a wordpress user with the necessary permissions.
 
-Installs WooCommerce plugin for easier access.
+Install WooCommerce plugin for easier access.
 
 Creates the initial WordPress configuration file to set up salt keys and allow the WordPress instance to connect to the database.
 
@@ -43,16 +47,18 @@ Enables the Apache rewrite module so the WordPress permalink feature will work.
 
 You will be logged out of the instance and displayed with the below message until the instance is deployed.  **DO NOT LOG IN TO THE INSTANCE FOR 2 MINUTES AFTER THE CREATION.**
 
-```
-Please wait until the installation is completed....
-Connection to $IPADDRESS closed.
-```
+> Please wait until the installation is completed.... 
+>
+> Connection to $IPADDRESS closed.
 
-**Once the WordPress-WooCommerce is deployed:**
+### Once the WORDPRESS-WOOCOMMERCE is deployed
 
 You can log into the instance as ubuntu using either the password you set when you created the instance or with an SSH key if you added one during creation.
 
-You can then switch the user to root without a password by entering the following command.  **< sudo su ->**
+You can then switch the user to root without a password by entering the following command,
+~~~
+sudo su -
+~~~
 
 When you connect to your WordPress-WooCommerce Instance via SSH for the 1st time, you’ll be displayed with the passwords and prompted to enter a domain name to continue the setup and secure your connection, you will need a registered domain configured for your Instance.
 
@@ -87,7 +93,10 @@ You will be able to access the domain name or Server's IPADDRESS in your browser
 
 The MySQL root password is stored under  **/root/.mysql_root_password**
 
-Login to MySQL using the command  **< mysql -u root -p <$password stored in the above file> >**
+ Login to MySQL using the command,
+ ~~~
+ mysql -u root -p <$password stored in the above file>
+ ~~~
 
 You can access phpMyAdmin immediately by visiting the Instance’s IP address in your browser followed by  **/phpmyadmin**
 
@@ -101,7 +110,7 @@ WordPress Database Informations are stored under  **/root/.wordpress_database_de
 
 The web root is  **/var/www/html**  and the WordPress configuration file is  **/var/www/html/wp-config.php.**
 
-**In addition, there are a few customized setup steps that we recommend you take:**
+### In addition, there are a few customized setup steps that we recommend you take
 
 Creating an Apache virtual hosts file for each site maintains the default configuration as the fallback, as intended, and makes it easier to manage changes when hosting multiple sites.
 
@@ -109,7 +118,7 @@ To do so, you’ll need to create two things for each domain: a new directory in
 
 Setting up an SSL certificate enables HTTPS on the web server, which secures the traffic between the server and the clients connecting to it. Certbot is a free and automated way to set up SSL certificates on a server. It’s included as part of the WordPress-WooCommerce deployment to make securing the domain easier.
 
-**To use Certbot, you’ll need a registered domain name and two DNS records:**
+### To use Certbot, you’ll need a registered domain name and two DNS records
 
 An A record from a domain (e.g., example.com) to the server’s IP address
 
@@ -125,9 +134,14 @@ certbot --apache -d example.com -d www.example.com
 
 HTTPS traffic on port 443 needs to be allowed through the firewall. After you set up HTTPS, you can optionally deny HTTP traffic on port 80:
 
-**Setting up Postfix:**
+### Setting up Postfix
 
-Set a Valid Hostname using the command  **"hostnamectl set-hostname test.example.com".**  Make sure the hostname "test.example.com" have a proper A record.
+ Set a Valid Hostname using the command 
+ ~~~
+ hostnamectl set-hostname $HOSTNAME
+ ~~~
+ 
+ Replace **$HOSTNAME** with a valid hostname and make sure the hostname have a proper A record.
 
 The Instance IP must have a proper PTR record.
 

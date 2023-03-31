@@ -75,7 +75,7 @@ PID=$(systemctl show --value -p MainPID gunicorn.service) && kill -HUP $PID
 
  Refer to the Section "**Once the PostgreSQL is deployed:**" and follow the instuction from "**By default, this database server...**"
 
-**Setting up Postfix:**
+### Setting up Postfix
 
  Set a Valid Hostname using the command 
  ~~~
