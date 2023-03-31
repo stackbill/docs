@@ -49,8 +49,11 @@ sudo su -
 
  The MySQL root password is stored under **/root/.mysql_root_password**
 
- Login to MySQL using the command **< mysql -u root -p <$password stored in the above file> >**
-
+ Login to MySQL using the command,
+ ~~~
+ mysql -u root -p <$password stored in the above file>
+ ~~~
+ 
  You can access phpMyAdmin immediately by visiting the Instance’s IP address in your browser followed by **/phpmyadmin**
 
  You will be prompted for the first login, which we have created for security purposes. 

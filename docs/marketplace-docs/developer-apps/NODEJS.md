@@ -1,37 +1,43 @@
 ﻿---
-title: NODEJS(UBUNTU-22.04 TLS)
-sidebar_label: NODEJS
+title: NODEJS
+sidebar_label: NodeJS
 ---
 
-**Description:**
+|**`Version 18.14.0` `OS Ubuntu 22.04`**|  |
+|---------------------------------------|--|
+
+
+### Description
 
 A lightweight platform ideal for building fast, scalable network applications in Javascript. Similar in design to Ruby's Event Machine or Python's Twisted, and built on Chrome's JavaScript runtime, NodeJS is ideal for data-intensive apps that run across distributed devices.
 
-**Software Included:**
+### Software Included
 
-Node.js - 18.14.0
+NodeJS - 18.14.0
 
 NPM - 9.3.1
 
-NGINX - 1.18.0
+Nginx - 1.18.0
 
 PM2 - 5.2.2
 
-**Getting started after deploying Node.js:**
+### Getting started after deploying NODEJS
 
  Allow the ports in the firewall only SSH (port 22, rate limited), HTTP (port 80), and HTTPS (port 443) access.
 
  You will be logged out of the instance and displayed with the below message until the instance is deployed. **DO NOT LOG IN TO THE INSTANCE FOR 2 MINUTES AFTER THE CREATION.**
-~~~
-Please wait until the installation is completed....
-Connection to $IPADDRESS closed.
-~~~
+> Please wait until the installation is completed.... 
+>
+> Connection to $IPADDRESS closed.
 
-**Once the Node.js is deployed:**
+### Once the NODEJS is deployed
 
  You can log into the instance as ubuntu using either the password you set when you created the instance or with an SSH key if you added one during creation.
 
- You can then switch the user to root without a password by entering the following command. **< sudo su - >**
+You can then switch the user to root without a password by entering the following command,
+~~~
+sudo su -
+~~~
 
  You can view the Django instance immediately by visiting the instance’s IP address in your browser.
 
