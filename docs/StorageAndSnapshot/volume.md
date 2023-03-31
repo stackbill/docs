@@ -31,9 +31,43 @@ A storage volume is a virtual disk that provides persistent block storage space 
 ::: 
 
 
-#### How to Format and make Available a volume in Linux Machine
+### How to Format and make Available a volume in Linux Machine
 
-<< Need to check with IMS team >>
+
+- Before formating a volume in linux machine ensure that you have [created instance](/docs/virtualresources/Instance#quick-deploy-in-stackbill-cmp) and [attached the volume to the instance](./volume#attach-a-volume-in-stackbill-cmp).
+
+
+- Use any ssh client software to login into the server. 
+
+<img src="/img/Volumeinlinuxmachine/1volumeinLinuxMachine-StackBillCloudManagementPortal.png" width="90%" />
+
+-  Verify that our disk has been attached and what its name is.
+
+<img src="/img/Volumeinlinuxmachine/2volumeinLinuxMachine-StackBillCloudManagementPortal.png" width="90%" />
+
+- To create a partition enter the command **dev/$disk (for ex): fdisk /dev /xvdb**
+- use fdisk to create the partition from the attached disk
+
+<img src="/img/Volumeinlinuxmachine/3volumeinLinuxMachine-StackBillCloudManagementPortal.png" width="90%" />
+
+- Follow the below instruction to partition the disk.
+
+<img src="/img/Volumeinlinuxmachine/4volumeinLinuxMachine-StackBillCloudManagementPortal.png" width="90%" />
+
+- Enter the command **(p)** to verify the created partition.
+
+<img src="/img/Volumeinlinuxmachine/5volumeinLinuxMachine-StackBillCloudManagementPortal.png" width="90%" />
+
+- save the created partition using **(w)** command.
+
+<img src="/img/Volumeinlinuxmachine/6volumeinLinuxMachine-StackBillCloudManagementPortal.png" width="90%" />
+
+
+- Make a file system from created partition and use **(mkfs.filesystem partion)**.
+
+<img src="/img/Volumeinlinuxmachine/7volumeinLinuxMachine-StackBillCloudManagementPortal.png" width="90%" />
+
+- Now the disk partition has been created successfully.
 
 ### Upload a Volume
 
