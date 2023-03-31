@@ -1,17 +1,20 @@
 ﻿---
-title: MYSQL(UBUNTU-20.04 TLS)
-sidebar_label: MYSQL
+title: MYSQL
+sidebar_label: MySQL
 ---
 
-**Description:**
+|**`Version 8.0.30` `OS Ubuntu 20.04`**|  |
+|--------------------------------------|--|
+
+### Description
 
 The world's most popular open-source database
 
-**Software Included:**
+### Software Included
 
-APACHE - 2.4.41
+Apache - 2.4.41
 
-MYSQL - 8.0.30
+MySQL - 8.0.30
 
 PHP - 8.1
 
@@ -20,7 +23,7 @@ Certbot - 0.40.0
 phpMyAdmin - 5.2.0
 
 
-**Getting started after deploying MYSQL:**
+### Getting started after deploying MYSQL
 
  Allow the ports in the firewall only SSH (port 22, rate limited), HTTP (port 80), HTTPS (port 443) and MySQL (3306) access.
 
@@ -31,20 +34,25 @@ phpMyAdmin - 5.2.0
  The phpMyAdmin configuration file is located at **/etc/phpmyadmin/**
 
  You will be logged out of the instance and displayed with the below message until the instance is deployed. **DO NOT LOG IN TO THE INSTANCE FOR 2 MINUTES AFTER THE CREATION.**
-~~~
-Please wait until the installation is completed....
-Connection to $IPADDRESS closed.
-~~~
+> Please wait until the installation is completed.... 
+>
+> Connection to $IPADDRESS closed.
 
-**Once MySQL is deployed:**
+### Once the MYSQL is deployed
 
  You can log into the instance as ubuntu using either the password you set when you created the instance or with an SSH key if you added one during creation.
 
- You can then switch the user to root without a password by entering the following command. **< sudo su - >**
+You can then switch the user to root without a password by entering the following command,
+~~~
+sudo su -
+~~~
 
  The MySQL root password is stored under **/root/.mysql_root_password**
 
- Login to MySQL using the command **< mysql -u root -p <$password stored in the above file> >**
+ Login to MySQL using the command,
+ ~~~
+ mysql -u root -p <$password stored in the above file>
+ ~~~
 
  You can access phpMyAdmin immediately by visiting the Instance’s IP address in your browser followed by **/phpmyadmin**
 

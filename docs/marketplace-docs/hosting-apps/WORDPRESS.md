@@ -1,19 +1,23 @@
 ﻿---
-title: WORDPRESS(UBUNTU-20.04 TLS)
-sidebar_label: WORDPRESS
+title: WORDPRESS
+sidebar_label: WordPress
 ---
 
-**Description:**
+|**`Version 6.0` `OS Ubuntu 20.04`**|  |
+|-----------------------------------|--|
+
+
+### Description
 
 Over 60 million people choose WordPress to power their websites and blogs. Born out of a desire for an elegant personal publishing system built on PHP and MySQL, its potential has evolved into a full content management system.
 
-**Software Included:**
+### Software Included
 
 WordPress - 6.0
 
-APACHE - 2.4.41
+Apache - 2.4.41
 
-MYSQL - 8.0.32
+MySQL - 8.0.32
 
 PHP - 8.1
 
@@ -23,7 +27,7 @@ Postfix - 3.4.13
 
 Certbot - 0.40.0
 
-**Getting started after deploying WordPress:**
+### Getting started after deploying WORDPRESS
 
  Allow the ports in the firewall only SSH (port 22, rate limited), HTTP (port 80), and HTTPS (port 443) access.
 
@@ -38,18 +42,20 @@ Certbot - 0.40.0
  Enables the Apache rewrite module so the WordPress permalink feature will work.
 
  You will be logged out of the instance and displayed with the below message until the instance is deployed. **DO NOT LOG IN TO THE INSTANCE FOR 2 MINUTES AFTER THE CREATION.**
-~~~
-Please wait until the installation is completed....
-Connection to $IPADDRESS closed.
-~~~
+> Please wait until the installation is completed.... 
+>
+> Connection to $IPADDRESS closed.
 
-**Once the WordPress is deployed:**
+### Once the WORDPRESS is deployed
 
  You can log into the instance as ubuntu using either the password you set when you created the instance or with an SSH key if you added one during creation.
 
- You can then switch the user to root without a password by entering the following command. **< sudo su ->**
+You can then switch the user to root without a password by entering the following command,
+~~~
+sudo su -
+~~~
 
- When you connect to your WordPress Instance via SSH for the 1st time, you’ll be displayed with the passwords and prompted to enter a domain name to complete the setup and secure your connection, you will need a registered domain configured for your Instance.
+ When you connect to your WordPress Instance via SSH for the 1st time, you’ll be displayed with the passwords and prompted to enter a domain name to continue the setup and secure your connection, you will need a registered domain configured for your Instance.
 ~~~
 To cancel setup, press Ctrl+C.  This script will run again on your next login:
 Enter the domain name for your new WordPress site:
@@ -57,13 +63,34 @@ Enter the domain name for your new WordPress site:
 Domain/Subdomain name: 
 ~~~
 
- Domain's A record must be pointed to the Instance's IPADDRESS.
+Domain's A record must be pointed to the Instance's IPADDRESS.
 
- Once the setup is completed without any issues, you will be able to access the domain name or Server's IPADDRESS in your browser to finish the WordPress installation through the web interface.
+You will be prompted to enter your user-related data for site and admin setup.
+~~~
+Please take some time to complete the WordPress Admin Setup.
+Your Email Address: 
+
+Username: 
+
+Password:
+
+Blog Title: 
+
+Is the information correct? [Y/n] 
+~~~
+
+After you acknowledge data is correct, wait for a few seconds to complete the wordpress setup and you will be displayed with the message **Completing the configuration of WordPress**.
+
+Once the setup is completed without any issues, a message **Installation completed. Access your new WordPress site in a browser to continue** will be displayed.
+
+You will be able to access the domain name or Server's IPADDRESS in your browser to view the site.
 
  The MySQL root password is stored under **/root/.mysql_root_password**
 
- Login to MySQL using the command **< mysql -u root -p <$password stored in the above file> >**
+ Login to MySQL using the command,
+ ~~~
+ mysql -u root -p <$password stored in the above file>
+ ~~~
 
  You can access phpMyAdmin immediately by visiting the Instance’s IP address in your browser followed by **/phpmyadmin**
 
@@ -77,7 +104,7 @@ Domain/Subdomain name:
 
  The web root is **/var/www/html** and the WordPress configuration file is **/var/www/html/wp-config.php.**
 
-**In addition, there are a few customized setup steps that we recommend you take:**
+### In addition, there are a few customized setup steps that we recommend you take
 
 Creating an Apache virtual hosts file for each site maintains the default configuration as the fallback, as intended, and makes it easier to manage changes when hosting multiple sites.
 
@@ -85,7 +112,7 @@ To do so, you’ll need to create two things for each domain: a new directory in
 
 Setting up an SSL certificate enables HTTPS on the web server, which secures the traffic between the server and the clients connecting to it. Certbot is a free and automated way to set up SSL certificates on a server. It’s included as part of the WordPress deployment to make securing the domain easier.
 
-**To use Certbot, you’ll need a registered domain name and two DNS records:**
+### To use Certbot, you’ll need a registered domain name and two DNS records
 
 An A record from a domain (e.g., example.com) to the server’s IP address
 
@@ -101,9 +128,14 @@ certbot --apache -d example.com -d www.example.com
 
 HTTPS traffic on port 443 needs to be allowed through the firewall. After you set up HTTPS, you can optionally deny HTTP traffic on port 80:
 
-**Setting up Postfix:**
+### Setting up Postfix
 
- Set a Valid Hostname using the command **"hostnamectl set-hostname test.example.com".** Make sure the hostname "test.example.com" have a proper A record.
+ Set a Valid Hostname using the command 
+ ~~~
+ hostnamectl set-hostname $HOSTNAME
+ ~~~
+ 
+ Replace **$HOSTNAME** with a valid hostname and make sure the hostname have a proper A record.
 
  The Instance IP must have a proper PTR record.
 
@@ -114,7 +146,7 @@ In the section below section, replace the $hostname with the valid hostname
 myhostname = $hostname
 ~~~
 
- Restart postfix using the command
+ Restart the postfix using the command
 ~~~
 systemctl restart postfix
 ~~~

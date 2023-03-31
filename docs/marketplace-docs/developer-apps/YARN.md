@@ -1,35 +1,42 @@
 ﻿---
-title: YARN(UBUNTU-22.04 TLS)
-sidebar_label: YARN
+title: YARN
+sidebar_label: Yarn
 ---
 
-**Description:**
+|**`Version 3.4.1` `OS Ubuntu 22.04`**|  |
+|-------------------------------------|--|
+
+
+### Description
 
 Yarn stands for Yet Another Resource Negotiator and is a package manager for Node.js in JavaScript that replaces NPM. Yarn is a tool for managing JavaScript runtime environments. Yarn uses Node. js to track libraries and dependencies and lets you share solutions with other developers.
 
-**Software Included:**
+### Software Included
 
-NODEJS - 18.15.0
+NodeJS - 18.15.0
 
 NPM - 9.5.0
 
-YARN - 3.4.1
+Yarn - 3.4.1
 
-**Getting started after deploying Yarn:**
+### Getting started after deploying YARN
 
 Allow the ports in the firewall only SSH (port 22, rate limited) access.
 
 You will be logged out of the instance and displayed with the below message until the instance is deployed.  **DO NOT LOG IN TO THE INSTANCE FOR 2 MINUTES AFTER THE CREATION.**
 
-```
-Please wait until the installation is completed....Connection to $IPADDRESS closed.
-```
+> Please wait until the installation is completed.... 
+>
+> Connection to $IPADDRESS closed.
 
-**Once the Yarn is deployed:**
+### Once the YARN is deployed
 
 You can log into the instance as ubuntu using either the password you set when you created the instance or with an SSH key if you added one during creation.
 
-You can then switch the user to root without a password by entering the following command.  **< sudo su - >**
+You can then switch the user to root without a password by entering the following command,
+~~~
+sudo su -
+~~~
 
 We can check which version of the package manager is on our system.
 ~~~

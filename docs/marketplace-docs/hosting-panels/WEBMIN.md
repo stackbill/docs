@@ -1,43 +1,53 @@
 ﻿---
-title: WEBMIN(UBUNTU-20.04 TLS)
-sidebar_label: WEBMIN
+title: WEBMIN
+sidebar_label: Webmin
 ---
 
-**Description:**
+|**`Version 2.013` `OS Ubuntu 20.04`**|  |
+|-------------------------------------|--|
+
+
+### Description
 
 Webmin is a free, open-source application for Linux server administration. If you prefer to manage all aspects of your Linux VPS or dedicated server from a graphical interface instead of the command line interface (CLI), Webmin might be right for you.
 
-**Software Included:**
+### Software Included
 
 Webmin - 2.013 
 
 Postfix - 3.4.13
 
-**Getting started after deploying Webmin:**
+### Getting started after deploying WEBMIN
 
  Allow the ports in the firewall only SSH (port 22, rate limited) and WEBMIN (port 10000) access.
 
  Creates the initial Webmin Admin Panel Password.
 
  You will be logged out of the instance and displayed with the below message until the instance is deployed. **DO NOT LOG IN TO THE INSTANCE FOR 2 MINUTES AFTER THE CREATION.**
-~~~
-Please wait until the installation is completed....
-Connection to $IPADDRESS closed.
-~~~
+> Please wait until the installation is completed.... 
+>
+> Connection to $IPADDRESS closed.
 
-**Once the Webmin is deployed:**
+### Once the WEBMIN is deployed
 
  You can log into the instance as ubuntu using either the password you set when you created the instance or with an SSH key if you added one during creation.
 
- You can then switch the user to root without a password by entering the following command. **< sudo su - >**
+You can then switch the user to root without a password by entering the following command,
+~~~
+sudo su -
+~~~
 
  Access the Webmin Admin Panel Password by accessing **$IPADDRESS:10000**
 
  The Webmin Admin Panel root password is stored under **/root/.webmin_root_password**
 
-**Setting up Postfix:**
-
- Set a Valid Hostname using the command **"hostnamectl set-hostname test.example.com".** Make sure the hostname "test.example.com" have a proper A record.
+### Setting up Postfix
+ Set a Valid Hostname using the command 
+ ~~~
+ hostnamectl set-hostname $HOSTNAME
+ ~~~
+ 
+ Replace **$HOSTNAME** with a valid hostname and make sure the hostname have a proper A record.
 
  The Instance IP must have a proper PTR record.
 

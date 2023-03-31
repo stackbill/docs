@@ -1,26 +1,30 @@
 ﻿---
-title: ZABBIX(UBUNTU-22.04 TLS)
-sidebar_label: ZABBIX
+title: ZABBIX
+sidebar_label: Zabbix
 ---
 
-**Description:**
+|**`Version 6.2.7` `OS Ubuntu 22.04`**|  |
+|--------------------------------------|--|
+
+
+### Description
 
 Zabbix is an open-source monitoring tool that is used to monitor servers, networks, IT components, cloud services, and virtual machines. The Zabbix monitoring tool is used to provide monitoring metrics and monitor network usage, disk space consumption, and CPU load. Zabbix allows administrators to recognize server and device problems within a short period and therefore reduces the system downtime and risk of system failure.
 
-**Software Included:**
+### Software Included
 
-APACHE - 2.4.52
+Apache - 2.4.52
 
-MYSQL - 8.0.32
+MySQL - 8.0.32
 
 PHP - 8.1
 
-ZABBIX SERVER - 6.2.7
+Zabbix Server - 6.2.7
 
-ZABBIX AGENT - 6.2.7
+Zabbix Agent - 6.2.7
 
 
-**Getting started after deploying ZABBIX:**
+### Getting started after deploying ZABBIX
 
 Allow the ports in the firewall only SSH (port 22, rate limited), apache on port 80 and Zabbix on port 10051 access
 
@@ -28,23 +32,31 @@ Sets the MySQL root password, runs mysql_secure_installation and creates initial
 
 You will be logged out of the instance and displayed with the below message until the instance is deployed.  **DO NOT LOG IN TO THE INSTANCE FOR 2 MINUTES AFTER THE CREATION.**
 
-```
-Please wait until the installation is completed....Connection to $IPADDRESS closed.
-```
+> Please wait until the installation is completed.... 
+>
+> Connection to $IPADDRESS closed.
 
-**Once the ZABBIX is deployed:**
+### Once the ZABBIX is deployed
 
 You can log into the instance as ubuntu using either the password you set when you created the instance or with an SSH key if you added one during creation.
 
-You can then switch the user to root without a password by entering the following command.  **< sudo su - >**
+You can then switch the user to root without a password by entering the following command,
+~~~
+sudo su -
+~~~
 
 The MySQL root password is stored under **/root/.mysql_root_password**
+
+ Login to MySQL using the command,
+ ~~~
+ mysql -u root -p <$password stored in the above file>
+ ~~~
 
 The Zabbix database credential is stored under **/root/.zabbix_database_credentials**
 
 The Zabbix Admin credential is stored under **/root/.zabbix_admin_credentials**
 
-Then in a web browser go to http://$IPADDRESS/zabbix/setup.php to complete the setup. 
+Then in a web browser go to **http://$IPADDRESS/zabbix/setup.php** to complete the setup. 
 
 You will be taken to the,
 
@@ -63,4 +75,4 @@ You will be taken to the,
 You will be taken to the Admin login page. Login to the panel by referring the 
 file **/root/.zabbix_admin_credentials**.
 
-You can access the admin panel at http://$IPADDRESS/zabbix/
+You can access the admin panel at **http://$IPADDRESS/zabbix/**
