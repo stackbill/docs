@@ -1,17 +1,20 @@
 ﻿---
-title: MARIADB(UBUNTU-22.04 TLS)
-sidebar_label: MARIADB
+title: MARIADB
+sidebar_label: MariaDB
 ---
 
-**Description:**
+|**`Version 10.6.12` `OS Ubuntu 22.04`**|  |
+|---------------------------------------|--|
+
+### Description
 
 MariaDB server is a popular open-source multithreaded relational database. MariaDB is remarkably scalable and can handle tens of thousands of tables and billions of rows of data. It can also manage small amounts of data quickly and smoothly.
 
-**Software Included:**
+### Software Included
 
 MariaDB - 10.6.12
 
-**Getting started after deploying MariaDB:**
+### Getting started after deploying MARIADB
 
 Allow the ports in the firewall only SSH (port 22, rate limited) and MariaDB(3306) access.
 
@@ -19,16 +22,18 @@ Sets the MariaDB root password and runs mysql_secure_installation.
 
 You will be logged out of the instance and displayed with the below message until the instance is deployed.  **DO NOT LOG IN TO THE INSTANCE FOR 2 MINUTES AFTER THE CREATION.**
 
-```
-Please wait until the installation is completed....
-Connection to $IPADDRESS closed.
-```
+> Please wait until the installation is completed.... 
+>
+> Connection to $IPADDRESS closed.
 
-**Once the MariaDB is deployed:**
+### Once the MARIADB is deployed
 
 You can log into the instance as ubuntu using either the password you set when you created the instance or with an SSH key if you added one during creation.
 
-You can then switch the user to root without a password by entering the following command.  **< sudo su - >**
+You can then switch the user to root without a password by entering the following command,
+~~~
+sudo su -
+~~~
 
 The MariaDB root password is stored under  **/root/.mariadb_root_password**
 

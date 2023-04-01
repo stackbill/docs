@@ -1,13 +1,17 @@
 ﻿---
-title: JOOMLA-LOMP(UBUNTU-20.04 TLS)
-sidebar_label: JOOMLA-LOMP
+title: JOOMLA-LOMP
+sidebar_label: Joomla-Lomp
 ---
 
-**Description:**
+|**`Version 4.2.2` `OS Ubuntu 20.04`**|  |
+|-------------------------------------|--|
+
+
+### Description
 
 OpenLiteSpeed is the Open Source edition of LiteSpeed Web Server Enterprise and contains all of the essential features, including HTTP/3 support. OLS provides enormous scalability and an accelerated hosting platform for Joomla. This application gives you OpenLiteSpeed, PHP, MySQL Server, Joomla, and other useful applications.
 
-**Software Included:**
+### Software Included
 
 Joomla - 4.2.2
 
@@ -23,7 +27,7 @@ Certbot - 0.40.0
 
 Phpmyadmin - 5.2.0
 
-**Getting started after deploying Joomla:**
+### Getting started after deploying JOOMLA-LOMP
 
  Allow the ports in the firewall only SSH (port 22, rate limited), HTTP (port 80), HTTPS (port 443) access, and Litespeed Admin Panel (port 7080).
 
@@ -32,16 +36,18 @@ Phpmyadmin - 5.2.0
  Creates the initial Joomla configuration file and allows the Joomla instance to connect to the database.
 
  You will be logged out of the instance and displayed with the below message until the instance is deployed. **DO NOT LOG IN TO THE INSTANCE FOR 2 MINUTES AFTER THE CREATION.**
-~~~
-Please wait until the installation is completed....
-Connection to $IPADDRESS closed.
-~~~
+> Please wait until the installation is completed.... 
+>
+> Connection to $IPADDRESS closed.
 
-**Once the Joomla is deployed:**
+### Once the JOOMLA-LOMP is deployed
 
  You can log into the instance as ubuntu using either the password you set when you created the instance or with an SSH key if you added one during creation.
 
- You can then switch the user to root without a password by entering the following command. **< sudo su - >**
+You can then switch the user to root without a password by entering the following command,
+~~~
+sudo su -
+~~~
 
  When you connect to your Joomla Instance via SSH for the 1st time, you’ll be displayed with the passwords and prompted to enter a domain name to complete the setup and secure your connection, you will need a registered domain configured for your Instance.
 ~~~
@@ -57,7 +63,10 @@ Domain/Subdomain name:
 
  The MariaDB root password is stored under **/root/.mariadb_root_password**
 
- Login to MariaDB using the command  **mysql**  and Click Enter
+ Login to MariaDB using the command,
+ ~~~
+ mysql
+ ~~~
 
  The user **dbadmin** has the same capabilities as the root account but is configured for password authentication
 
@@ -71,13 +80,13 @@ Domain/Subdomain name:
 
  The OpenLitespeed Admin Dashboard Login Credential is stored under  **/root/.Litespeed_Admin_Password**
 
- Access OpenLitespeed Admin Dashboard through the web using http://IPADDRESS:7080
+ Access OpenLitespeed Admin Dashboard through the web using **http://IPADDRESS:7080**
 
  The web root is /var/www/html and the Joomla configuration file is **/var/www/html/configuration.php.**
 
 Setting up an SSL certificate enables HTTPS on the web server, which secures the traffic between the server and the clients connecting to it. Certbot is a free and automated way to set up SSL certificates on a server. It’s included as part of the Joomla deployment to make securing the domain easier.
 
-**To use Certbot, you’ll need a registered domain name and two DNS records:**
+### To use Certbot, you’ll need a registered domain name and two DNS records
 
 An A record from a domain (e.g., example.com) to the server’s IP address
 
@@ -134,9 +143,14 @@ Now the domain is automatically redirected from HTTP to HTTPS.
 
 HTTPS traffic on port 443 needs to be allowed through the firewall. After you set up HTTPS, you can optionally deny HTTP traffic on port 80:
 
-**Setting up Postfix:**
+### Setting up Postfix
 
- Set a Valid Hostname using the command **"hostnamectl set-hostname test.example.com".** Make sure the hostname "test.example.com" have a proper A record.
+ Set a Valid Hostname using the command 
+ ~~~
+ hostnamectl set-hostname $HOSTNAME
+ ~~~
+ 
+ Replace **$HOSTNAME** with a valid hostname and make sure the hostname have a proper A record.
 
  The Instance IP must have a proper PTR record.
 

@@ -159,6 +159,7 @@ module.exports = {
       items: [
         "Kubernetes/Introduction",
         "Kubernetes/Creatingcluster",
+        "Kubernetes/Kubernetes-dashboard",
       ],
     },
   ],

@@ -13,7 +13,7 @@
       },
       {
         "title": "Storage",
-        "img": "img/icons/storage-snapshot-46x46.png",
+        "img": "img/icons/storage-46x46.png",
         "link": "",
         "description": "StackBill Storage refers to the capacity to store and retain data, either temporarily or permanently."
       },
@@ -31,7 +31,7 @@
       },
       {
         "title": "Auto Scaling",
-        "img": "img/icons/storage-snapshot-46x46.png",
+        "img": "img/icons/Autoscaling-46x46.png",
         "link": "",
         "description": "StackBill's Autoscaling allows resources to automatically increase or decrease based on the demand. "
       },

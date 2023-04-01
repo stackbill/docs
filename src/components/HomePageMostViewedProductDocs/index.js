@@ -28,7 +28,7 @@ export default function HomePageMostViewedProductDocs() {
 
   return (
     <div className={clsx(styles.mostViewdDocs)}>
-      <h2>Most Viewed Documents</h2>
+      <h2>Most Viewed Topics</h2>
       <div className="row">
         <div className="col">
           <ul>

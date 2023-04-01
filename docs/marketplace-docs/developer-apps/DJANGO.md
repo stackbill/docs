@@ -1,13 +1,17 @@
 ﻿---
-title: DJANGO(UBUNTU-22.04 TLS)
-sidebar_label: DJANGO
+title: DJANGO
+sidebar_label: Django
 ---
 
-**Description:**
+|**`Version 4.1.1` `OS Ubuntu 22.04`**|  |
+|-------------------------------------|--|
+
+
+### Description
 
 Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development, so you can focus on writing your app without having to reinvent the wheel. It’s free and open source.
 
-**Software Included:**
+### Software Included
 
 Django - 4.1.1
 
@@ -21,27 +25,32 @@ Certbot - 1.21.0
 
 Gunicorn - 20.1.0
 
-**Getting started after deploying Django:**
+### Getting started after deploying DJANGO
 
  Allow the ports in the firewall only SSH (port 22, rate limited), HTTP (port 80), and HTTPS (port 443) access.
 
  You will be logged out of the instance and displayed with the below message until the instance is deployed. **DO NOT LOG IN TO THE INSTANCE FOR 2 MINUTES AFTER THE CREATION.**
-~~~
-Please wait until the installation is completed....
-Connection to $IPADDRESS closed.
-~~~
+> Please wait until the installation is completed.... 
+>
+> Connection to $IPADDRESS closed.
 
-**Once the Django is deployed:**
+### Once the DJANGO is deployed
 
  You can log into the instance as ubuntu using either the password you set when you created the instance or with an SSH key if you added one during creation.
 
- You can then switch the user to root without a password by entering the following command. **< sudo su - >**
+You can then switch the user to root without a password by entering the following command,
+~~~
+sudo su -
+~~~
 
  You can view the Django instance immediately by visiting the instance’s IP address in your browser.
 
  The postgres user password is stored under  **/root/.postgresql_user_passwords**
 
- Login to postgres using the command **< sudo -u postgres psql >**
+ Login to postgres using the command,
+ ~~~
+ sudo -u postgres psql
+ ~~~
 
  The Django database Informations are stored under **/root/.postgresql_passwords**
 
@@ -66,9 +75,14 @@ PID=$(systemctl show --value -p MainPID gunicorn.service) && kill -HUP $PID
 
  Refer to the Section "**Once the PostgreSQL is deployed:**" and follow the instuction from "**By default, this database server...**"
 
-**Setting up Postfix:**
+### Setting up Postfix
 
- Set a Valid Hostname using the command **"hostnamectl set-hostname test.example.com".** Make sure the hostname "test.example.com" have a proper A record.
+ Set a Valid Hostname using the command 
+ ~~~
+ hostnamectl set-hostname $HOSTNAME
+ ~~~
+ 
+ Replace **$HOSTNAME** with a valid hostname and make sure the hostname have a proper A record.
 
  The Instance IP must have a proper PTR record.
 
