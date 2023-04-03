@@ -3,7 +3,7 @@ title: Introduction
 sidebar_label: Introduction
 ---
 
-# Introductio
+# Introduction
 
 **Stackbill** will always keen to integrate new type of technologies for the customer business improvements. In that, Kubernetes is one of the emerging technologies in the current IT sector.
 
