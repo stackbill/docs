@@ -212,6 +212,7 @@ module.exports = {
       label: "Hosting Apps",
       collapsed: false,
       items: [
+        "marketplace-docs/hosting-apps/DRUPAL-LOMP",
         "marketplace-docs/hosting-apps/FILECLOUD",
         "marketplace-docs/hosting-apps/LAMP",
         "marketplace-docs/hosting-apps/LARAVEL",

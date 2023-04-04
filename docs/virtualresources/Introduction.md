@@ -10,7 +10,7 @@ Additionally, you can also use the [Stackbill API](https://www.stackbill/api). T
 
 
 
-**Getting Started with StackBill CMP** 
+## **Getting Started with StackBill CMP** 
 
 - **Instance**
     - Quick Deploy in StackBill Cloud Management Portal
