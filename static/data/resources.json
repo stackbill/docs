@@ -8,48 +8,49 @@
       {
         "title": "Virtual Resources",
         "img": "img/icons/virtual-resource-46x46.png",
-        "link": "",
+        "link": "/docs/virtualresources/Introduction#getting-started-with-stackbill-cmp",
         "description": "StackBill Virtual resources are flexible, scalable, and accessible on-demand, typically hosted in Apache CloudStack environments."
       },
       {
         "title": "Storage",
         "img": "img/icons/storage-46x46.png",
-        "link": "",
+        "link": "docs/StorageAndSnapshot/introduction#storage-and-snapshot-in-stackbill-cmp",
         "description": "StackBill Storage refers to the capacity to store and retain data, either temporarily or permanently."
       },
       {
         "title": "Volume Snapshot",
         "img": "img/icons/volume-snapshot-46x46.png",
-        "link": "",
+        "link": "docs/volume-snapshot/add-volume-snapshot#add-volume-snapshot-in-stackbill-cmp",
         "description": "StackBill Volume Snapshot, also known as a point-in-time snapshot, is a backup copy of a storage volume taken at a specific moment in time."
       },
       {
         "title": "Vm Snapshot",
         "img": "/img/icons/vm-snapshot-46x46.png",
-        "link": "",
+        "link": "docs/vm-snapshot/creating-a-vm-snapshot#creating-vm-snapshot-in-stackbill-cmp",
         "description": "StackBill VM Snapshot is a backup of a virtual machine's current state, including its memory, settings, and disk contents."
       },
       {
         "title": "Auto Scaling",
         "img": "img/icons/Autoscaling-46x46.png",
-        "link": "",
+        "link": "docs/autoscalling/autoscaling-deployment#add-autoscaling-feature-to-the-instance-in-stackbill-cmp",
         "description": "StackBill's Autoscaling allows resources to automatically increase or decrease based on the demand. "
       },
       {
         "title": "Marketplace",
         "img": "/img/icons/market-place-46x46.png",
-        "link": "",
+        "link": "docs/marketplace#get-started-with-marketplace-apps",
         "description": "StackBill Marketplace provides access to a range of pre-built software applications and services."
       },
       {
         "title": "Networks",
         "img": "img/icons/network-46x46.png",
+        "link": "docs/Network/basic-network#network-manager-in-stackbill-cmp",
         "description": "StackBill network enables data transfer and communication between computers, servers, and other devices."
       },
       {
         "title": "Billing",
         "img": "img/icons/billing-46x46.png",
-        "link": "",
+        "link": "docs/Billing/Overview#billing-system-in-stackbill-cloud-management-portal",
         "description": "StackBill is a cloud billing platform that enables to offer their customers the convenience of paying in their preferred currency"
       }
 ]

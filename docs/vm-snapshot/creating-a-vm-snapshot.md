@@ -8,7 +8,7 @@ sidebar_label: Creating VM Snapshot
 - The **Compute** option can be found on the left side of the portal click on it. 
 - Select **instance** option from the pop-up menu.
 
-<img src="/img/virtualresources/Instancecreation-StackBillCloudManagementPortal1.png" width="100%" />
+<img src="/img/virtualresources/Instancecreation-StackBillCloudManagementportal1.png" width="100%" />
 
 - Now the the instance page appears.
 - Before starting to take a snapshot, **make sure the instance is in the stopped stage**    .
