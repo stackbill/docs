@@ -53,7 +53,7 @@ sudo su -
 
  The ownCloud admin login credential is stored under **/root/.owncloud_admin_details**
 
- You can access your ownCloud dashboard using the instance IPADDRESS as http://$IPADDRESS or the domain name configured for the instance. Login using the credential stored in the above file.
+ You can access your ownCloud dashboard using the instance IPADDRESS as **http://$IPADDRESS** or the domain name configured for the instance. Login using the credential stored in the above file.
 
 ### Before accessing the OWNCLOUD follow the below Instructions
 
@@ -79,6 +79,8 @@ Add the domain name to the trusted domain in ownCloud using the below command, b
 occ config:system:set trusted_domains 2 --value="$my_domain"
 ~~~
 
+ Domain's A record must be pointed to the Instance's IPADDRESS.
+
 Restart the apache service using the below command to apply the changes,
 ~~~
 systemctl restart apache2
@@ -97,7 +99,7 @@ If you would need to add other trusted_domains increment the **$NUMBER** as ment
  hostnamectl set-hostname $HOSTNAME
  ~~~
  
- Replace **$HOSTNAME** with a valid hostname and make sure the hostname have a proper A record.
+ Replace **$HOSTNAME** with a valid hostname and make sure the hostname has a proper A record.
 
  The Instance IP must have a proper PTR record.
 
@@ -108,15 +110,16 @@ In the section below section, replace the **$hostname** with the valid hostname
 myhostname = $hostname
 ~~~
 
- Restart postfix using the command
+ Restart the postfix using the command
 ~~~
 systemctl restart postfix
 ~~~
 
- Once the above step is completed. You can check outgoing Emails usinf the command
+ Once the above step is completed. You can check outgoing Emails using the command
 ~~~
 echo "Postfix test" | mail -s "Subject" test@gmail.com"
 ~~~
 
 Initially, the Emails will be dropped into the SPAM folder. As this is a NEW IP the reputation is unknown. Once the reputation is calculated based on the incoming and outgoing emails. The emails will be dropped in the INBOX.
+
 
