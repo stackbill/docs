@@ -1,14 +1,14 @@
 ---
-title: OWNCLOUD
-sidebar_label: ownCloud
+title: MEDIAWIKI
+sidebar_label: MediaWiki
 ---
 
-|**`Version 10.12.0` `OS Ubuntu 20.04`**|  |
-|---------------------------------------|--|
+|**`Version 1.39` `OS Ubuntu 22.04`**|  |
+|------------------------------------|--|
 
 ### Description
 
-ownCloud is a file server that enables secure storage, collaboration and sharing. It is convenient to store files in the cloud, so they are available on any device and can be shared with a few clicks.
+MediaWiki is the free open-source wiki software used to power Wikipedia and thousands of other wikis. The contributions of hundreds of individual developers have helped make it a feature-rich, secure and scalable platform capable of powering some of the largest collaboratively edited reference projects in the world.
 
 ### Software Included
 
@@ -20,9 +20,9 @@ PHP - 7.4
 
 Postfix - 3.4.13
 
-ownCloud - 10.12.0
+MediaWiki - 1.39
 
-### Getting started after deploying OWNCLOUD
+### Getting started after deploying MEDIAWIKI
 
  Allow the ports in the firewall only SSH (port 22, rate limited), HTTP (port 80), and HTTPS (port 443) access.
 
@@ -33,7 +33,7 @@ ownCloud - 10.12.0
 >
 > Connection to $IPADDRESS closed.
 
-### Once the OWNCLOUD is deployed
+### Once the MEDIAWIKI is deployed
 
  You can log into the instance as ubuntu using either the password you set when you created the instance or with an SSH key if you added one during creation.
 
@@ -49,19 +49,19 @@ sudo su -
  mysql -u root -p <$password stored in the above file>
  ~~~
 
- The ownCloud database detail is stored under **/root/.owncloud_database_details**
+ The MediaWiki database detail is stored under **/root/.mediawiki_database_details**
 
- The ownCloud admin login credential is stored under **/root/.owncloud_admin_details**
+ The MediaWiki admin login credential is stored under **/root/.mediawiki_admin_details**
 
- You can access your ownCloud dashboard using the instance IPADDRESS as **http://$IPADDRESS** or the domain name configured for the instance. Login using the credential stored in the above file.
+ You can access your MediaWiki dashboard using the instance IPADDRESS as **http://$IPADDRESS/mediawiki** or the domain name configured for the instance. Login using the credential stored in the above file.
 
-### Before accessing the OWNCLOUD follow the below Instructions
+### Before accessing the MEDIAWIKI follow the below Instructions
 
-If you need to access the ownCloud dashboard using only the IPADDRESS. 
+If you need to access the MediaWiki dashboard using only the IPADDRESS. 
 
-You will need to allow the instance IP to the trusted domain in ownCloud using the below command, by replacing the **$my_ip** with the instance IP.
+You will need to allow the instance IP in MediaWiki Configuration using the below command, by replacing the **$my_ip** with the instance IP.
 ~~~
-occ config:system:set trusted_domains 1 --value="$my_ip"
+sed -i 's/$wgServer = \"http\:\/\/localhost\"\;/$wgServer = \"http\:\/\/$my_ip\"\;/g' /var/www/html/mediawiki/LocalSettings.php
 ~~~
 
 Restart the apache service using the below command to apply the changes,
@@ -74,9 +74,9 @@ To configure the domain name, modify the below script by replacing the **$my_dom
 sed -i 's/#ServerName $my_domain/ServerName $my_domain/g'
 ~~~
 
-Add the domain name to the trusted domain in ownCloud using the below command, by replacing the **$my_domain** with your required domain,
+Add the domain name in MediaWiki Configuration using the below command, by replacing the **$my_domain** with your required domain,
 ~~~
-occ config:system:set trusted_domains 2 --value="$my_domain"
+sed -i 's/$wgServer = \"http\:\/\/localhost\"\;/$wgServer = \"http\:\/\/$my_domain\"\;/g' /var/www/html/mediawiki/LocalSettings.php
 ~~~
 
  Domain's A record must be pointed to the Instance's IPADDRESS.
@@ -86,11 +86,18 @@ Restart the apache service using the below command to apply the changes,
 systemctl restart apache2
 ~~~
 
-The value of the trused domains, **trusted_domains $NUMBER** should be added carefully,
+If the MediaWiki need to be accessed directly using the IPADDESS as **http://$IPADDRESS** instead of **http://$IPADDRESS/mediawiki**. Follow the below steps
 
-> trusted_domains 0 --> localhost
+You can add the below rule under **/var/www/html/** under a filename **.htaccess** using the below command,
+~~~
+vi /var/www/html/.htaccess
+~~~
 
-If you would need to add other trusted_domains increment the **$NUMBER** as mentioned in the above commands.
+Paste the below command and save the file by pressing **ESC** and the command **:wq**
+~~~
+RewriteEngine On
+RewriteRule ^$ /mediawiki [L]
+~~~
 
 ### Setting up Postfix
 
@@ -121,5 +128,3 @@ echo "Postfix test" | mail -s "Subject" test@gmail.com"
 ~~~
 
 Initially, the Emails will be dropped into the SPAM folder. As this is a NEW IP the reputation is unknown. Once the reputation is calculated based on the incoming and outgoing emails. The emails will be dropped in the INBOX.
-
-
