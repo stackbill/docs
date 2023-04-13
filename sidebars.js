@@ -236,6 +236,14 @@ module.exports = {
     },
     {
       type: "category",
+      label: "Media Apps",
+      collapsed: false,
+      items: [
+        "marketplace-docs/media/ANTMEDIASERVER",
+      ],
+    },
+    {
+      type: "category",
       label: "Monitoring Apps",
       collapsed: false,
       items: [
