@@ -8,7 +8,7 @@ const config = {
   title: "Stackbill Documentation",
   tagline: "Stackbill Documentation",
   url: "https://docs.stackbill.com",
-  baseUrl: "/help",
+  baseUrl: "/",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   // favicon: "img/favicon.ico",
