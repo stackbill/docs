@@ -219,6 +219,8 @@ module.exports = {
         "marketplace-docs/hosting-apps/LEMP",
         "marketplace-docs/hosting-apps/JOOMLA-LAMP",
         "marketplace-docs/hosting-apps/JOOMLA-LOMP",
+        "marketplace-docs/hosting-apps/MEDIAWIKI",
+        "marketplace-docs/hosting-apps/OWNCLOUD",
         "marketplace-docs/hosting-apps/WORDPRESS",
         "marketplace-docs/hosting-apps/WORDPRESS-WOOCOMMERCE",
       ],
@@ -230,6 +232,14 @@ module.exports = {
       items: [
         "marketplace-docs/hosting-panels/CLOUDPANEL",
         "marketplace-docs/hosting-panels/WEBMIN",
+      ],
+    },
+    {
+      type: "category",
+      label: "Media Apps",
+      collapsed: false,
+      items: [
+        "marketplace-docs/media/ANTMEDIASERVER",
       ],
     },
     {
