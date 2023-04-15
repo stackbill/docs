@@ -1,6 +1,6 @@
 ---
-title: Create New SSH using StackBill
-sidebar_label: Create New SSH using StackBill
+title: Create New SSH Key
+sidebar_label: Create New SSH key
 ---
 
 An **SSH key** is an **access credential** in the SSH protocol. Its function is similar to that of **user names and passwords**, but the keys are primarily used for **automated processes** and for implementing single sign-on by **system administrators and power users.**

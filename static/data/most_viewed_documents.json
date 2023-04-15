@@ -1,11 +1,11 @@
 [
     {
         "text": "How to create Instance",
-        "link": "/docs/virtualresources/Instance"
+        "link": "docs/virtualresources/Instance"
     },
     {
         "text": "APPS - Marketplace",
-        "link": "/docs/Marketplace/Overview"
+        "link": "docs/Marketplace/Overview"
     },
     {
         "text": "How to create kubernetes cluster",
@@ -13,19 +13,19 @@
     },
     {
         "text": "How to enable monitoring",
-        "link": "/docs/Monitoring/introduction"
+        "link": "docs/Monitoring/introduction"
     },
     {
         "text": "Cloud Billing Solution",
-        "link": "/docs/Billing/Overview#billing-system-in-stackbill-cloud-management-portal"
+        "link": "docs/Billing/Overview#billing-system-in-stackbill-cloud-management-portal"
     },
     {
         "text": "SSH key from windows",
-        "link": "/docs/ssh-keymanager/create-new-ssh-using-stackbill#how-to-generate-ssh-key-from-windows-laptop"
+        "link": "docs/ssh-keymanager/create-new-ssh-using-stackbill#how-to-generate-ssh-key-from-windows-laptop"
     },
     {
         "text": "Savings plan",
-        "link": "/docs/virtualresources/Instance#savings-plans-in-stackbill-cmp"
+        "link": "docs/virtualresources/Instance#savings-plans-in-stackbill-cmp"
     },
     {
         "text": "Adding Firewall",
@@ -33,10 +33,10 @@
     },
     {
         "text": "Autoscaling",
-        "link": "/docs/autoscalling/autoscaling-deployment#add-autoscaling-feature-to-the-instance-in-stackbill-cmp"
+        "link": "docs/autoscalling/autoscaling-deployment#add-autoscaling-feature-to-the-instance-in-stackbill-cmp"
     },
     {
         "text": "Networking",
-        "link": "/docs/Network/basic-network#network-manager-in-stackbill-cmp"
+        "link": "docs/Network/basic-network#network-manager-in-stackbill-cmp"
     }
 ]
