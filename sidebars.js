@@ -6,7 +6,7 @@ module.exports = {
       collapsed: false,
       items: [
         "Index",
-        "getstarted/StackBill-Signup",
+        "getstarted/Account-Signup",
         "getstarted/Setup-Profile",
         "getstarted/Release-Notes",
         "getstarted/Known-Bugs",
@@ -71,7 +71,7 @@ module.exports = {
       collapsed: false,
       items: [
         "ssh-keymanager/introduction",
-        "ssh-keymanager/create-new-ssh-using-stackbill",
+        "ssh-keymanager/create-new-ssh",
         "ssh-keymanager/uploading-the-existing-key",
         "ssh-keymanager/download-ssh-key",
         "ssh-keymanager/delete-ssh-key",

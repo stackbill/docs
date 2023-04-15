@@ -1,6 +1,6 @@
 ---
-title: StackBill Signup
-sidebar_label: StackBill Signup
+title: Account Signup
+sidebar_label: Account Signup
 ---
 
 # Welcome to Stackbill Documentation

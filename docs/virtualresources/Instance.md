@@ -325,19 +325,19 @@ Note: By default, CentOS username will be **root** and Ubuntu OS username will b
 
 - You will receive a popup screen that **SSH key pair has been loaded successfully**.
 
-<img src="/img/AccessingLinux/9AccessingLinux-StackBillCloudManagementPortal.png" width="80%" />
+<img src="/img/AccessingLinux/9AccessingLinux-StackBillCLoudManagementPortal.png" width="80%" />
 
 - Now click on the **Save private key** option.
 
-<img src="/img/AccessingLinux/10AccessingLinux-StackBillCloudManagementPortal.png" width="80%" />
+<img src="/img/AccessingLinux/10AccessingLinux-StackBillCLoudManagementPortal.png" width="80%" />
 
 - It will prompt you to continue to save the private key without passphrase. Click Yes to continue.
 
-<img src="/img/AccessingLinux/11AccessingLinux-StackBillCloudManagementPortal.png" width="80%" />
+<img src="/img/AccessingLinux/11AccessingLinux-StackBillCLoudManagementPortal.png" width="80%" />
 
 - Now, provide a name for the key and make sure that this Key is save in .PPK format.
 
-<img src="/img/AccessingLinux/12AccessingLinux-StackBillCloudManagementPortal.png" width="80%" />
+<img src="/img/AccessingLinux/12AccessingLinux-StackBillCLoudManagementPortal.png" width="80%" />
 
 ### Accessing the VM using SSH Key
 
@@ -350,27 +350,27 @@ Note: By default, CentOS username will be **root** and Ubuntu OS username will b
 
 - Paste your instance IP in the Hostname textbox and provide the port number under the port section. Then expand SSH Option from the Putty tool.
 
-<img src="/img/AccessingLinux/13AccessingLinux-StackBillCloudManagementPortal.png" width="80%" />
+<img src="/img/AccessingLinux/13AccessingLinux-StackBillCLoudManagementPortal.png" width="80%" />
 
 - Then expand Auth option and select credentials.
 
-<img src="/img/AccessingLinux/14AccessingLinux-StackBillCloudManagementPortal.png" width="70%" />
+<img src="/img/AccessingLinux/14AccessingLinux-StackBillCLoudManagementPortal.png" width="70%" />
 
 - Click on browse button under Private key file for authentication section.
 
-<img src="/img/AccessingLinux/15AccessingLinux-StackBillCloudManagementPortal.png" width="80%" />
+<img src="/img/AccessingLinux/15AccessingLinux-StackBillCLoudManagementPortal.png" width="80%" />
 
 - Select your converted PPK file and click on Open button.
 
-<img src="/img/AccessingLinux/16AccessingLinux-StackBillCloudManagementPortal.png" width="90%" />
+<img src="/img/AccessingLinux/16AccessingLinux-StackBillCLoudManagementPortal.png" width="90%" />
 
 - Now click on **Open** button.
 
-<img src="/img/AccessingLinux/17AccessingLinux-StackBillCloudManagementPortal.png" width="70%" />
+<img src="/img/AccessingLinux/17AccessingLinux-StackBillCLoudManagementPortal.png" width="70%" />
 
 - Provide the **username as root and press Enter**. You can able to see that you virtual instance will use the converted PPK to login into your machine.
 
-<img src="/img/AccessingLinux/18AccessingLinux-StackBillCloudManagementPortal.png" width="100%" />
+<img src="/img/AccessingLinux/18AccessingLinux-StackBillCLoudManagementPortal.png" width="100%" />
 
 
 
@@ -441,7 +441,7 @@ Note: By default, CentOS username will be **root** and Ubuntu OS username will b
 
 -  **Step 1** - Click on the **Compute option** from the side menu of the portal and **select Instance**.
 
-<img src="/img/virtualresources/Instancecreation-StackBillCloudManagementPortal1.png" width="90%" />
+<img src="/img/virtualresources/Instancecreation-StackBillCloudManagementportal1.png" width="90%" />
 
 
 - **Step 2** - Click on the **Instance** so that you can view a **summary page of the particular instance**.
@@ -477,11 +477,11 @@ Note: By default, CentOS username will be **root** and Ubuntu OS username will b
 Below is the following steps for Accessing console for the instance.
 - **Step 1** - Click on the **Compute option** from the side menu of the portal and **select Instance**.
 
-<img src="/img/virtualresources/Instancecreation-StackBillCloudManagementPortal1.png" width="90%" />
+<img src="/img/virtualresources/Instancecreation-StackBillCloudManagementportal1.png" width="90%" />
 
 - **Step 2** - Click on the **Instance** so that you can view a **summary page of the particular instance**.
  
-<img src="/img/virtualresources/console2-stackbillcloudmanagementportal.png" width="100%" />
+<img src="/img/virtualresources/Console2-StackbillCloudManagementPortal.png" width="100%" />
 
 - **Step3** - There you can view the **Console icon at right side of the panel, Click on it.**
  
@@ -637,7 +637,7 @@ Savings Plans in [**StackBill Cloud Management Portal**](https://www.stackbill.c
 - At the bottom of the page you can able to see an option called **Purchase Saving Plan**.
 - Click on it to **Purchase a Saving plan** for your resource.
 
-<img src="/img/virtualresources/Resizeinstance6-StackBillCloudManagementPortal.png" width="100%" />
+<img src="/img/virtualresources/Resizeinstance6-StackbillCloudManagementPortal.png" width="100%" />
 
 - Purchase a Saving plan screen appears.
 - Here you can choose the offering as per the requirement.
