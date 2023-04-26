@@ -16,7 +16,7 @@ sidebar_label: Introduction
 - [Attach a volume](./volume#attach-a-volume)
 - [How to take volume snapshot](./volume#how-to-take-volume-snapshot)
 - [Configuring Recurring snapshot](./volume#configuring-recurring-snapshot)
-- [Resize your volume](http://localhost:3000/docs/StorageAndSnapshot/volume#resize-your-volume)
+- [Resize your volume](./volume#resize-your-volume)
 - [creating template for a volume](./volume#creating-template-for-a-volume)
 - [Extend the root volume](./Extend-root-volume#in-this-tutorial-well-show-you-how-to-extend-windows-vms-root-volume)
 - [Attach a data volume](./attach-data-volume#steps-to-attach-a-data-volume-in-windows-vm)
