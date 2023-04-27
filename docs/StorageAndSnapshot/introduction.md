@@ -7,7 +7,7 @@ sidebar_label: Introduction
 
 **Stackbill** block storage can be useful when your storage needs get increased more than your computing demands, Since these block storage volumes are directly connected to your virtual instance.
 
-## Storage And Snapshot in Stackbill CMP
+## Storage And Snapshot in Stackbill Cloud Management Portal
 
 - [Adding a Volume](./volume#adding-a-volume-in-stackbill-cmp)
 - [How to format and make available a volume in Windows Machine](./volume#how-to-format-and-make-available-a--volume-in-windows-machine)
