@@ -11,6 +11,7 @@ import HomePageLatestUpdates from "../components/HomePageLatestUpdates";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
+  let featureTitle = siteConfig.title.split(" ")
   return (
     <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
@@ -21,7 +22,7 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="https://www.stackbill.com/stackbill-features.html"
           >
-            StackBill Features
+            {featureTitle.length > 0 && featureTitle[0]} Features
           </Link>
         </div>
       </div>
