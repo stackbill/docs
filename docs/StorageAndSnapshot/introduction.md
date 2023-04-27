@@ -7,7 +7,7 @@ sidebar_label: Introduction
 
 **Stackbill** block storage can be useful when your storage needs get increased more than your computing demands, Since these block storage volumes are directly connected to your virtual instance.
 
-## Storage And Snapshot in Stackbill CMP
+## Storage And Snapshot in Stackbill Cloud Management Portal
 
 - [Adding a Volume](./volume#adding-a-volume-in-stackbill-cmp)
 - [How to format and make available a volume in Windows Machine](./volume#how-to-format-and-make-available-a--volume-in-windows-machine)
@@ -16,7 +16,7 @@ sidebar_label: Introduction
 - [Attach a volume](./volume#attach-a-volume)
 - [How to take volume snapshot](./volume#how-to-take-volume-snapshot)
 - [Configuring Recurring snapshot](./volume#configuring-recurring-snapshot)
-- [Resize your volume](http://localhost:3000/docs/StorageAndSnapshot/volume#resize-your-volume)
+- [Resize your volume](./volume#resize-your-volume)
 - [creating template for a volume](./volume#creating-template-for-a-volume)
 - [Extend the root volume](./Extend-root-volume#in-this-tutorial-well-show-you-how-to-extend-windows-vms-root-volume)
 - [Attach a data volume](./attach-data-volume#steps-to-attach-a-data-volume-in-windows-vm)
