@@ -231,6 +231,8 @@ module.exports = {
       collapsed: false,
       items: [
         "marketplace-docs/hosting-panels/CLOUDPANEL",
+        "marketplace-docs/hosting-panels/CPANEL",
+        "marketplace-docs/hosting-panels/PLESK",
         "marketplace-docs/hosting-panels/WEBMIN",
       ],
     },

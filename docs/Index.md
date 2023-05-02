@@ -7,9 +7,9 @@ sidebar_label: Introduction
 [**StackBill**](https://www.stackbill.com/) is a complete self-service intuitive [**Cloud Management Portal**](https://www.stackbill.com/) with extensive features leveraging [**Apache CloudStack®**](https://youtu.be/nyV8oE3dfXs) with state of art years of expertise.
 
 **StackBill Sign-up**
-   - [Getting Started with StackBill CMP](./getstarted/StackBill-Signup#cmp)
-   - [How to Login into StackBill CMP](./getstarted/StackBill-Signup#how-to-login-into-stackbill-cmp)
-   - [How to Recover StackBill Account Password](./getstarted/StackBill-Signup#how-to-recover-stackbill-account-password)
+   - [Getting Started with StackBill CMP](./getstarted/Account-Signup#cmp)
+   - [How to Login into StackBill CMP](./getstarted/Account-Signup#how-to-login-into-stackbill-cmp)
+   - [How to Recover StackBill Account Password](./getstarted/Account-Signup#how-to-recover-stackbill-account-password)
 
 **Setup profile in StackBill CMP**
   - [Setting up user profile in StackBill CMP](./getstarted/Setup-Profile#setting-up-user-profile-in-stackbill-cmp)
