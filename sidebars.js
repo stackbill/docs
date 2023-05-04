@@ -255,6 +255,14 @@ module.exports = {
     },
     {
       type: "category",
+      label: "Operating System",
+      collapsed: false,
+      items: [
+        "marketplace-docs/operating-system/UBUNTU-DESKTOP-20.04",
+      ],
+    },
+    {
+      type: "category",
       label: "Web Apps",
       collapsed: false,
       items: [
