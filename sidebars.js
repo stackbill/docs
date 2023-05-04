@@ -231,6 +231,8 @@ module.exports = {
       collapsed: false,
       items: [
         "marketplace-docs/hosting-panels/CLOUDPANEL",
+        "marketplace-docs/hosting-panels/CPANEL",
+        "marketplace-docs/hosting-panels/PLESK",
         "marketplace-docs/hosting-panels/WEBMIN",
       ],
     },
@@ -249,6 +251,14 @@ module.exports = {
       items: [
         "marketplace-docs/monitoring/PROMETHEUS",
         "marketplace-docs/monitoring/ZABBIX",
+      ],
+    },
+    {
+      type: "category",
+      label: "Operating System",
+      collapsed: false,
+      items: [
+        "marketplace-docs/operating-system/UBUNTU-DESKTOP-20.04",
       ],
     },
     {
