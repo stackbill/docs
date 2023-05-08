@@ -16,7 +16,7 @@ Plesk - Latest
 
 ### Getting started after deploying PLESK
 
-You can allow the ports in the 5th Section (Setup Cloud Firewall), under the (Setup Cloud Firewall) section you can view Create Firewall, Click on the drop-down and select Plesk. 
+You can allow the ports in the 5th Section **(Setup Cloud Firewall)**, under the **(Setup Cloud Firewall)** section you can view **Create Firewall**, Click on the drop-down and select **Plesk**. 
 
 ### Getting started after deploying PLESK
 
