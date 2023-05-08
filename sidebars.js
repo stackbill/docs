@@ -190,6 +190,7 @@ module.exports = {
         "marketplace-docs/database/MYSQL-STANDALONE",
         "marketplace-docs/database/PHPMYADMIN",
         "marketplace-docs/database/POSTGRESQL",
+        "marketplace-docs/database/RETHINKDB",
       ],
     },
     {
