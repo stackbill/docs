@@ -708,7 +708,7 @@ With **StackBill's VM scheduler**, **you can start and stop instances automatica
 
 - Click on the particular instance. 
 
-<img src="/img/virtualresources/console2-stackbillcloudmanagementportal.png" width="100%" />
+<img src="/img/virtualresources/Console2-StackbillCloudManagementPortal.png" width="100%" />
 
 - Now the **summary of the particular instance** appears on the screen.
 - At the right side of the panel you can see a option for **Vm scheduler**, Click on it.
