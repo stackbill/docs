@@ -3,7 +3,7 @@ title: ROCKET.CHAT
 sidebar_label: Rocket.Chat
 ---
 
-|**`Version Latest` `OS Ubuntu 20.04`**|  |
+|**`Version 6.1.6` `OS Ubuntu 20.04`**|  |
 |--------------------------------------|--|
 
 ### Description
@@ -12,7 +12,11 @@ sidebar_label: Rocket.Chat
 
 ### Software Included
 
+Rocket.Chat - 6.1.6
+
 NodeJS - 14.21.2
+
+MongoDB - 5.0.17
 
 ### Getting started after deploying ROCKET.CHAT
 
