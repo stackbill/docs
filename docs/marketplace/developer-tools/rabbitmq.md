@@ -3,8 +3,8 @@ title: RabbitMQ
 sidebar_label: RabbitMQ
 ---
 
-|**`Version 3.11.9` `OS Ubuntu 20.04`**|  |
-|--------------------------------------|--|
+|**`Version 3.11.9` `OS Ubuntu 20.04` `DEVELOPER TOOLS`**|  |
+|--------------------------------------------------------|--|
 
 
 ### Description

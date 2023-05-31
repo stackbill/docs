@@ -3,8 +3,8 @@ title: Anaconda
 sidebar_label: Anaconda
 ---
 
-|**`Version 2021.11` `OS Ubuntu 22.04`**|  |
-|---------------------------------------|--|
+|**`Version 2021.11` `OS Ubuntu 22.04` `DEVELOPER TOOLS`**|  |
+|---------------------------------------------------------|--|
 
 
 ### Description

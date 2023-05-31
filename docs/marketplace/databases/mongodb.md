@@ -3,8 +3,8 @@ title: MongoDB
 sidebar_label: MongoDB
 ---
 
-|**`Version 6.0.4` `OS Ubuntu 20.04`**|  |
-|-------------------------------------|--|
+|**`Version 6.0.4` `OS Ubuntu 20.04` `DATABASES`**|  |
+|-------------------------------------------------|--|
 
 ### Description
 

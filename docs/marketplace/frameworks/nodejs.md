@@ -3,8 +3,8 @@ title: NodeJS
 sidebar_label: NodeJS
 ---
 
-|**`Version 18.14.0` `OS Ubuntu 22.04`**|  |
-|---------------------------------------|--|
+|**`Version 18.14.0` `OS Ubuntu 22.04` `FRAMEWORKS`**|  |
+|----------------------------------------------------|--|
 
 
 ### Description

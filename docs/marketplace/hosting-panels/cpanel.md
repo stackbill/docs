@@ -3,8 +3,8 @@ title: cPanel
 sidebar_label: cPanel
 ---
 
-|**`Version Latest` `OS Ubuntu 20.04`**|  |
-|--------------------------------------|--|
+|**`Version Latest` `OS Ubuntu 20.04` `HOSTING PANELS`**|  |
+|-------------------------------------------------------|--|
 
 ### Description
 

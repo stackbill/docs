@@ -3,8 +3,8 @@ title: MySQL Lamp
 sidebar_label: MySQL Lamp
 ---
 
-|**`Version 8.0.30` `OS Ubuntu 20.04`**|  |
-|--------------------------------------|--|
+|**`Version 8.0.30` `OS Ubuntu 20.04` `DATABASES`**|  |
+|--------------------------------------------------|--|
 
 ### Description
 

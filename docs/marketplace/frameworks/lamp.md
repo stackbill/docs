@@ -3,8 +3,8 @@ title: Lamp
 sidebar_label: Lamp
 ---
 
-|**`Version Latest` `OS Ubuntu 20.04`**|  |
-|--------------------------------------|--|
+|**`Version Latest` `OS Ubuntu 20.04` `FRAMEWORKS`**|  |
+|---------------------------------------------------|--|
 
 
 ### Description

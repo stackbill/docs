@@ -3,8 +3,8 @@ title: Ubuntu Deskop 20.04 (Gnome)
 sidebar_label: Ubuntu Deskop 20.04 (Gnome)
 ---
 
-|**`Version 20.04` `OS Ubuntu Desktop (Gnome)`**|  |
-|-----------------------------------------------|--|
+|**`Version 20.04` `Ubuntu Desktop (Gnome)` `OPERATING SYSTEM`**|  |
+|------------------------------------------------------------------|--|
 
 ### Description
 

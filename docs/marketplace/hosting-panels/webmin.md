@@ -3,8 +3,8 @@ title: Webmin
 sidebar_label: Webmin
 ---
 
-|**`Version 2.013` `OS Ubuntu 20.04`**|  |
-|-------------------------------------|--|
+|**`Version 2.013` `OS Ubuntu 20.04` `HOSTING PANELS`**|  |
+|------------------------------------------------------|--|
 
 
 ### Description

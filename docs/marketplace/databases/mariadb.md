@@ -3,8 +3,8 @@ title: MariaDB
 sidebar_label: MariaDB
 ---
 
-|**`Version 10.6.12` `OS Ubuntu 22.04`**|  |
-|---------------------------------------|--|
+|**`Version 10.6.12` `OS Ubuntu 22.04` `DATABASES`**|  |
+|---------------------------------------------------|--|
 
 ### Description
 

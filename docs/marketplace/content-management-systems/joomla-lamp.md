@@ -3,8 +3,8 @@ title: Joomla Lamp
 sidebar_label: Joomla Lamp
 ---
 
-|**`Version 4.2.2` `OS Ubuntu 20.04`**|  |
-|-------------------------------------|--|
+|**`Version 4.2.2` `OS Ubuntu 20.04` `CMS`**|  |
+|-------------------------------------------|--|
 
 
 ### Description

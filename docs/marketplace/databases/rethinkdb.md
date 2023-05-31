@@ -3,8 +3,8 @@ title: RethinkDB
 sidebar_label: RethinkDB
 ---
 
-|**`Version 2.4.3` `OS Ubuntu 22.04`**|  |
-|-------------------------------------|--|
+|**`Version 2.4.3` `OS Ubuntu 22.04` `DATABASES`**|  |
+|-------------------------------------------------|--|
 
 ### Description
 

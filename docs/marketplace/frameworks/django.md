@@ -3,8 +3,8 @@ title: Django
 sidebar_label: Django
 ---
 
-|**`Version 4.1.1` `OS Ubuntu 22.04`**|  |
-|-------------------------------------|--|
+|**`Version 4.1.1` `OS Ubuntu 22.04` `FRAMEWORKS`**|  |
+|--------------------------------------------------|--|
 
 
 ### Description

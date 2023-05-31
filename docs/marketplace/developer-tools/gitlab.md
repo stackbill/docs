@@ -3,8 +3,8 @@ title: Gitlab
 sidebar_label: Gitlab
 ---
 
-|**`Version Latest` `OS Ubuntu 20.04`**|  |
-|--------------------------------------|--|
+|**`Version Latest` `OS Ubuntu 20.04` `DEVELOPER TOOLS`**|  |
+|--------------------------------------------------------|--|
 
 
 ### Description

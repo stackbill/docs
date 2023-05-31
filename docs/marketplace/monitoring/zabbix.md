@@ -3,8 +3,8 @@ title: Zabbix
 sidebar_label: Zabbix
 ---
 
-|**`Version 6.2.7` `OS Ubuntu 22.04`**|  |
-|--------------------------------------|--|
+|**`Version 6.2.7` `OS Ubuntu 22.04` `MONITORING`**|  |
+|--------------------------------------------------|--|
 
 
 ### Description

@@ -3,8 +3,8 @@ title: OpenLitespeed
 sidebar_label: OpenLitespeed
 ---
 
-|**`Version 1.7.16` `OS Ubuntu 22.04`**|  |
-|--------------------------------------|--|
+|**`Version 1.7.16` `OS Ubuntu 22.04` `FRAMEWORKS`**|  |
+|---------------------------------------------------|--|
 
 
 ### Description

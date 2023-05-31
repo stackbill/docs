@@ -3,8 +3,8 @@ title: Drupal Lomp
 sidebar_label: Drupal Lomp
 ---
 
-|**`Version 10.0.7` `OS Ubuntu 22.04`**|  |
-|--------------------------------------|--|
+|**`Version 10.0.7` `OS Ubuntu 22.04` `CMS`**|  |
+|--------------------------------------------|--|
 
 ### Description
 

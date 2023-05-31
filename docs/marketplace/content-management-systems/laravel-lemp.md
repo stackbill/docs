@@ -3,8 +3,8 @@ title: Laravel Lemp
 sidebar_label: Laravel Lemp
 ---
 
-|**`Version 10.3.1` `OS Ubuntu 22.04`**|  |
-|--------------------------------------|--|
+|**`Version 10.3.1` `OS Ubuntu 22.04` `CMS`**|  |
+|--------------------------------------------|--|
 
 
 ### Description
