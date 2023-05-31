@@ -222,6 +222,7 @@ module.exports = {
         "marketplace-docs/hosting-apps/JOOMLA-LOMP",
         "marketplace-docs/hosting-apps/MEDIAWIKI",
         "marketplace-docs/hosting-apps/OWNCLOUD",
+        "marketplace-docs/hosting-apps/ROCKET-CHAT",
         "marketplace-docs/hosting-apps/WORDPRESS",
         "marketplace-docs/hosting-apps/WORDPRESS-WOOCOMMERCE",
       ],
