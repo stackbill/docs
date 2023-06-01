@@ -3,8 +3,8 @@ title: Prometheus
 sidebar_label: Prometheus
 ---
 
-|**`Version 2.42.0` `OS Ubuntu 22.04`**|  |
-|--------------------------------------|--|
+|**`Version 2.42.0` `OS Ubuntu 22.04` `MONITORING`**|  |
+|---------------------------------------------------|--|
 
 
 ### Description

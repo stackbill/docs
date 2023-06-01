@@ -3,8 +3,8 @@ title: WordPress WooCommerce
 sidebar_label: WordPress WooCommerce
 ---
 
-|**`Version 7.5.1` `OS Ubuntu 20.04`**|  |
-|-------------------------------------|--|
+|**`Version 7.5.1` `OS Ubuntu 20.04` `ECOMMERCE`**|  |
+|-------------------------------------------------|--|
 
 
 ### Description

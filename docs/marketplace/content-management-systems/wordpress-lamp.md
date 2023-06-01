@@ -3,8 +3,8 @@ title: WordPress Lamp
 sidebar_label: WordPress Lamp
 ---
 
-|**`Version 6.0` `OS Ubuntu 20.04`**|  |
-|-----------------------------------|--|
+|**`Version 6.0` `OS Ubuntu 20.04` `CMS`**|  |
+|-----------------------------------------|--|
 
 
 ### Description

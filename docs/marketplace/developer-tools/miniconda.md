@@ -3,8 +3,8 @@ title: Miniconda
 sidebar_label: Miniconda
 ---
 
-|**`Version Latest` `OS Ubuntu 22.04`**|  |
-|--------------------------------------|--|
+|**`Version Latest` `OS Ubuntu 22.04` `DEVELOPER TOOLS`**|  |
+|--------------------------------------------------------|--|
 
 
 ### Description

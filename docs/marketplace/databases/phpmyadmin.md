@@ -3,8 +3,8 @@ title: phpMyAdmin
 sidebar_label: phpMyAdmin
 ---
 
-|**`Version 5.2.0` `OS Ubuntu 20.04`**|  |
-|-------------------------------------|--|
+|**`Version 5.2.0` `OS Ubuntu 20.04` `DATABASES`**|  |
+|-------------------------------------------------|--|
 
 ### Description
 

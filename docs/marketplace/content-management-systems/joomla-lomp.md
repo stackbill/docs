@@ -3,8 +3,8 @@ title: Joomla Lomp
 sidebar_label: Joomla Lomp
 ---
 
-|**`Version 4.2.2` `OS Ubuntu 20.04`**|  |
-|-------------------------------------|--|
+|**`Version 4.2.2` `OS Ubuntu 20.04` `CMS`**|  |
+|-------------------------------------------|--|
 
 
 ### Description

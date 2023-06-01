@@ -3,8 +3,8 @@ title: MediaWiki
 sidebar_label: MediaWiki
 ---
 
-|**`Version 1.39` `OS Ubuntu 22.04`**|  |
-|------------------------------------|--|
+|**`Version 1.39` `OS Ubuntu 22.04` `CMS`**|  |
+|------------------------------------------|--|
 
 ### Description
 

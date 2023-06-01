@@ -3,8 +3,8 @@ title: MySQL
 sidebar_label: MySQL
 ---
 
-|**`Version 8.0` `OS Ubuntu 22.04`**|  |
-|-----------------------------------|--|
+|**`Version 8.0` `OS Ubuntu 22.04` `DATABASES`**|  |
+|-----------------------------------------------|--|
 
 ### Description
 

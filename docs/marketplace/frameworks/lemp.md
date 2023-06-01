@@ -3,8 +3,8 @@ title: Lemp
 sidebar_label: Lemp
 ---
 
-|**`Version Latest` `OS Ubuntu 20.04`**|  |
-|--------------------------------------|--|
+|**`Version Latest` `OS Ubuntu 20.04` `FRAMEWORKS`**|  |
+|---------------------------------------------------|--|
 
 
 ### Description

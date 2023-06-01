@@ -3,8 +3,8 @@ title: ActiveMQ
 sidebar_label: ActiveMQ
 ---
 
-|**`Version 5.17.4` `OS Ubuntu 22.04`**|  |
-|--------------------------------------|--|
+|**`Version 5.17.4` `OS Ubuntu 22.04` `DEVELOPER TOOLS`**|  |
+|--------------------------------------------------------|--|
 
 
 ### Description

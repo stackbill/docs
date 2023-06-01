@@ -3,8 +3,8 @@ title: CloudPanel
 sidebar_label: CloudPanel
 ---
 
-|**`Version Latest` `OS Ubuntu 22.04`**|  |
-|--------------------------------------|--|
+|**`Version Latest` `OS Ubuntu 22.04` `HOSTING PANELS`**|  |
+|-------------------------------------------------------|--|
 
 ### Description
 

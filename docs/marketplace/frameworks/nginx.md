@@ -3,8 +3,8 @@ title: Nginx
 sidebar_label: Nginx
 ---
 
-|**`Version 1.18` `OS Ubuntu 20.04`**|  |
-|------------------------------------|--|
+|**`Version 1.18` `OS Ubuntu 20.04` `FRAMEWORKS`**|  |
+|-------------------------------------------------|--|
 
 
 ### Description

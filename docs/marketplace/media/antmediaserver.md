@@ -3,8 +3,8 @@ title: Ant Media Server
 sidebar_label: Ant Media Server
 ---
 
-|**`Version 2.5.3` `OS Ubuntu 20.04`**|  |
-|-------------------------------------|--|
+|**`Version 2.5.3` `OS Ubuntu 20.04` `MEDIA`**|  |
+|---------------------------------------------|--|
 
 ### Description
 

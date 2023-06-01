@@ -3,8 +3,8 @@ title: PostgreSQL
 sidebar_label: PostgreSQL
 ---
 
-|**`Version 15.2` `OS Ubuntu 22.04`**|  |
-|------------------------------------|--|
+|**`Version 15.2` `OS Ubuntu 22.04` `DATABASES`**|  |
+|------------------------------------------------|--|
 
 ### Description
 

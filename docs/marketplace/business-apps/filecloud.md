@@ -3,8 +3,8 @@ title: FileCloud
 sidebar_label: FileCloud
 ---
 
-|**`Version Latest` `OS Ubuntu 20.04`**|  |
-|--------------------------------------|--|
+|**`Version Latest` `OS Ubuntu 20.04` `BUSINESS APPS`**|  |
+|------------------------------------------------------|--|
 
 
 ### Description

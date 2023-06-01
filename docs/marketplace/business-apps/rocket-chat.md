@@ -3,8 +3,8 @@ title: Rocket.Chat
 sidebar_label: Rocket.Chat
 ---
 
-|**`Version 6.1.6` `OS Ubuntu 20.04`**|  |
-|--------------------------------------|--|
+|**`Version 6.1.6` `OS Ubuntu 20.04` `BUSINESS APPS`**|  |
+|-----------------------------------------------------|--|
 
 ### Description
 

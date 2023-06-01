@@ -3,8 +3,8 @@ title: Yarn
 sidebar_label: Yarn
 ---
 
-|**`Version 3.4.1` `OS Ubuntu 22.04`**|  |
-|-------------------------------------|--|
+|**`Version 3.4.1` `OS Ubuntu 22.04` `FRAMEWORKS`**|  |
+|--------------------------------------------------|--|
 
 
 ### Description

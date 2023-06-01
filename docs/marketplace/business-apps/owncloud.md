@@ -3,8 +3,8 @@ title: ownCloud
 sidebar_label: ownCloud
 ---
 
-|**`Version 10.12.0` `OS Ubuntu 20.04`**|  |
-|---------------------------------------|--|
+|**`Version 10.12.0` `OS Ubuntu 20.04` `BUSINESS APPS`**|  |
+|-------------------------------------------------------|--|
 
 ### Description
 
