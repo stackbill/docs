@@ -37,6 +37,6 @@ You can then switch the user to root without a password by entering the followin
 sudo su -
 ~~~
 
-You can access the CloudPanel Web interface at **http://IPADDRESS:8443**
+You can access the CloudPanel Web interface at **https://IPADDRESS:8443**
 
 You can then set up the CloudPanel through Web interface.
