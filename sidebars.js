@@ -227,6 +227,7 @@ module.exports = {
       label: "eCommerce",
       collapsed: false,
       items: [
+        "marketplace/ecommerce/magento2", 
         "marketplace/ecommerce/wordpress-woocommerce",
       ],
     },
