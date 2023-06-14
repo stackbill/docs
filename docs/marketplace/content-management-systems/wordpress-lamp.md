@@ -153,7 +153,7 @@ systemctl restart postfix
 
  Once the above step is completed. You can check outgoing Emails using the command
 ~~~
-echo "Postfix test" | mail -s "Subject" test@gmail.com"
+echo "Postfix test" | mail -s "Subject" test@gmail.com
 ~~~
 
 Initially, the Emails will be dropped into the SPAM folder. As this is a NEW IP the reputation is unknown. Once the reputation is calculated based on the incoming and outgoing emails. The emails will be dropped in the INBOX.
