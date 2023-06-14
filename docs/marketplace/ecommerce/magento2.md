@@ -96,7 +96,10 @@ You can also run LetsEncrypt certbot later with the command 'certbot'
 Would you like to use LetsEncrypt (certbot) to configure SSL(https) for your new site? (y/n):
 ~~~
 
-**Note**. You can not configure the SSL certificate later just using the command 'certbot --apache' because Varnish uses the default 80 port. 
+**Note**. You can not configure the SSL certificate later just using the command 'certbot --apache' because Varnish uses the default 80 port. In case you want to configure SSL after the Magento installation, Run the below command and enter the domain name
+~~~
+chmod +x /opt/ssl_config/ssl.sh && /opt/ssl_config/ssl.sh
+~~~
 
 After SSL configuration the Magento 2 installation will begin,
 > Downloading Magento 2...
@@ -181,7 +184,7 @@ systemctl restart postfix
 Once the above step is completed. You can check outgoing Emails using the command
 
 ```
-echo "Postfix test" | mail -s "Subject" test@gmail.com"
+echo "Postfix test" | mail -s "Subject" test@gmail.com
 ```
 
 Initially, the Emails will be dropped into the SPAM folder. As this is a NEW IP the reputation is unknown. Once the reputation is calculated based on the incoming and outgoing emails. The emails will be dropped in the INBOX.
