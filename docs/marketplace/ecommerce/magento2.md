@@ -34,6 +34,10 @@ Postfix - 3.4.13
 
 ### Getting started after deploying MAGENTO 2
 
+Before the installation process, you will need to register an account and get your authentication keys from Magento Marketplace.
+
+To get your **Public** and **Private key**, you must follow the instruction [How to get your authentication keys](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/connect-auth.html). Use the **Public key** as your **Username** and the **Private key** as your **Password**.
+
 Allow the ports in the firewall only SSH (port 22, rate limited), HTTP (port 80), and HTTPS (port 443) access.
 
 Sets the MySQL root password, runs mysql_secure_installation, and creates a Magento 2 mysql database and user with the necessary permissions.
@@ -92,7 +96,10 @@ You can also run LetsEncrypt certbot later with the command 'certbot'
 Would you like to use LetsEncrypt (certbot) to configure SSL(https) for your new site? (y/n):
 ~~~
 
-**Note**. You can not configure the SSL certificate later just using the command 'certbot --apache' because Varnish uses the default 80 port. 
+**Note**. You can not configure the SSL certificate later just using the command 'certbot --apache' because Varnish uses the default 80 port. In case you want to configure SSL after the Magento installation, Run the below command and enter the domain name
+~~~
+chmod +x /opt/ssl_config/ssl.sh && /opt/ssl_config/ssl.sh
+~~~
 
 After SSL configuration the Magento 2 installation will begin,
 > Downloading Magento 2...
@@ -107,6 +114,10 @@ After successful installation, you will see the following message:
 Installation complete. Access your new Magento site http://$DOMAIN/ in a browser to continue.
 ~~~
 
+To access your new Magento site use **http://$DOMAIN/** in a browser.
+
+To access the Magento admin area use **http://$DOMAIN/admin** in a browser and log in using the username and password that you have entered while configuring.
+
 The MySQL root password is stored under  **/root/.mysql_root_password**
 
  Login to MySQL using the command,
@@ -117,6 +128,13 @@ The MySQL root password is stored under  **/root/.mysql_root_password**
 Magento 2 Database Information is stored under  **/root/.magento_database_details**
 
 The web root is  **/var/www/html**.
+
+Replace your **public** and **private key** in the file **/var/www/.config/composer/auth.json** for further installation and updation.
+~~~
+Replace:
+$PUBLIC_KEY with your public key
+$PRIVATE_KEY with your private key
+~~~
 
 ### In addition, there are a few customized setup steps that we recommend you take
 
@@ -166,7 +184,7 @@ systemctl restart postfix
 Once the above step is completed. You can check outgoing Emails using the command
 
 ```
-echo "Postfix test" | mail -s "Subject" test@gmail.com"
+echo "Postfix test" | mail -s "Subject" test@gmail.com
 ```
 
 Initially, the Emails will be dropped into the SPAM folder. As this is a NEW IP the reputation is unknown. Once the reputation is calculated based on the incoming and outgoing emails. The emails will be dropped in the INBOX.
