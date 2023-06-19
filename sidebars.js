@@ -258,7 +258,7 @@ module.exports = {
     },
     {
       type: "category",
-      label: "Media Apps",
+      label: "Media",
       collapsed: false,
       items: [
         "marketplace/media/antmediaserver",
