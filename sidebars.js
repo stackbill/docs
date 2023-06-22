@@ -270,7 +270,7 @@ module.exports = {
       collapsed: false,
       items: [
         "marketplace/monitoring/prometheus",
-        "marketplace/monitoring/zabbix",
+        "marketplace/monitoring/zabbix-server",
       ],
     },
     {
