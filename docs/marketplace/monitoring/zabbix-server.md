@@ -26,7 +26,7 @@ Zabbix Agent - 6.2.7
 
 ### Getting started after deploying ZABBIX SERVER
 
-Allow the ports in the firewall only SSH (port 22, rate limited), apache on port 80 and Zabbix on port 10051 access
+Allow the ports in the firewall only SSH (port 22, rate limited), apache on port 80 and Zabbix on ports 10050 and 10051 access
 
 Sets the MySQL root password, runs mysql_secure_installation and creates initial Zabbix Configuration.
 
