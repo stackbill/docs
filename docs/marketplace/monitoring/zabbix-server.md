@@ -1,6 +1,6 @@
 ﻿---
-title: Zabbix
-sidebar_label: Zabbix
+title: Zabbix Server
+sidebar_label: Zabbix Server
 ---
 
 |**`Version 6.2.7` `OS Ubuntu 22.04` `MONITORING`**|  |
@@ -24,9 +24,9 @@ Zabbix Server - 6.2.7
 Zabbix Agent - 6.2.7
 
 
-### Getting started after deploying ZABBIX
+### Getting started after deploying ZABBIX SERVER
 
-Allow the ports in the firewall only SSH (port 22, rate limited), apache on port 80 and Zabbix on port 10051 access
+Allow the ports in the firewall only SSH (port 22, rate limited), apache on port 80 and Zabbix on ports 10050 and 10051 access
 
 Sets the MySQL root password, runs mysql_secure_installation and creates initial Zabbix Configuration.
 
@@ -36,7 +36,7 @@ You will be logged out of the instance and displayed with the below message unti
 >
 > Connection to $IPADDRESS closed.
 
-### Once the ZABBIX is deployed
+### Once the ZABBIX SERVER is deployed
 
 You can log into the instance as ubuntu using either the password you set when you created the instance or with an SSH key if you added one during creation.
 
