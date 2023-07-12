@@ -198,6 +198,7 @@ module.exports = {
       label: "Databases",
       collapsed: false,
       items: [
+        "marketplace/databases/apache-kafka",
         "marketplace/databases/influxdb",
         "marketplace/databases/mariadb",
         "marketplace/databases/mongodb",
