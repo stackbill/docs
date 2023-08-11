@@ -5,15 +5,47 @@ sidebar_label: Release Notes
 
 # Release notes
 
+## StackBill Cloud Management Portal Version Overview
+
 [**StackBill**](https://www.stackbill.com/) is a complete self-service intuitive Cloud Management Portal with extensive features leveraging **Apache CloudStack®** with state of art years of expertise.
 
 **CMP** For **Datacenters** | **Enterprises** | **Telecom and Cloud Service** Providers.
 
 The **StackBill** cloud platform release notes track incremental improvements and major releases.
-## StackBill Cloud Management Portal 3.02 Version Overview
 
-**STACKBILL 3.02**
-September 15th, 2022
+### StackBill Cloud Management Portal 3.03 Version Overview 
+
+StackBill 3.02 - August 11th, 2023
+
+
+**Whats New**
+
+
+Notifications email sends to the admin whenever a new user signs up.
+Notifications email sends the admin when a user creates or deletes a virtual machine (VM).
+Integrated a helpdesk system to provide support and assistance to the users.
+Provided the option to display their social media links in the footer.
+Provided the option to display their footer links.
+SubDomain feature added
+FAQ
+Login Page Slider
+Billing for Marketplace apps
+
+**Improvements**
+
+Instance Creation Screen UI Improvements
+Admin NewUI Screens
+List Pages Improvement
+
+**Bug Fixes**
+
+Payment Setting Link Wrongly Displayed in Dashboard Page issue fixed
+Billing - Purchase Savings Plans Back menu not working issue fixed
+Breadcrumb - Home navigation getting Blank page issue fixed
+
+### **StackBill Cloud Management Portal 3.02 Version Overview**  
+
+StackBill 3.02 - September 15th, 2022
 
 **What’s New**
 - New UI - Dashboard improvement, Left side menu re-organize, VM summary page and User profile design changes
@@ -39,7 +71,7 @@ September 15th, 2022
 - CPU utilization issue fixed in VM list page
 - Unable to create VM using ISO template
 
-## StackBill 3.01 Version Overview
+### StackBill 3.01 Version Overview
 
 **STACKBILL 3.01**
 August 6th, 2022
@@ -70,7 +102,7 @@ August 6th, 2022
 - VM loader issue fixed
 
 
-## StackBill 3.00 Version Overview
+### StackBill 3.00 Version Overview
 
 
 **STACKBILL 3.00** 
@@ -88,7 +120,7 @@ June 10th, 2022
 - Volume list action buttons not showing 
 - Delete volume snapshot issue 
 
-## StackBill 2.04 Version Overview
+### StackBill 2.04 Version Overview
 
 **STACKBILL 2.04**
 April 28th, 2022 
@@ -108,7 +140,7 @@ April 28th, 2022
 - Error in the Template filter (Spanish only) 
 
 
-## StackBill 2.03 Version Overview
+### StackBill 2.03 Version Overview
 
 **STACKBILL 2.03** 
 February 27th, 2022 

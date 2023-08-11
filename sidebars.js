@@ -93,7 +93,6 @@ module.exports = {
       items: [
         "Network/introduction",
         "Network/basic-network",
-        "Network/VPN-Gateway",
         "Network/Security-Group-Firewall",
       ],
     },

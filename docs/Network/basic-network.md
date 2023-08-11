@@ -270,44 +270,149 @@ sidebar_label: Basic Network
 
 ## Virtual Private Cloud
 
-- A **Virtual Private Cloud (VPC)** is a private network interface for collections of **StackBill** resources. 
+**INTRODUCTION**
 
-- Because **VPC networks** are inaccessible from the **public internet** and other **VPC networks**, they provide a more secure connection between resources.
+VPC (Virtual Private Cloud) is a networking feature in cloud control panel, that enables users to create isolated and logically defined private cloud environments within a public cloud infrastructure. VPC allows users to have complete control over their network topology and allows them to set up a private network space with multiple tiers of VMs, routers, firewalls, and load balancers.
 
-- Traffic within a **VPC network** doesn’t count against bandwidth usage.
+**FEATURES OF VPC**
 
-## VPC Overview on StackBill CMP
+ -  Isolated Network Environment: VPC allows users to create an isolated network environment with its own private IP address space. This isolation provides enhanced security and separation from other VPCs and the public cloud.
+    
+ -  Multiple Tiers: Within a VPC, users can create multiple tiers or subnets to organize their network infrastructure efficiently. Each tier can have its own set of VMs and network services, such as routers, load balancers, and firewalls.
+    
+ -  Virtual Router: VPC uses a virtual router to provide essential routing capabilities between different tiers within the VPC and also between the VPC and the external network (public cloud or the internet). The virtual router handles network traffic and ensures that packets are correctly forwarded to their destination.
+    
+ -  Network ACLs and Security Groups: VPC allows users to define Network ACLs (Access Control Lists) and Security Groups to control inbound and outbound network traffic to and from the VMs in the VPC. This helps in enhancing security and access control for the VPC resources.
+    
+ -  VPN Connectivity: VPC supports the creation of VPN (Virtual Private Network) connections, which allows users to establish secure communication between their on-premises infrastructure and the VPC in the public cloud. This feature enables hybrid cloud scenarios and facilitates secure data transfer.
+    
+ -  Load Balancing: Users can set up load balancers within the VPC to distribute incoming traffic across multiple VMs in a tier. This ensures high availability and scalability for applications running within the VPC.
+    
+ -  Network Offering: VPC offers multiple network offerings that define the specifications and capabilities of the VPC, such as the number of subnets, IP address ranges, and supported services. Users can select the appropriate network offering based on their requirements.
+    
+ -  Elastic IP Addresses: VPC provides Elastic IP addresses (EIPs) that can be associated with VMs to allow them to have a static and public-facing IP address. This allows VMs to be accessible from the internet without changing their IP addresses.
 
+**STEPS TO CREATE VIRTUAL PRIVATE CLOUD**
 
-- **StackBill Virtual Private Cloud** is a private, isolated part of **StackBill**. 
-- **VPCs** can have their **own virtual network** topology that resembles traditional physical networks. 
-- In the **virtual network**, you can launch VMs that have **private addresses** in the range of your choice.
-- **VPC** enables you to **group similar kinds of instances** **according to IP address** ranges by defining network tiers within the network range.
+ - Login into your  control panel.
+ - Go to Network and click on VPC.
+ 
+ <img src="/img/vpc/Image-1.JPG" width="50%" />
+ 
+ - Then click on Add VPC.
 
+<img src="/img/vpc/Image-2.JPG" width="100%" />
 
-## VPC (Virtual Private Cloud) in StackBill CMP
+ - Provide name, description,  and specify the IP address range for the VPC in CIDR notation (e.g., 10.0.0.0/16). This range should not overlap with other networks in your stackbill environment. Also, Choose the appropriate VPC offering that defines the specifications and capabilities of the VPC. Then click on Add button.
+<img src="/img/vpc/Image-3.JPG" width="100%" />
 
-<img src="/img/VPC/1vpc-stackbillcloudmanagementportal.png" width="100%" />
+ - VPC created successfully.
 
-- Click on the **Network** dropdown button below the compute icon, Which is available in the top left corner. from the dropdown, Click on **VPC** option.
+<img src="/img/vpc/Image-4.JPG" width="100%" />
 
-<img src="/img/VPC/2vpc-stackbillcloudmanagementportal.png" width="100%" />
+**ADDING YOUR VPC TIER NETWORK**
 
-- **VPC** option appears on the screen.
-- At right side of the panel the user can able to see a option called **ADD VPC**, Click on it.
+ - After creating your VPC network, click on configure button.
 
-<img src="/img/VPC/3vpc-stackbillcloudmanagementportal.png" width="100%" />
+<img src="/img/vpc/Image-5.JPG" width="100%" />
 
--  **Name** -  Provide a name for the VPC you are creating.
--   **Super CIDR** - Defines the CIDR range for all the tiers (guest networks) within a VPC. When you create a tier, ensure that its CIDR is within the Super CIDR value you enter.
--  **VPC offering** -  Choose a VPC offering.
--   **Description** - Give a short description regarding the vpc creation.
--   **DNS Domain** - **DNS Domain for Guest Network**  - If you want to assign a special domain name, specify the DNS suffix. This parameter is applied to all the tiers within the VPC. That implies, all the tiers you create in the VPC belong to the same DNS domain. If the parameter is not specified, a DNS domain name is generated automatically.
--   Click on  **Add**  button.
+ - Then click on create network.
 
-:::success
-**- Now your VPC has been created Successfully.**
-:::
+<img src="/img/vpc/Image-6.JPG" width="100%" />
+
+ - Specify the name for your tier (e.g., "DMZ," "App," etc.)
+ - Select the appropriate ACL to allow (or) deny of your network access.
+ - Then provide the gateway, network mask and select the network offering for your tier and click on Add button.
+
+<img src="/img/vpc/Image-7.JPG" width="90%" />
+
+ - your new tier network has been created successfully.
+
+<img src="/img/vpc/Image-8.JPG" width="90%" />
+
+**ADDING VIRTUAL MACHINES**
+
+ - To create new virtual machine, click on the virtual machines link.
+ - Then click on Add instance.
+ - **[Steps to create intsance](/docs/virtualresources/Instance#quick-deploy-in-stackbill-cmp)**
+
+<img src="/img/vpc/Image-10.JPG" width="100%" />
+
+ - while creating the VM, make sure that you have selected your VPC tier under network list.
+
+<img src="/img/vpc/Image-11.JPG" width="100%" />
+
+** VPC to VPC VPN configuration in stackbill **
+
+ - To explain the VPC to VPC VPN, please check the below image for demonstration purpose.
+
+<img src="/img/vpc/vpc-cloudmanagementportal.jpg" width="80%" />
+
+**VPN gateway** - The VPN gateway is the term used for the local VPN endpoint. This is simply enabled on the source-NAT IP address of the VPC virtual router – and it allows the local VR to accept incoming VPN connections.
+
+**VPN customer gateway** - The VPN customer gateway is the remote endpoint we target when we configure the VPN connection. When we configure these we need to specify all the details for this VPN connection.
+-   Name: user friendly name for the gateway
+-   Gateway: the public facing IP address of the remote VPC virtual router.
+-   CIDR list: this is a list of CIDR networks which are reachable at the remote end of the tunnel. Multiple CIDR ranges can be specified, separated my commas.
+-   IPsec pre-shared key: this is effectively the VPN passphrase used when the VPN connection is negotiated – and it should therefore follow standard password best practices in a production environment.
+-   IKE / ESP encryption details for the VPN tunnels.
+
+**VPN connection**
+
+The VPN connection is the pairing from the source – or local – VPN gateway to the remove VPN customer gateway. This is configured in one of two modes:
+
+-   Active: the connection which initiates the VPN tunnel, typically from the VPC hosting VMs which consumes resources on the remote VPC.
+-   Passive: this connection waits for the opposite VPC VR to initiate the connection, and is typically on the VPC hosting the resources to be consumed.
+
+Please note for both of these connections the resources either end must be reachable over the CIDR list configured for the VPN customer gateway.
+
+**STEPS TO CREATE VPN GATEWAY**
+
+- Login into the cloud control panel.
+- Then click on network and select VPN Gateway.
+
+<img src="/img/vpc/Image-13.JPG" width="40%" />
+
+- Then click on ADD VPN button.
+
+<img src="/img/vpc/Image-14.JPG" width="80%" />
+
+- In this example we assume that VMs on both VPC1 tier 1 and 2 will consume resources on VPC2. Please note in this case we only configure the name, public gateway, CIDR list and the IPsec preshared key, all other fields are left as defaults.
+
+<img src="/img/vpc/Image-15.JPG" width="80%" />
+
+- Repeat this step for the customer gateway on VPC2:
+
+<img src="/img/vpc/Image-16.JPG" width="80%" />
+
+**Enable Site-to-Site VPN**
+
+- Login into your cloud control panel.
+- Then click on VPC menu.
+- Then click on the corresponding VPC from the list.
+- Then click on configure.
+- Click on Site to Site VPN list menu.
+
+<img src="/img/vpc/Image-17.JPG" width="80%" />
+
+- Click OK to confirm the creation.
+
+<img src="/img/vpc/Image-18.JPG" width="80%" />
+
+- Once the Site to site VPN enabled, then click on the VPN connection tab. Click on Add button.
+
+<img src="/img/vpc/Image-19.JPG" width="80%" />
+
+- Then select the VPN gateway from the drop-down list and click on OK.
+
+<img src="/img/vpc/Image-20.JPG" width="80%" />
+
+- Repeat this step for the passive connection from VPC2 to VPC1, but for this one tick the “passive” tick box.
+
+- Once both VPN connection have been configured refresh the screen and ensure the VPN connection state is “connected”.
+- If the VPN connection doesn’t come up automatically simply go back to the active connection (from VPC1 to VPC2) and click the “Reset" button.
+
+<img src="/img/vpc/Image-21.JPG" width="80%" />
 
 ## Overview of Load Balancer in Stackbill Cloud Management Portal.
 
