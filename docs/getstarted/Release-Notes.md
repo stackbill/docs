@@ -13,35 +13,30 @@ sidebar_label: Release Notes
 
 The **StackBill** cloud platform release notes track incremental improvements and major releases.
 
-### StackBill Cloud Management Portal 3.03 Version Overview 
+### StackBill Cloud Management Portal 3.1.1 Version Overview 
 
-StackBill 3.02 - August 11th, 2023
-
+StackBill 3.1.1 - August 3rd, 2023
 
 **Whats New**
-
-
-Notifications email sends to the admin whenever a new user signs up.
-Notifications email sends the admin when a user creates or deletes a virtual machine (VM).
-Integrated a helpdesk system to provide support and assistance to the users.
-Provided the option to display their social media links in the footer.
-Provided the option to display their footer links.
-SubDomain feature added
-FAQ
-Login Page Slider
-Billing for Marketplace apps
+- Notifications email sends to the admin whenever a new user signs up.
+- Notifications email sends the admin when a user creates or deletes a virtual machine (VM).
+- Integrated a helpdesk system to provide support and assistance to the users.
+- Provided the option to display their social media links in the footer.
+- Provided the option to display their footer links.
+- SubDomain feature added
+- FAQ
+- Login Page Slider
+- Billing for Marketplace apps
 
 **Improvements**
-
-Instance Creation Screen UI Improvements
-Admin NewUI Screens
-List Pages Improvement
+- Instance Creation Screen UI Improvements
+- Admin NewUI Screens
+- List Pages Improvement
 
 **Bug Fixes**
-
-Payment Setting Link Wrongly Displayed in Dashboard Page issue fixed
-Billing - Purchase Savings Plans Back menu not working issue fixed
-Breadcrumb - Home navigation getting Blank page issue fixed
+- Payment Setting Link Wrongly Displayed in Dashboard Page issue fixed
+- Billing - Purchase Savings Plans Back menu not working issue fixed
+- Breadcrumb - Home navigation getting Blank page issue fixed
 
 ### **StackBill Cloud Management Portal 3.02 Version Overview**  
 
