@@ -101,8 +101,8 @@ module.exports = {
       label: "Marketplace",
       collapsed: false,
       items: [
-        "Marketplace/Overview",
-        "Marketplace/Launching-Apps",
+        "marketplace/Overview",
+        "marketplace/Launching-Apps",
       ],
     },
     {
@@ -135,6 +135,7 @@ module.exports = {
       items: [
         "Organization/introduction",
         "Organization/User-Profile",
+        "Organization/KYC-Verification",
       ],
     },
     {
