@@ -96,15 +96,15 @@ module.exports = {
         "Network/Security-Group-Firewall",
       ],
     },
-    {
-      type: "category",
-      label: "Marketplace",
-      collapsed: false,
-      items: [
-        "marketplace/Overview",
-        "marketplace/Launching-Apps",
-      ],
-    },
+    // {
+    //   type: "category",
+    //   label: "Marketplace",
+    //   collapsed: false,
+    //   items: [
+    //     "marketplace/Overview",
+    //     "marketplace/Launching-Apps",
+    //   ],
+    // },
     {
       type: "category",
       label: "Monitoring",
